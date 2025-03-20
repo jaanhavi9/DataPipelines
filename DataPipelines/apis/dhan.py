@@ -1,7 +1,7 @@
 import DataPipelines.brokers.dhan_broker as dhan_broker
 from fastapi import FastAPI, Query, HTTPException
 from typing import Optional, List, Dict, Any
-from DataPipelines.utils.logger import setup_logger
+from ..utils.logger import setup_logger
 
 
 app = FastAPI()

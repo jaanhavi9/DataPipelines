@@ -172,3 +172,16 @@
 2025-03-20 06:23:24,247 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:1333 with payload: {'UnderlyingScrip': 1333, 'UnderlyingSeg': 'NSE_EQ'}
 2025-03-20 06:23:24,256 - dhanlogger - INFO - Requesting option chain for 1333 for expiry 2025-04-24 
 2025-03-20 06:23:46,378 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:1333 with payload: {'UnderlyingScrip': 1333, 'UnderlyingSeg': 'NSE_EQ'}
+2025-03-20 07:25:49,677 - dhanlogger - INFO - Initializing Dhan Broker...
+2025-03-20 07:25:49,677 - dhanlogger - INFO - Initializing AWS Athena client...
+2025-03-20 07:25:49,735 - dhanlogger - INFO - Initializing broker at startup...
+2025-03-20 07:25:49,735 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-20 07:26:18,117 - dhanlogger - INFO - Fetching data for NSE_EQ:1333 on 2016-09-23
+2025-03-20 07:26:18,118 - dhanlogger - INFO - Converted date 2016-09-23 to epoch time 1474588800000000000
+2025-03-20 07:26:18,118 - dhanlogger - INFO - Executing Athena query: SELECT * FROM historical_data_eq.eq WHERE security_id = 'NSE_EQ:1333' AND date = 1474588800000000000;
+2025-03-20 07:26:20,365 - dhanlogger - INFO - Athena query returned 1 rows.
+2025-03-20 07:26:30,788 - dhanlogger - INFO - Fetching data for NSE_EQ:1333 on 2016-12-25
+2025-03-20 07:26:30,788 - dhanlogger - INFO - Converted date 2016-12-25 to epoch time 1482624000000000000
+2025-03-20 07:26:30,788 - dhanlogger - INFO - Executing Athena query: SELECT * FROM historical_data_eq.eq WHERE security_id = 'NSE_EQ:1333' AND date = 1482624000000000000;
+2025-03-20 07:26:32,435 - dhanlogger - INFO - Athena query returned 0 rows.
+2025-03-20 07:26:32,435 - dhanlogger - WARNING - No data found for NSE_EQ:1333 on 2016-12-25
