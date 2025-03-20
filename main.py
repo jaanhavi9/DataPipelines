@@ -3,7 +3,6 @@ import boto3
 import pandas as pd
 from datetime import datetime
 from typing import Optional
-import botocore.exceptions
 import DataPipelines.brokers.dhan_broker as dhan_broker
 from DataPipelines.utils.logger import setup_logger
 
@@ -20,16 +19,6 @@ S3_OUTPUT = "s3://plus91testing/athena-query-results/"
 logger.info("Initializing Dhan Broker...")
 broker = dhan_broker.DhanBroker(account_name="ACC1", logger=logger)
 
-
-try:
-    logger.info("Initializing AWS Athena client...")
-    athena_client = boto3.client("athena")
-except botocore.exceptions.NoCredentialsError:
-    logger.error("AWS credentials not found. Ensure they are properly configured.")
-    raise HTTPException(status_code=500, detail="AWS credentials not found.")
-except botocore.exceptions.EndpointConnectionError:
-    logger.error("Unable to connect to AWS Athena.")
-    raise HTTPException(status_code=500, detail="Unable to connect to AWS Athena.")
 
 def convert_date_to_epoch(date: str):
     """Converts a date string (YYYY-MM-DD) to epoch time in nanoseconds."""
@@ -112,9 +101,7 @@ def run_athena_query(query: str):
         df = pd.DataFrame(data, columns=columns)
         logger.info(f"Athena query returned {len(df)} rows.")
         return df
-    except botocore.exceptions.BotoCoreError as e:
-        logger.error(f"AWS Athena error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"AWS Athena error: {str(e)}")
+
     except Exception as e:
         logger.error(f"Unexpected error while querying Athena: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Unexpected error while querying Athena: {str(e)}")
