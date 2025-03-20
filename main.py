@@ -15,6 +15,7 @@ DATABASE = "historical_data_eq"
 TABLE = "eq"
 S3_OUTPUT = "s3://plus91testing/athena-query-results/"
 
+athena_client = boto3.client("athena")
 
 logger.info("Initializing Dhan Broker...")
 broker = dhan_broker.DhanBroker(account_name="ACC1", logger=logger)
