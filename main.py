@@ -5,9 +5,13 @@ from datetime import datetime
 from typing import Optional
 import DataPipelines.brokers.dhan_broker as dhan_broker
 from DataPipelines.utils.logger import setup_logger
+import os
+
+aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
+aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+aws_region = os.getenv("AWS_REGION", "ap-south-1")
 
 app = FastAPI()
-
 
 logger = setup_logger("dhanlogger", "dhan_logger.log")
 
@@ -15,7 +19,12 @@ DATABASE = "historical_data_eq"
 TABLE = "eq"
 S3_OUTPUT = "s3://plus91testing/athena-query-results/"
 
-athena_client = boto3.client("athena")
+athena_client = boto3.client(
+    "athena",
+    aws_access_key_id=aws_access_key,
+    aws_secret_access_key=aws_secret_key,
+    region_name=aws_region
+)
 
 logger.info("Initializing Dhan Broker...")
 broker = dhan_broker.DhanBroker(account_name="ACC1", logger=logger)
