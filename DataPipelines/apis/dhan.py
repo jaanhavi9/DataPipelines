@@ -17,7 +17,7 @@ async def startup_event():
     await broker.initialize()
 
 
-@app.get("/master-scrip")
+@app.get("/data/live/master-scrip")
 async def get_master_scrip(mode: str = Query("compact", description="Mode: 'compact' or 'detailed'")):
     """Get master scrip data as a dataframe."""
     try:
@@ -28,7 +28,7 @@ async def get_master_scrip(mode: str = Query("compact", description="Mode: 'comp
         raise HTTPException(status_code=500, detail=str(e))
     
 
-@app.get("/trade-book")
+@app.get("/data/live/trade-book")
 async def get_trade_book():
     """Get trade book data."""
     try:
@@ -38,7 +38,7 @@ async def get_trade_book():
         logger.error(f"Error fetching trade book: {e}")
         raise HTTPException(status_code=500, detail=str(e))
     
-@app.get("/ohlc-quote/{exchange_token}")
+@app.get("/data/live/ohlc-quote/{exchange_token}")
 async def get_ohlc_quote(exchange_token: str):
     """Get OHLC data for a given exchange token."""
     try:
@@ -49,7 +49,7 @@ async def get_ohlc_quote(exchange_token: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/ltp-quote/{exchange_token}")
+@app.get("/data/live/ltp-quote/{exchange_token}")
 async def get_ltp_quote(exchange_token: str):
     """Get the last traded price (LTP) for a given exchange token."""
     try:
@@ -60,7 +60,7 @@ async def get_ltp_quote(exchange_token: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/funds-and-margin")
+@app.get("/data/live/funds-and-margin")
 async def get_funds_and_margin(segment: Optional[str] = None):
     """Get funds and margin details."""
     try:
@@ -71,7 +71,7 @@ async def get_funds_and_margin(segment: Optional[str] = None):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/full-market-quote/{exchange_token}")
+@app.get("/data/live/full-market-quote/{exchange_token}")
 async def get_full_market_quote(exchange_token: str):
     """Get full market depth for a given exchange token."""
     try:
@@ -82,7 +82,7 @@ async def get_full_market_quote(exchange_token: str):
         raise HTTPException(status_code=500, detail=str(e))
     
 
-@app.get("/orderbook")
+@app.get("/data/live/orderbook")
 async def get_orderbook():
     """Get the order book."""
     try:
@@ -93,7 +93,7 @@ async def get_orderbook():
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/order-details/{order_id}")
+@app.get("/data/live/order-details/{order_id}")
 async def get_order_details(order_id: str):
     """Get details of a specific order."""
     try:
@@ -104,7 +104,7 @@ async def get_order_details(order_id: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.post("/calculate-margin/{exchange_token}/{transaction_type}/{quantity}/{product_type}/{price}/{trigger_price}")
+@app.post("/data/live/calculate-margin/{exchange_token}/{transaction_type}/{quantity}/{product_type}/{price}/{trigger_price}")
 async def calculate_margin(
     exchange_token: str,
     transaction_type: str,
@@ -134,7 +134,7 @@ async def calculate_margin(
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/option-chain/{exchange_token}")
+@app.get("/data/live/option-chain/{exchange_token}")
 async def get_option_chain(
     exchange_token: str,
     expiry_date: Optional[str] = None,
@@ -151,7 +151,7 @@ async def get_option_chain(
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.get("/expiry-dates/{exchange_token}")
+@app.get("/data/live/expiry-dates/{exchange_token}")
 async def get_expiry_dates(exchange_token: str):
     """Get expiry dates for a given exchange token."""
     try:
