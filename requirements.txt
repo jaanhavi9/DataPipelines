@@ -48,7 +48,7 @@ idna==3.10
 importlib_metadata==8.6.1
 incremental==24.7.2
 ipykernel==6.29.5
-ipython==8.31.0
+ipython==8.18.1
 iso8601==2.1.0
 itsdangerous==2.2.0
 jedi==0.19.2
