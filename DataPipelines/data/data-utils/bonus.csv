@@ -1,0 +1,984 @@
+,Security Code,Security Name,Company Name,Ex Date,Purpose,Record Date,BC Start Date, BC End Date	,ND Start Date,ND End Date,Actual Payment Date,Ratio
+0,521030,NAKODA,Nakoda Ltd-$,22 Jan 2010,Bonus issue 1:1,25 Jan 2010,-,-,18 Jan 2010,22 Jan 2010,-,1:1
+1,531959,NEWINFRA,Newtime Infrastructure Ltd,28 Jan 2010,Bonus issue 2:1,30 Jan 2010,-,-,22 Jan 2010,28 Jan 2010,-,2:1
+2,508860,DIAMANT,Diamant Infrastructure Ltd,08 Feb 2010,Bonus issue 3:1,09 Feb 2010,-,-,02 Feb 2010,08 Feb 2010,-,3:1
+3,523842,SUPTANERY,Super Tannery Ltd,08 Feb 2010,Bonus issue 1:2,09 Feb 2010,-,-,02 Feb 2010,08 Feb 2010,-,1:2
+4,531266,VSTTILLERS,VST Tillers Tractors Ltd-$,08 Feb 2010,Bonus issue 1:2,09 Feb 2010,-,-,02 Feb 2010,08 Feb 2010,-,1:2
+5,532666,FCSSOFT,FCS Software Solutions Ltd,26 Feb 2010,Bonus issue 1:1,02 Mar 2010,-,-,22 Feb 2010,26 Feb 2010,-,1:1
+6,500093,CGPOWER,CG Power and Industrial Solutions Ltd,08 Mar 2010,Bonus issue 3:4,09 Mar 2010,-,-,02 Mar 2010,08 Mar 2010,-,3:4
+7,532374,STLTECH,Sterlite Technologies Ltd,09 Mar 2010,Bonus issue 1:1,10 Mar 2010,-,-,03 Mar 2010,09 Mar 2010,-,1:1
+8,530871,CHEMBOND,Chembond Chemicals Ltd-$,10 Mar 2010,Bonus issue 1:1,11 Mar 2010,-,-,04 Mar 2010,10 Mar 2010,-,1:1
+9,500331,PIDILITIND,Pidilite Industries Ltd,15 Mar 2010,Bonus issue 1:1,17 Mar 2010,-,-,10 Mar 2010,16 Mar 2010,-,1:1
+10,532670,RENUKA,Shree Renuka Sugars Ltd,15 Mar 2010,Bonus issue 1:1,17 Mar 2010,-,-,10 Mar 2010,16 Mar 2010,-,1:1
+11,530747,CHALLANI,Challani Capital Ltd,18 Mar 2010,Bonus issue 2:1,19 Mar 2010,-,-,12 Mar 2010,18 Mar 2010,-,2:1
+12,530773,IVRCLINFRA,IVRCL Ltd,18 Mar 2010,Bonus issue 1:1,19 Mar 2010,-,-,12 Mar 2010,18 Mar 2010,-,1:1
+13,532509,SUPRAJIT,Suprajit Engineering Ltd-$,18 Mar 2010,Bonus issue 1:1,20 Mar 2010,-,-,12 Mar 2010,18 Mar 2010,-,1:1
+14,504351,EMPOWER,Empower India Ltd,23 Mar 2010,Bonus issue 23:2,25 Mar 2010,-,-,17 Mar 2010,23 Mar 2010,-,23:2
+15,531768,POLYMED,Poly Medicure Ltd,26 Mar 2010,Bonus issue 1:1,29 Mar 2010,-,-,19 Mar 2010,26 Mar 2010,-,1:1
+16,532321,ZYDUSLIFE,Zydus Lifesciences Ltd,05 Apr 2010,Bonus issue 1:2,06 Apr 2010,-,-,26 Mar 2010,05 Apr 2010,-,1:2
+17,500870,CASTROLIND,Castrol India Ltd,09 Apr 2010,Bonus issue 1:1,12 Apr 2010,-,-,05 Apr 2010,09 Apr 2010,-,1:1
+18,504398,SJCORP,SJ Corporation Ltd,12 Apr 2010,Bonus issue 3:1,14 Apr 2010,-,-,07 Apr 2010,12 Apr 2010,-,3:1
+19,531213,MANAPPURAM,Manappuram Finance Ltd,03 May 2010,Bonus issue 1:1,04 May 2010,-,-,27 Apr 2010,03 May 2010,-,1:1
+20,532178,ENGINERSIN,Engineers India Ltd,06 May 2010,Bonus issue 2:1,07 May 2010,-,-,30 Apr 2010,06 May 2010,-,2:1
+21,503663,TILAK,Tilak Ventures Ltd,10 May 2010,Bonus issue 4:1,18 May 2010,-,-,10 May 2010,21 May 2010,-,4:1
+22,532900,PAISALO,Paisalo Digital Ltd,18 May 2010,Bonus issue 3:1,19 May 2010,-,-,12 May 2010,18 May 2010,-,3:1
+23,500355,RALLIS,Rallis India Ltd,08 Jun 2010,Bonus issue 1:2,09 Jun 2010,-,-,02 Jun 2010,08 Jun 2010,-,1:2
+24,532175,CYIENT,Cyient Ltd,10 Jun 2010,Bonus issue 1:1,12 Jun 2010,-,-,07 Jun 2010,10 Jun 2010,-,1:1
+25,507685,WIPRO,Wipro Ltd,15 Jun 2010,Bonus issue 2:3,16 Jun 2010,-,-,09 Jun 2010,15 Jun 2010,-,2:3
+26,590078,MAITHANALL,Maithan Alloys Ltd,17 Jun 2010,Bonus issue 1:2,19 Jun 2010,-,-,14 Jun 2010,17 Jun 2010,-,1:2
+27,517447,RSSOFTWARE,R.S. Software (India) Ltd,21 Jun 2010,Bonus issue 28100     ,22 Jun 2010,-,-,15 Jun 2010,21 Jun 2010,-,28100
+28,500165,KANSAINER,Kansai Nerolac Paints Ltd,23 Jun 2010,Bonus issue 1:1,24 Jun 2010,-,-,17 Jun 2010,23 Jun 2010,-,1:1
+29,505978,TRITONV,Triton Valves Ltd,05 Jul 2010,Bonus issue 2:1,06 Jul 2010,-,-,29 Jun 2010,05 Jul 2010,-,2:1
+30,503101,MARATHON,Marathon Nextgen Realty Ltd,06 Jul 2010,Bonus issue 1:2,07 Jul 2010,-,-,29 Jun 2010,06 Jul 2010,-,1:2
+31,523642,PIIND,PI Industries Ltd,08 Jul 2010,Bonus issue 1:2,-,10 Jul 2010,10 Jul 2010,05 Jul 2010,08 Jul 2010,-,1:2
+32,504392,KRISHNA,Krishna Ventures Ltd,09 Jul 2010,Bonus issue 5:1,-,23 Jul 2010,23 Jul 2010,09 Jul 2010,28 Jul 2010,-,5:1
+33,505355,NESCO,NESCO Ltd,20 Jul 2010,Bonus issue 1:1,21 Jul 2010,-,-,14 Jul 2010,20 Jul 2010,-,1:1
+34,504067,ZENSARTECH,Zensar Technologies Ltd,21 Jul 2010,Bonus issue 1:1,-,23 Jul 2010,26 Jul 2010,16 Jul 2010,22 Jul 2010,-,1:1
+35,532927,ECLERX,eClerx Services Ltd,23 Jul 2010,Bonus issue 1:2,26 Jul 2010,-,-,19 Jul 2010,23 Jul 2010,-,1:2
+36,524727,SDL,Span Divergent Ltd-$,27 Jul 2010,Bonus issue 1:1,28 Jul 2010,-,-,21 Jul 2010,27 Jul 2010,-,1:1
+37,513377,MMTC,MMTC Ltd,29 Jul 2010,Bonus issue 1:1,30 Jul 2010,-,-,23 Jul 2010,29 Jul 2010,-,1:1
+38,500875,ITC,ITC Ltd,03 Aug 2010,Bonus issue 1:1,04 Aug 2010,-,-,28 Jul 2010,03 Aug 2010,-,1:1
+39,505075,SETCO,Setco Automotive Ltd,05 Aug 2010,Bonus issue 1:1,-,09 Aug 2010,10 Aug 2010,02 Aug 2010,06 Aug 2010,-,1:1
+40,532922,EDELWEISS,Edelweiss Financial Services Ltd,10 Aug 2010,Bonus issue 1:1,11 Aug 2010,-,-,04 Aug 2010,10 Aug 2010,-,1:1
+41,500185,HCC,Hindustan Construction Company Ltd,10 Aug 2010,Bonus issue 1:1,11 Aug 2010,-,-,04 Aug 2010,10 Aug 2010,-,1:1
+42,531845,ZENITHSTL,Zenith Steel Pipes & Industries Ltd-$,11 Aug 2010,Bonus issue 1:5,12 Aug 2010,-,-,05 Aug 2010,11 Aug 2010,-,1:5
+43,500003,AEGISLOG,Aegis Logistics Ltd,18 Aug 2010,Bonus issue 2:3,20 Aug 2010,-,-,13 Aug 2010,19 Aug 2010,-,2:3
+44,521163,ZODIACLOTH,Zodiac Clothing Company Ltd,23 Aug 2010,Bonus issue 1:2,24 Aug 2010,-,-,17 Aug 2010,23 Aug 2010,-,1:2
+45,532443,CERA,Cera Sanitaryware Ltd,02 Sep 2010,Bonus issue 1:1,03 Sep 2010,-,-,27 Aug 2010,02 Sep 2010,-,1:1
+46,512443,GANONPRO,Ganon Products Ltd,02 Sep 2010,Bonus issue 2:1,-,14 Sep 2010,14 Sep 2010,02 Sep 2010,17 Sep 2010,-,2:1
+47,530367,NRBBEARING,NRB Bearings Ltd,03 Sep 2010,Bonus issue 1:1,06 Sep 2010,-,-,30 Aug 2010,03 Sep 2010,-,1:1
+48,524109,KABRAEXTRU,Kabra Extrusiontechnik Ltd,06 Sep 2010,Bonus issue 1:1,07 Sep 2010,-,-,31 Aug 2010,06 Sep 2010,-,1:1
+49,516108,STHINPA,South India Paper Mills Ltd,06 Sep 2010,Bonus issue 1:1,-,08 Sep 2010,10 Sep 2010,01 Sep 2010,07 Sep 2010,-,1:1
+50,532977,BAJAJ-AUTO,Bajaj Auto Ltd,08 Sep 2010,Bonus issue 1:1,10 Sep 2010,-,-,03 Sep 2010,08 Sep 2010,-,1:1
+51,500096,DABUR,Dabur India Ltd,08 Sep 2010,Bonus issue 1:1,10 Sep 2010,-,-,03 Sep 2010,08 Sep 2010,-,1:1
+52,532343,TVSMOTOR,TVS Motor Company Ltd,08 Sep 2010,Bonus issue 1:1,09 Sep 2010,-,-,02 Sep 2010,08 Sep 2010,-,1:1
+53,524689,PARENTLD,Parenteral Drugs India Ltd-$,13 Sep 2010,Bonus issue 1:3,-,15 Sep 2010,15 Sep 2010,07 Sep 2010,14 Sep 2010,-,1:3
+54,532716,GILLANDERS,Gillanders Arbuthnot & Company Ltd,14 Sep 2010,Bonus issue 1:2,15 Sep 2010,-,-,07 Sep 2010,14 Sep 2010,-,1:2
+55,533017,RMMIL,Resurgere Mines & Minerals India Ltd,15 Sep 2010,Bonus issue 2:1,-,17 Sep 2010,19 Sep 2010,09 Sep 2010,16 Sep 2010,-,2:1
+56,590003,KARURVYSYA,Karur Vysya Bank Ltd,16 Sep 2010,Bonus issue 2:5,18 Sep 2010,-,-,13 Sep 2010,16 Sep 2010,-,2:5
+57,511605,ARIHANTCAP,Arihant Capital Markets Ltd,23 Sep 2010,Bonus issue 3:5,24 Sep 2010,-,-,17 Sep 2010,23 Sep 2010,-,3:5
+58,505285,TULIVE,Tulive Developers Ltd,24 Sep 2010,Bonus issue 4:1,08 Oct 2010,-,-,24 Sep 2010,13 Oct 2010,-,4:1
+59,532777,NAUKRI,Info Edge (India) Ltd,27 Sep 2010,Bonus issue 1:1,28 Sep 2010,-,-,21 Sep 2010,27 Sep 2010,-,1:1
+60,507205,TI,Tilaknagar Industries Ltd-$,28 Sep 2010,Bonus issue 2:1,30 Sep 2010,-,-,23 Sep 2010,28 Sep 2010,-,2:1
+61,531814,TIRSARJ,Tirupati Sarjan Ltd,28 Sep 2010,Bonus issue 1:1,29 Sep 2010,-,-,22 Sep 2010,27 Sep 2010,-,1:1
+62,532380,BABA,Baba Arts Ltd-$,29 Sep 2010,Bonus issue 1:1,01 Oct 2010,-,-,27 Sep 2010,30 Sep 2010,-,1:1
+63,533006,BIRLACOT,Birla Cotsyn (India) Ltd,29 Sep 2010,Bonus issue 1:5,01 Oct 2010,-,-,24 Sep 2010,30 Sep 2010,-,1:5
+64,532719,BLKASHYAP,B. L. Kashyap and Sons Ltd,29 Sep 2010,Bonus issue 1:1,01 Oct 2010,-,-,24 Sep 2010,30 Sep 2010,-,1:1
+65,501111,ZGOLDINV,Gold Rock Investments Ltd,05 Oct 2010,Bonus issue 2:1,13 Oct 2010,-,-,05 Oct 2010,18 Oct 2010,-,2:1
+66,517354,HAVELLS,Havells India Ltd,08 Oct 2010,Bonus issue 1:1,11 Oct 2010,-,-,04 Oct 2010,08 Oct 2010,-,1:1
+67,522165,INDSILHYD,Indsil Hydro Power and Manganese Ltd-$,15 Oct 2010,Bonus issue 2:3,18 Oct 2010,-,-,11 Oct 2010,15 Oct 2010,-,2:3
+68,532339,COMPUSOFT,Compucom Software Ltd-$,19 Oct 2010,Bonus issue 1:2,20 Oct 2010,-,-,13 Oct 2010,19 Oct 2010,-,1:2
+69,500227,JINDALPOLY,Jindal Poly Films Ltd,22 Oct 2010,Bonus issue 1:1,25 Oct 2010,-,-,18 Oct 2010,22 Oct 2010,-,1:1
+70,512634,SAVERA,Savera Industries Ltd,25 Oct 2010,Bonus issue 1:1,26 Oct 2010,-,-,19 Oct 2010,25 Oct 2010,-,1:1
+71,506260,ANUHPHR,Anuh Pharma Ltd,28 Oct 2010,Bonus issue 2:1,29 Oct 2010,-,-,22 Oct 2010,28 Oct 2010,-,2:1
+72,505537,ZEEL,Zee Entertainment Enterprises Ltd,11 Nov 2010,Bonus issue 1:1,12 Nov 2010,-,-,04 Nov 2010,11 Nov 2010,-,1:1
+73,512131,SIGIND,Signet Industries Ltd,18 Nov 2010,Bonus issue 5:1,19 Nov 2010,-,-,11 Nov 2010,18 Nov 2010,-,5:1
+74,522073,HITECHGEAR,The Hi-Tech Gears Ltd,01 Dec 2010,Bonus issue 1:1,02 Dec 2010,-,-,25 Nov 2010,01 Dec 2010,-,1:1
+75,532323,SHIVACEM,Shiva Cement Ltd,09 Dec 2010,Bonus issue 1:10,11 Dec 2010,-,-,06 Dec 2010,09 Dec 2010,-,1:10
+76,506166,APIS,Apis India Ltd,10 Dec 2010,Bonus issue 323:100,17 Dec 2010,-,-,10 Dec 2010,22 Dec 2010,-,323:100
+77,522074,ELGIEQUIP,Elgi Equipments Ltd,14 Dec 2010,Bonus issue 1:1,-,16 Dec 2010,17 Dec 2010,09 Dec 2010,15 Dec 2010,-,1:1
+78,524051,POLYPLEX,Polyplex Corporation Ltd,23 Dec 2010,Bonus issue 1:1,25 Dec 2010,-,-,20 Dec 2010,23 Dec 2010,-,1:1
+79,531977,CHLOGIST,Chartered Logistics Ltd,24 Dec 2010,Bonus issue 1:1,27 Dec 2010,-,-,20 Dec 2010,24 Dec 2010,-,1:1
+80,532493,ASTRAMICRO,Astra Microwave Products Ltd,30 Dec 2010,Bonus issue 1:2,31 Dec 2010,-,-,24 Dec 2010,30 Dec 2010,-,1:2
+81,530075,SELAN,Selan Exploration Technology Ltd-$,31 Dec 2010,Bonus issue 1:10,03 Jan 2011,-,-,27 Dec 2010,31 Dec 2010,-,1:10
+82,532948,TULSI,Tulsi Extrusions Ltd,07 Jan 2011,Bonus issue 1:10,10 Jan 2011,-,-,03 Jan 2011,07 Jan 2011,-,1:10
+83,511626,RRFIN,RR Financial Consultants Ltd,13 Jan 2011,Bonus issue 1:1,15 Jan 2011,-,-,10 Jan 2011,13 Jan 2011,-,1:1
+84,500312,ONGC,Oil and Natural Gas Corporation Ltd,08 Feb 2011,Bonus issue 1:1,09 Feb 2011,-,-,02 Feb 2011,08 Feb 2011,-,1:1
+85,512608,BHANDARI,Bhandari Hosiery Exports Ltd,24 Feb 2011,Bonus issue 7:20,25 Feb 2011,-,-,18 Feb 2011,24 Feb 2011,-,7:20
+86,517467,MARSONS,Marsons Ltd,04 Mar 2011,Bonus issue 1:4,07 Mar 2011,-,-,25 Feb 2011,04 Mar 2011,-,1:4
+87,500188,HINDZINC,Hindustan Zinc Ltd,07 Mar 2011,Bonus issue 1:1,08 Mar 2011,-,-,28 Feb 2011,07 Mar 2011,-,1:1
+88,522235,MINALIND,Minal Industries Ltd,10 Mar 2011,Bonus issue 2:3,12 Mar 2011,-,-,07 Mar 2011,10 Mar 2011,-,2:3
+89,532234,NATIONALUM,National Aluminium Company Ltd,15 Mar 2011,Bonus issue 1:1,16 Mar 2011,-,-,09 Mar 2011,15 Mar 2011,-,1:1
+90,519260,SANWARIA,Sanwaria Consumer Ltd-$,07 Apr 2011,Bonus issue 1:1,08 Apr 2011,-,-,31 Mar 2011,07 Apr 2011,-,1:1
+91,500249,KSB,KSB Ltd,18 Apr 2011,Bonus issue 1:1,19 Apr 2011,-,-,08 Apr 2011,18 Apr 2011,-,1:1
+92,531431,SHAKTIPUMP,Shakti Pumps India Ltd-$,28 Apr 2011,Bonus issue 1:1,29 Apr 2011,-,-,21 Apr 2011,28 Apr 2011,-,1:1
+93,531841,INDUSFINL,Indus Finance Ltd,03 May 2011,Bonus issue 1:1,04 May 2011,-,-,27 Apr 2011,03 May 2011,-,1:1
+94,532944,ONMOBILE,OnMobile Global Ltd,03 May 2011,Bonus issue 1:1,04 May 2011,-,-,27 Apr 2011,03 May 2011,-,1:1
+95,506146,VIVIDHA,Visagar Polytex Ltd,26 May 2011,Bonus issue 1:1,28 May 2011,-,-,23 May 2011,26 May 2011,-,1:1
+96,500069,QUESTCAP,Quest Capital Markets Ltd,06 Jun 2011,Bonus issue 1:4,-,08 Jun 2011,08 Jun 2011,01 Jun 2011,07 Jun 2011,-,1:4
+97,531213,MANAPPURAM,Manappuram Finance Ltd,09 Jun 2011,Bonus issue 1:1,10 Jun 2011,-,-,03 Jun 2011,09 Jun 2011,-,1:1
+98,500114,TITAN,Titan Company Ltd,23 Jun 2011,Bonus issue 1:1,24 Jun 2011,-,-,17 Jun 2011,23 Jun 2011,-,1:1
+99,514183,BLACKROSE,Black Rose Industries Ltd,30 Jun 2011,Bonus issue 1:1,-,05 Jul 2011,06 Jul 2011,27 Jun 2011,04 Jul 2011,-,1:1
+100,532503,RAJPALAYAM,Rajapalayam Mills Ltd-$,13 Jul 2011,Bonus issue 1:1,-,15 Jul 2011,20 Jul 2011,08 Jul 2011,14 Jul 2011,-,1:1
+101,531178,HEMANG,Hemang Resources Ltd,14 Jul 2011,Bonus issue 3:1,15 Jul 2011,-,-,08 Jul 2011,14 Jul 2011,-,3:1
+102,509472,CRAVATEX,Cravatex Ltd,15 Jul 2011,Bonus issue 1:1,-,19 Jul 2011,19 Jul 2011,12 Jul 2011,18 Jul 2011,-,1:1
+103,500120,DIAMINESQ,Diamines & Chemicals Ltd-$,19 Jul 2011,Bonus issue 1:2,-,21 Jul 2011,21 Jul 2011,14 Jul 2011,20 Jul 2011,-,1:2
+104,500477,ASHOKLEY,Ashok Leyland Ltd,02 Aug 2011,Bonus issue 1:1,03 Aug 2011,-,-,27 Jul 2011,02 Aug 2011,-,1:1
+105,504340,LONGSPUR,Longspur International Ventures Ltd,23 Aug 2011,Bonus issue 4:1,29 Aug 2011,-,-,23 Aug 2011,30 Aug 2011,-,4:1
+106,507836,MCCHRLS-B,Mac Charles India Ltd,12 Sep 2011,Bonus issue 1:1,15 Sep 2011,-,-,12 Sep 2011,20 Sep 2011,-,1:1
+107,500480,CUMMINSIND,Cummins India Ltd,20 Sep 2011,Bonus issue 2:5,21 Sep 2011,-,-,14 Sep 2011,20 Sep 2011,-,2:5
+108,532240,INDNIPPON,India Nippon Electricals Ltd,20 Sep 2011,Bonus issue 2:5,21 Sep 2011,-,-,14 Sep 2011,20 Sep 2011,-,2:5
+109,532854,NITINFIRE,Nitin Fire Protection Industries Ltd,22 Sep 2011,Bonus issue 5:2,23 Sep 2011,-,-,16 Sep 2011,22 Sep 2011,-,5:2
+110,521163,ZODIACLOTH,Zodiac Clothing Company Ltd,27 Sep 2011,Bonus issue 1:2,28 Sep 2011,-,-,21 Sep 2011,27 Sep 2011,-,1:2
+111,533576,VASWANI,Vaswani Industries Ltd,29 Sep 2011,Bonus issue 1:4,03 Oct 2011,-,-,26 Sep 2011,30 Sep 2011,-,1:4
+112,531082,ALANKIT,Alankit Ltd,10 Oct 2011,Bonus issue 4:1,18 Oct 2011,-,-,10 Oct 2011,21 Oct 2011,-,4:1
+113,501630,ANANDPROJ,Anand Projects Ltd,20 Oct 2011,Bonus issue 17:1,01 Nov 2011,-,-,20 Oct 2011,03 Nov 2011,-,17:1
+114,500219,JISLJALEQS,Jain Irrigation Systems Ltd,08 Nov 2011,Bonus issue 1:20,09 Nov 2011,-,-,01 Nov 2011,08 Nov 2011,-,1:20
+115,507779,KANPRPLA,Kanpur Plastipack Ltd,16 Nov 2011,Bonus issue 1:2,17 Nov 2011,-,-,11 Nov 2011,16 Nov 2011,-,1:2
+116,532400,BSOFT,Birlasoft Ltd,13 Mar 2012,Bonus issue 1:1,14 Mar 2012,-,-,06 Mar 2012,13 Mar 2012,-,1:1
+117,531531,HATSUN,Hatsun Agro Product Ltd,26 Mar 2012,Bonus issue 1:2,27 Mar 2012,-,-,19 Mar 2012,26 Mar 2012,-,1:2
+118,533106,OIL,Oil India Ltd,29 Mar 2012,Bonus issue 3:2,31 Mar 2012,-,-,26 Mar 2012,28 Mar 2012,-,3:2
+119,532391,OPTOCIRCUI,Opto Circuits (India) Ltd,29 Mar 2012,Bonus issue 3:10,31 Mar 2012,-,-,26 Mar 2012,28 Mar 2012,-,3:10
+120,511431,VAKRANGEE,Vakrangee Ltd-$,12 Apr 2012,Bonus issue 1:1,13 Apr 2012,-,-,04 Apr 2012,12 Apr 2012,-,1:1
+121,533166,SUNDARAM,Sundaram Multi Pap Ltd,13 Apr 2012,Bonus issue 2:1,16 Apr 2012,-,-,09 Apr 2012,13 Apr 2012,-,2:1
+122,532612,INDOCO,Indoco Remedies Ltd,17 May 2012,Bonus issue 1:2,19 May 2012,-,-,14 May 2012,17 May 2012,-,1:2
+123,533506,INVENTURE,Inventure Growth & Securities Ltd,22 May 2012,Bonus issue 3:1,23 May 2012,-,-,16 May 2012,22 May 2012,-,3:1
+124,532777,NAUKRI,Info Edge (India) Ltd,22 Jun 2012,Bonus issue 1:1,-,26 Jun 2012,26 Jun 2012,19 Jun 2012,25 Jun 2012,-,1:1
+125,512161,SECURKLOUD,Securekloud Technologies Ltd,22 Jun 2012,Bonus issue 2:3,25 Jun 2012,-,-,18 Jun 2012,22 Jun 2012,-,2:3
+126,524412,AAREYDRUGS,Aarey Drugs & Pharmaceuticals Ltd,25 Jun 2012,Bonus issue 1:5,26 Jun 2012,-,-,19 Jun 2012,25 Jun 2012,-,1:5
+127,531795,ATULAUTO,Atul Auto Ltd-$,03 Jul 2012,Bonus issue 1:2,-,05 Jul 2012,05 Jul 2012,27 Jun 2012,04 Jul 2012,-,1:2
+128,512626,ORBTEXP,Orbit Exports Ltd,09 Jul 2012,Bonus issue 1:2,10 Jul 2012,-,-,03 Jul 2012,09 Jul 2012,-,1:2
+129,505720,HERCULES,Hercules Hoists Ltd,11 Jul 2012,Bonus issue 1:1,-,13 Jul 2012,17 Jul 2012,06 Jul 2012,12 Jul 2012,-,1:1
+130,505714,GABRIEL,Gabriel India Ltd-$,12 Jul 2012,Bonus issue 1:1,13 Jul 2012,-,-,06 Jul 2012,12 Jul 2012,-,1:1
+131,532926,JYOTHYLAB,Jyothy Labs Ltd,12 Jul 2012,Bonus issue 1:1,-,16 Jul 2012,16 Jul 2012,09 Jul 2012,13 Jul 2012,-,1:1
+132,530117,PRIVISCL,Privi Speciality Chemicals Ltd,12 Jul 2012,Bonus issue 1:5,-,16 Jul 2012,16 Jul 2012,09 Jul 2012,13 Jul 2012,-,1:5
+133,500547,BPCL,Bharat Petroleum Corporation Ltd,13 Jul 2012,Bonus issue 1:1,-,17 Jul 2012,17 Jul 2012,10 Jul 2012,16 Jul 2012,-,1:1
+134,509024,GOLDLEG,Golden Legand Leasing & finance Ltd,17 Jul 2012,Bonus issue 1:1,18 Jul 2012,-,-,11 Jul 2012,17 Jul 2012,-,1:1
+135,531847,ASTAR,Asian Star Company Ltd-$,19 Jul 2012,Bonus issue 1:2,21 Jul 2012,-,-,16 Jul 2012,19 Jul 2012,-,1:2
+136,513517,STEELCAS,Steelcast Ltd,25 Jul 2012,Bonus issue 1:1,26 Jul 2012,-,-,19 Jul 2012,25 Jul 2012,-,1:1
+137,522249,MAYURUNIQ,Mayur Uniquoters Ltd-$,06 Aug 2012,Bonus issue 1:1,07 Aug 2012,-,-,31 Jul 2012,06 Aug 2012,-,1:1
+138,505075,SETCO,Setco Automotive Ltd,14 Aug 2012,Bonus issue 1:2,-,17 Aug 2012,18 Aug 2012,09 Aug 2012,16 Aug 2012,-,1:2
+139,500870,CASTROLIND,Castrol India Ltd,04 Sep 2012,Bonus issue 1:1,05 Sep 2012,-,-,29 Aug 2012,04 Sep 2012,-,1:1
+140,590065,IMPAL,India Motor Parts & Accessories Ltd,10 Sep 2012,Bonus issue 1:1,11 Sep 2012,-,-,04 Sep 2012,10 Sep 2012,-,1:1
+141,524091,CARYSIL,Carysil Ltd,27 Sep 2012,Bonus issue 1:2,28 Sep 2012,-,-,21 Sep 2012,27 Sep 2012,-,1:2
+142,524669,HESTERBIO,Hester Biosciences Ltd,27 Sep 2012,Bonus issue 1:2,-,29 Sep 2012,29 Sep 2012,24 Sep 2012,27 Sep 2012,-,1:2
+143,517334,MOTHERSON,Samvardhana Motherson International Ltd,03 Oct 2012,Bonus issue 1:2,-,05 Oct 2012,05 Oct 2012,27 Sep 2012,04 Oct 2012,-,1:2
+144,512443,GANONPRO,Ganon Products Ltd,15 Oct 2012,Bonus issue 30:1,16 Oct 2012,-,-,09 Oct 2012,15 Oct 2012,-,30:1
+145,511636,DJSSS,DJS Stock & Shares Ltd,23 Oct 2012,Bonus issue 1:2,26 Oct 2012,-,-,18 Oct 2012,23 Oct 2012,-,1:2
+146,534615,NECCLTD,North Eastern Carrying Corporation Ltd,15 Nov 2012,Bonus issue 3:1,16 Nov 2012,-,-,08 Nov 2012,15 Nov 2012,-,3:1
+147,507609,OLYOI,Olympic Oil Industries Ltd,19 Nov 2012,Bonus issue 3:1,20 Nov 2012,-,-,09 Nov 2012,19 Nov 2012,-,3:1
+148,531025,VISAGAR,Visagar Financial Services Ltd,04 Dec 2012,Bonus issue 1:1,05 Dec 2012,-,-,27 Nov 2012,04 Dec 2012,-,1:1
+149,505533,WESTLIFE,Westlife Foodworld Ltd,07 Dec 2012,Bonus issue 1:1,-,11 Dec 2012,11 Dec 2012,04 Dec 2012,10 Dec 2012,-,1:1
+150,524210,PNTKYOR,Pentokey Organy India Ltd,13 Dec 2012,Bonus issue 2:3,14 Dec 2012,-,-,07 Dec 2012,13 Dec 2012,-,2:3
+151,590071,SUNDARMFIN,Sundaram Finance Ltd,13 Dec 2012,Bonus issue 1:1,14 Dec 2012,-,-,07 Dec 2012,13 Dec 2012,-,1:1
+152,500463,BBOX,Black Box Ltd,19 Dec 2012,Bonus issue 1:1,20 Dec 2012,-,-,13 Dec 2012,19 Dec 2012,-,1:1
+153,508922,MSRINDIA,MSR India Ltd,20 Dec 2012,Bonus issue 5:1,21 Dec 2012,-,-,14 Dec 2012,20 Dec 2012,-,5:1
+154,532959,AJRINFRA,AJR Infra And Tolling Ltd,23 Jan 2013,Bonus issue 1:34,24 Jan 2013,-,-,17 Jan 2013,22 Jan 2013,-,1:34
+155,506184,KANANIIND,Kanani Industries Ltd,01 Feb 2013,Bonus issue 1:10,-,05 Feb 2013,05 Feb 2013,29 Jan 2013,04 Feb 2013,-,1:10
+156,512191,MISHKAFIN,Mishka Finance and Trading Ltd,05 Feb 2013,Bonus issue 7:1,06 Feb 2013,-,-,30 Jan 2013,05 Feb 2013,-,7:1
+157,502448,ROLLT,Rollatainers Ltd,27 Feb 2013,Bonus issue 3:2,28 Feb 2013,-,-,21 Feb 2013,27 Feb 2013,-,3:2
+158,532411,VISESHINFO,Visesh Infotecnics Ltd,07 Mar 2013,Bonus issue 1:10,08 Mar 2013,-,-,01 Mar 2013,07 Mar 2013,-,1:10
+159,531387,HASTIFIN,Hasti Finance Ltd,13 Mar 2013,Bonus issue 1:10,14 Mar 2013,-,-,07 Mar 2013,13 Mar 2013,-,1:10
+160,523144,MEDICAPQ,Medi Caps Ltd-$,19 Mar 2013,Bonus issue 3:1,20 Mar 2013,-,-,13 Mar 2013,19 Mar 2013,-,3:1
+161,508494,WARRENTEA,Warren Tea Ltd-$,21 Mar 2013,Bonus issue 7:10,22 Mar 2013,-,-,15 Mar 2013,21 Mar 2013,-,7:10
+162,507828,ANSALHSG,Ansal Housing Ltd-$,10 Apr 2013,Bonus issue 2:1,12 Apr 2013,-,-,05 Apr 2013,11 Apr 2013,-,2:1
+163,512165,ABANSENT,Abans Enterprises Ltd,26 Apr 2013,Bonus issue 1:1,07 May 2013,-,-,26 Apr 2013,11 May 2013,-,1:1
+164,532038,EMMSONS,Emmsons International Ltd-$,08 May 2013,Bonus issue 1:1,09 May 2013,-,-,02 May 2013,08 May 2013,-,1:1
+165,523319,BALMLAWRIE,Balmer Lawrie & Company Ltd,23 May 2013,Bonus issue 3:4,24 May 2013,-,-,17 May 2013,23 May 2013,-,3:4
+166,512377,MAGANTR,Magnanimous Trade & finance Ltd,28 May 2013,Bonus issue 3:1,04 Jun 2013,-,-,28 May 2013,07 Jun 2013,-,3:1
+167,524709,NACLIND,NACL Industries Ltd,30 May 2013,Bonus issue 3:14,01 Jun 2013,-,-,27 May 2013,30 May 2013,-,3:14
+168,531597,MIDPOLY,Midland Polymers Ltd,10 Jun 2013,Bonus issue 1:1,11 Jun 2013,-,-,04 Jun 2013,10 Jun 2013,-,1:1
+169,532928,TARIL,Transformers and Rectifiers (India) Ltd,13 Jun 2013,Bonus issue 1:9,14 Jun 2013,-,-,07 Jun 2013,13 Jun 2013,-,1:9
+170,506532,NITTAGELA,Nitta Gelatin India Ltd-$,19 Jun 2013,Bonus issue 1:3,20 Jun 2013,-,-,13 Jun 2013,19 Jun 2013,-,1:3
+171,507966,RASRESOR,Ras Resorts & Apart Hotels Ltd,21 Jun 2013,Bonus issue 1:5,-,25 Jun 2013,25 Jun 2013,19 Jun 2013,24 Jun 2013,-,1:5
+172,531162,EMAMILTD,Emami Ltd-$,26 Jun 2013,Bonus issue 1:2,27 Jun 2013,-,-,20 Jun 2013,26 Jun 2013,-,1:2
+173,532782,SUTLEJTEX,Sutlej Textiles and Industries Ltd,27 Jun 2013,Bonus issue 1:2,28 Jun 2013,-,-,21 Jun 2013,26 Jun 2013,-,1:2
+174,533271,ASHOKA,Ashoka Buildcon Ltd,03 Jul 2013,Bonus issue 1:2,04 Jul 2013,-,-,27 Jun 2013,03 Jul 2013,-,1:2
+175,501150,CENTRUM,Centrum Capital Ltd,03 Jul 2013,Bonus issue 5:1,04 Jul 2013,-,-,26 Jun 2013,03 Jul 2013,-,5:1
+176,532366,PNBGILTS,PNB Gilts Ltd,03 Jul 2013,Bonus issue 1:3,04 Jul 2013,-,-,26 Jun 2013,03 Jul 2013,-,1:3
+177,530117,PRIVISCL,Privi Speciality Chemicals Ltd,03 Jul 2013,Bonus issue 1:10,04 Jul 2013,-,-,27 Jun 2013,03 Jul 2013,-,1:10
+178,532543,GULFPETRO,GP Petroleums Ltd,09 Jul 2013,Bonus issue 23:19,10 Jul 2013,-,-,03 Jul 2013,09 Jul 2013,-,23:19
+179,531768,POLYMED,Poly Medicure Ltd,09 Jul 2013,Bonus issue 1:1,10 Jul 2013,-,-,03 Jul 2013,09 Jul 2013,-,1:1
+180,500510,LT,Larsen & Toubro Ltd,11 Jul 2013,Bonus issue 1:2,13 Jul 2013,-,-,08 Jul 2013,11 Jul 2013,-,1:2
+181,530549,SHILPAMED,Shilpa Medicare Ltd,16 Jul 2013,Bonus issue 1:2,-,18 Jul 2013,19 Jul 2013,11 Jul 2013,17 Jul 2013,-,1:2
+182,500420,TORNTPHARM,Torrent Pharmaceuticals Ltd,23 Jul 2013,Bonus issue 1:1,24 Jul 2013,-,-,17 Jul 2013,23 Jul 2013,-,1:1
+183,519552,HERITGFOOD,Heritage Foods Ltd,26 Jul 2013,Bonus issue 1:1,29 Jul 2013,-,-,22 Jul 2013,26 Jul 2013,-,1:1
+184,524715,SUNPHARMA,Sun Pharmaceutical Industries Ltd,29 Jul 2013,Bonus issue 1:1,30 Jul 2013,-,-,23 Jul 2013,29 Jul 2013,-,1:1
+185,505585,ZKOVALIN,Kovalam Investment & Trading Company Ltd ,29 Jul 2013,Bonus issue 13:10,07 Aug 2013,-,-,29 Jul 2013,12 Aug 2013,-,13:10
+186,532371,TTML,Tata Teleservices (Maharashtra) Ltd,07 Aug 2013,Bonus issue 2:15,08 Aug 2013,-,-,01 Aug 2013,07 Aug 2013,-,2:15
+187,519600,CCL,CCL Products (India) Ltd,19 Aug 2013,Bonus issue 1:1,20 Aug 2013,-,-,12 Aug 2013,19 Aug 2013,-,1:1
+188,524470,SYNCOMF,Syncom Formulations India Ltd-$,19 Aug 2013,Bonus issue 5:2,20 Aug 2013,-,-,12 Aug 2013,19 Aug 2013,-,5:2
+189,508954,FINKURVE,Finkurve Financial Services Ltd,22 Aug 2013,Bonus issue 6:1,23 Aug 2013,-,-,16 Aug 2013,22 Aug 2013,-,6:1
+190,522163,DIACABS,Diamond Power Infrastructure Ltd-$,26 Aug 2013,Bonus issue 1:3,27 Aug 2013,-,-,26 Aug 2013,26 Aug 2013,-,1:3
+191,531344,CONCOR,Container Corporation of India Ltd,06 Sep 2013,Bonus issue 1:2,10 Sep 2013,-,-,02 Sep 2013,06 Sep 2013,-,1:2
+192,535466,SRL,Samruddhi Realty Ltd,11 Sep 2013,Bonus issue 1:5,12 Sep 2013,-,-,04 Sep 2013,11 Sep 2013,-,1:5
+193,524648,INDOAMIN,Indo Amines Ltd-$,16 Sep 2013,Bonus issue 1:1,17 Sep 2013,-,-,12 Sep 2013,16 Sep 2013,-,1:1
+194,532331,AJANTPHARM,Ajanta Pharma Ltd,17 Sep 2013,Bonus issue 1:2,18 Sep 2013,-,-,11 Sep 2013,17 Sep 2013,-,1:2
+195,500360,RAPICUT,Rapicut Carbides Ltd,20 Sep 2013,Bonus issue 3:2,23 Sep 2013,-,-,19 Sep 2013,20 Sep 2013,-,3:2
+196,519105,AVTNPL,AVT Natural Products Ltd,26 Sep 2013,Bonus issue 1:1,-,28 Sep 2013,28 Sep 2013,23 Sep 2013,26 Sep 2013,-,1:1
+197,506235,ALEMBICLTD,Alembic Ltd,27 Sep 2013,Bonus issue 1:1,30 Sep 2013,-,-,23 Sep 2013,27 Sep 2013,-,1:1
+198,513729,AROGRANITE,Aro Granite Industries Ltd-$,30 Oct 2013,Bonus issue 1:2,31 Oct 2013,-,-,24 Oct 2013,30 Oct 2013,-,1:2
+199,532880,OMAXE,Omaxe Ltd,11 Nov 2013,Bonus issue 10:39,12 Nov 2013,-,-,05 Nov 2013,11 Nov 2013,-,10:39
+200,517334,MOTHERSON,Samvardhana Motherson International Ltd,20 Dec 2013,Bonus issue 1:2,-,24 Dec 2013,24 Dec 2013,17 Dec 2013,23 Dec 2013,-,1:2
+201,511208,IVC,IL&FS Investment Managers Ltd,26 Dec 2013,Bonus issue 1:2,-,28 Dec 2013,28 Dec 2013,20 Dec 2013,26 Dec 2013,-,1:2
+202,531695,VERONICAPRO,Veronica Production Ltd,24 Jan 2014,Bonus issue 2:1,27 Jan 2014,-,-,20 Jan 2014,24 Jan 2014,-,2:1
+203,534060,PMCFIN,PMC Fincorp Ltd,13 Mar 2014,Bonus issue 8:10,15 Mar 2014,-,-,10 Mar 2014,13 Mar 2014,-,8:10
+204,532826,RAJTV,Raj Television Network Ltd,25 Mar 2014,Bonus issue 1:1,26 Mar 2014,-,-,20 Mar 2014,25 Mar 2014,-,1:1
+205,530299,KOTHARIPRO,Kothari Products Ltd,28 Mar 2014,Bonus issue 2:1,02 Apr 2014,-,-,26 Mar 2014,01 Apr 2014,-,2:1
+206,522249,MAYURUNIQ,Mayur Uniquoters Ltd-$,28 Mar 2014,Bonus issue 1:1,02 Apr 2014,-,-,26 Mar 2014,01 Apr 2014,-,1:1
+207,507488,GMBREW,GM Breweries Ltd,16 May 2014,Bonus issue 1:4,-,20 May 2014,22 May 2014,12 May 2014,19 May 2014,-,1:4
+208,534680,SRGHFL,SRG Housing Finance Ltd,29 May 2014,Bonus issue 2:5,30 May 2014,-,-,23 May 2014,29 May 2014,-,2:5
+209,506401,DEEPAKNTR,Deepak Nitrite Ltd-$,20 Jun 2014,Bonus issue 1:1,23 Jun 2014,-,-,16 Jun 2014,20 Jun 2014,-,1:1
+210,500250,LGBBROSLTD,LG Balakrishnan & Bros Ltd,04 Jul 2014,Bonus issue 1:1,-,08 Jul 2014,09 Jul 2014,30 Jun 2014,07 Jul 2014,-,1:1
+211,530117,PRIVISCL,Privi Speciality Chemicals Ltd,09 Jul 2014,Bonus issue 1:10,10 Jul 2014,-,-,03 Jul 2014,09 Jul 2014,-,1:10
+212,535136,NIBE,NIBE Ltd,18 Jul 2014,Bonus issue 2:1,21 Jul 2014,-,-,14 Jul 2014,18 Jul 2014,-,2:1
+213,534618,WAAREERTL,Waaree Renewable Technologies Ltd,21 Jul 2014,Bonus issue 57:10,22 Jul 2014,-,-,16 Jul 2014,21 Jul 2014,-,57:10
+214,536974,CPL,Captain Polyplast Ltd,24 Jul 2014,Bonus issue 1:5,26 Jul 2014,-,-,21 Jul 2014,24 Jul 2014,-,1:5
+215,535387,LAKHOTIA,Lakhotia Polyesters (India) Ltd,25 Jul 2014,Bonus issue 18:10,28 Jul 2014,-,-,21 Jul 2014,25 Jul 2014,-,18:10
+216,511176,PARSHWANA,Parshwanath Corporation Ltd,18 Sep 2014,Bonus issue 1:5,-,20 Sep 2014,20 Sep 2014,17 Sep 2014,18 Sep 2014,-,1:5
+217,535466,SRL,Samruddhi Realty Ltd,18 Sep 2014,Bonus issue 1:5,19 Sep 2014,-,-,12 Sep 2014,18 Sep 2014,-,1:5
+218,532410,TRANSCOR,Transcorp International Ltd,25 Sep 2014,Bonus issue 1:4,-,29 Sep 2014,29 Sep 2014,22 Sep 2014,26 Sep 2014,-,1:4
+219,526739,SHAWGELTIN,Narmada Gelatines Ltd,26 Sep 2014,Bonus issue 1:2,-,30 Sep 2014,30 Sep 2014,25 Sep 2014,29 Sep 2014,-,1:2
+220,534623,JUPITERIN,Jupiter Infomedia Ltd,29 Sep 2014,Bonus issue 1:1,30 Sep 2014,-,-,23 Sep 2014,29 Sep 2014,-,1:1
+221,534532,LYPSAGEMS,Lypsa Gems & Jewellery Ltd,29 Sep 2014,Bonus issue 1:2,30 Sep 2014,-,-,23 Sep 2014,29 Sep 2014,-,1:2
+222,506655,SUDARSCHEM,Sudarshan Chemical Industries Ltd,30 Sep 2014,Bonus issue 1:1,01 Oct 2014,-,-,24 Sep 2014,30 Sep 2014,-,1:1
+223,532605,JBMA,JBM Auto Ltd,08 Oct 2014,Bonus issue 1:1,09 Oct 2014,-,-,29 Sep 2014,08 Oct 2014,-,1:1
+224,531373,BYKE,Byke Hospitality Ltd,09 Oct 2014,Bonus issue 1:1,10 Oct 2014,-,-,01 Oct 2014,09 Oct 2014,-,1:1
+225,530557,NCLRESE,NCL Research & Financial Services Ltd,16 Oct 2014,Bonus issue 4:1,17 Oct 2014,-,-,10 Oct 2014,16 Oct 2014,-,4:1
+226,531502,ESARIND,Esaar India Ltd,21 Oct 2014,Bonus issue 3:2,22 Oct 2014,-,-,14 Oct 2014,20 Oct 2014,-,3:2
+227,532854,NITINFIRE,Nitin Fire Protection Industries Ltd,13 Nov 2014,Bonus issue 1:3,15 Nov 2014,-,-,12 Nov 2014,13 Nov 2014,-,1:3
+228,530961,VIKASECO,Vikas EcoTech Ltd,13 Nov 2014,Bonus issue 3:2,15 Nov 2014,-,-,13 Nov 2014,13 Nov 2014,-,3:2
+229,531463,GBLINFRA,Global Infratech & Finance Ltd,14 Nov 2014,Bonus issue 1:10,17 Nov 2014,-,-,10 Nov 2014,14 Nov 2014,-,1:10
+230,500209,INFY,Infosys Ltd,02 Dec 2014,Bonus issue 1:1,03 Dec 2014,-,-,26 Nov 2014,02 Dec 2014,-,1:1
+231,511092,JMDVL,JMD Ventures Ltd,01 Jan 2015,Bonus issue 1:1,02 Jan 2015,-,-,26 Dec 2014,01 Jan 2015,-,1:1
+232,504240,DLTNCBL,Delton Cables Ltd,23 Jan 2015,Bonus issue 2:1,27 Jan 2015,-,-,19 Jan 2015,23 Jan 2015,-,2:1
+233,531712,TRILOGIC,Trilogic Digital Media Ltd,11 Feb 2015,Bonus issue 1:1,12 Feb 2015,-,-,05 Feb 2015,11 Feb 2015,-,1:1
+234,533333,FCL,Fineotex Chemical Ltd,12 Feb 2015,Bonus issue 1:1,13 Feb 2015,-,-,06 Feb 2015,12 Feb 2015,-,1:1
+235,505590,SVPGLOB,SVP Global Textiles Ltd,04 Mar 2015,Bonus issue 9:1,05 Mar 2015,-,-,26 Feb 2015,04 Mar 2015,-,9:1
+236,533179,PERSISTENT,Persistent Systems Ltd,10 Mar 2015,Bonus issue 1:1,11 Mar 2015,-,-,03 Mar 2015,10 Mar 2015,-,1:1
+237,532281,HCLTECH,HCL Technologies Ltd,19 Mar 2015,Bonus issue 1:1,20 Mar 2015,-,-,13 Mar 2015,19 Mar 2015,-,1:1
+238,532755,TECHM,Tech Mahindra Ltd,19 Mar 2015,Bonus issue 1:1,20 Mar 2015,-,-,13 Mar 2015,19 Mar 2015,-,1:1
+239,524348,AARTIDRUGS,Aarti Drugs Ltd,24 Mar 2015,Bonus issue 1:1,25 Mar 2015,-,-,18 Mar 2015,24 Mar 2015,-,1:1
+240,533269,WABAG,VA Tech Wabag Ltd,26 Mar 2015,Bonus issue 1:1,27 Mar 2015,-,-,20 Mar 2015,26 Mar 2015,-,1:1
+241,530305,PICCADIL,Piccadily Agro Industries Ltd,06 Apr 2015,Bonus issue 1:1,07 Apr 2015,-,-,27 Mar 2015,06 Apr 2015,-,1:1
+242,532851,INSECTICID,Insecticides (India) Ltd,16 Apr 2015,Bonus issue 1:2,17 Apr 2015,-,-,09 Apr 2015,16 Apr 2015,-,1:2
+243,501270,ANTARIKSH,Antariksh Industries Ltd,05 May 2015,Bonus issue 3:1,06 May 2015,-,-,27 Apr 2015,05 May 2015,-,3:1
+244,532456,COMPINFO,Compuage Infocom Ltd,26 May 2015,Bonus issue 3:5,27 May 2015,-,-,25 May 2015,26 May 2015,-,3:5
+245,506146,VIVIDHA,Visagar Polytex Ltd,28 May 2015,Bonus issue 10:1,30 May 2015,-,-,25 May 2015,28 May 2015,-,10:1
+246,500209,INFY,Infosys Ltd,15 Jun 2015,Bonus issue 1:1,-,17 Jun 2015,17 Jun 2015,10 Jun 2015,16 Jun 2015,-,1:1
+247,509048,LANCORHOL,Lancor Holdings Ltd,24 Jun 2015,Bonus issue 1:1,25 Jun 2015,-,-,18 Jun 2015,24 Jun 2015,-,1:1
+248,530517,RELAXO,Relaxo Footwears Ltd-$,01 Jul 2015,Bonus issue 1:1,02 Jul 2015,-,-,25 Jun 2015,01 Jul 2015,-,1:1
+249,500469,FEDERALBNK,Federal Bank Ltd,08 Jul 2015,Bonus issue 1:1,09 Jul 2015,-,-,02 Jul 2015,08 Jul 2015,-,1:1
+250,500247,KOTAKBANK,Kotak Mahindra Bank Ltd,08 Jul 2015,Bonus issue 1:1,09 Jul 2015,-,-,02 Jul 2015,08 Jul 2015,-,1:1
+251,538970,WARDINMOBI,Wardwizard Innovations & Mobility Ltd,08 Jul 2015,Bonus issue 1:1,09 Jul 2015,-,-,02 Jul 2015,08 Jul 2015,-,1:1
+252,590078,MAITHANALL,Maithan Alloys Ltd,15 Jul 2015,Bonus issue 1:1,16 Jul 2015,-,-,09 Jul 2015,15 Jul 2015,-,1:1
+253,524804,AUROPHARMA,Aurobindo Pharma Ltd,20 Jul 2015,Bonus issue 1:1,21 Jul 2015,-,-,14 Jul 2015,20 Jul 2015,-,1:1
+254,517334,MOTHERSON,Samvardhana Motherson International Ltd,23 Jul 2015,Bonus issue 1:2,-,25 Jul 2015,25 Jul 2015,20 Jul 2015,23 Jul 2015,-,1:2
+255,533152,MBLINFRA,MBL Infrastructure Ltd,28 Jul 2015,Bonus issue 1:1,29 Jul 2015,-,-,22 Jul 2015,28 Jul 2015,-,1:1
+256,506260,ANUHPHR,Anuh Pharma Ltd,05 Aug 2015,Bonus issue 2:1,06 Aug 2015,-,-,30 Jul 2015,05 Aug 2015,-,2:1
+257,534060,PMCFIN,PMC Fincorp Ltd,31 Aug 2015,Bonus issue 1:1,01 Sep 2015,-,-,25 Aug 2015,31 Aug 2015,-,1:1
+258,521220,DAMODARIND,Damodar Industries Ltd-$,02 Sep 2015,Bonus issue 1:4,03 Sep 2015,-,-,27 Aug 2015,02 Sep 2015,-,1:4
+259,504000,ELPROINTL,Elpro International Ltd,08 Sep 2015,Bonus issue 2:1,-,10 Sep 2015,10 Sep 2015,07 Sep 2015,09 Sep 2015,-,2:1
+260,500049,BEL,Bharat Electronics Ltd,14 Sep 2015,Bonus issue 2:1,15 Sep 2015,-,-,08 Sep 2015,14 Sep 2015,-,2:1
+261,523694,APCOTEXIND,Apcotex Industries Ltd,23 Sep 2015,Bonus issue 1:1,24 Sep 2015,-,-,18 Sep 2015,23 Sep 2015,-,1:1
+262,500830,COLPAL,Colgate Palmolive (India) Ltd,23 Sep 2015,Bonus issue 1:1,24 Sep 2015,-,-,16 Sep 2015,23 Sep 2015,-,1:1
+263,532488,DIVISLAB,Divis Laboratories Ltd,23 Sep 2015,Bonus issue 1:1,26 Sep 2015,-,-,18 Sep 2015,23 Sep 2015,-,1:1
+264,501831,COASTCORP,Coastal Corporation Ltd,29 Sep 2015,Bonus issue 1:1,-,01 Oct 2015,01 Oct 2015,29 Sep 2015,06 Oct 2015,-,1:1
+265,526519,ALPINEHOU,Alpine Housing Development Corporation Ltd,06 Oct 2015,Bonus issue 1:1,-,08 Oct 2015,08 Oct 2015,30 Sep 2015,07 Oct 2015,-,1:1
+266,506248,AMNPLST,Amines & Plasticizers Ltd,08 Oct 2015,Bonus issue 1:1,09 Oct 2015,-,-,01 Oct 2015,08 Oct 2015,-,1:1
+267,536974,CPL,Captain Polyplast Ltd,08 Oct 2015,Bonus issue 1:8,10 Oct 2015,-,-,05 Oct 2015,08 Oct 2015,-,1:8
+268,538771,PINCON,Pincon Spirit Ltd,08 Oct 2015,Bonus issue 1:1,10 Oct 2015,-,-,05 Oct 2015,08 Oct 2015,-,1:1
+269,532776,SHIVAMAUTO,Shivam Autotech Ltd,08 Oct 2015,Bonus issue 1:1,10 Oct 2015,-,-,05 Oct 2015,08 Oct 2015,-,1:1
+270,504380,FLOMIC,Flomic Global Logistics Ltd,15 Oct 2015,Bonus issue 47:1,16 Oct 2015,-,-,13 Oct 2015,15 Oct 2015,-,47:1
+271,536264,TIGERLOGS,Tiger Logistics (India) Ltd,15 Oct 2015,Bonus issue 3:2,16 Oct 2015,-,-,09 Oct 2015,15 Oct 2015,-,3:2
+272,538715,DHABRIYA,Dhabriya Polywood Ltd,21 Oct 2015,Bonus issue 1:4,23 Oct 2015,-,-,15 Oct 2015,21 Oct 2015,-,1:4
+273,503169,RUBYMILLS,Ruby Mills Ltd,21 Oct 2015,Bonus issue 1:1,24 Oct 2015,-,-,16 Oct 2015,21 Oct 2015,-,1:1
+274,524444,EVEXIA,Evexia Lifecare Ltd,23 Oct 2015,Bonus issue 1:3,26 Oct 2015,-,-,16 Oct 2015,23 Oct 2015,-,1:3
+275,534422,LOOKS,Looks Health Services Ltd,29 Oct 2015,Bonus issue 3:4,30 Oct 2015,-,-,23 Oct 2015,29 Oct 2015,-,3:4
+276,532927,ECLERX,eClerx Services Ltd,17 Dec 2015,Bonus issue 1:3,18 Dec 2015,-,-,11 Dec 2015,17 Dec 2015,-,1:3
+277,505850,MANCREDIT,Mangal Credit and Fincorp Ltd,17 Dec 2015,Bonus issue 5:1,19 Dec 2015,-,-,14 Dec 2015,17 Dec 2015,-,5:1
+278,503101,MARATHON,Marathon Nextgen Realty Ltd,21 Dec 2015,Bonus issue 1:2,22 Dec 2015,-,-,15 Dec 2015,21 Dec 2015,-,1:2
+279,523261,VENKEYS,Venkys (India) Ltd,21 Dec 2015,Bonus issue 1:2,22 Dec 2015,-,-,15 Dec 2015,21 Dec 2015,-,1:2
+280,531642,MARICO,Marico Ltd,22 Dec 2015,Bonus issue 1:1,24 Dec 2015,-,-,17 Dec 2015,22 Dec 2015,-,1:1
+281,532749,ALLCARGO,Allcargo Logistics Ltd,30 Dec 2015,Bonus issue 1:1,31 Dec 2015,-,-,28 Dec 2015,30 Dec 2015,-,1:1
+282,530299,KOTHARIPRO,Kothari Products Ltd,05 Jan 2016,Bonus issue 1:2,06 Jan 2016,-,-,30 Dec 2015,05 Jan 2016,-,1:2
+283,522295,CONTROLPR,Control Print Ltd-$,11 Jan 2016,Bonus issue 1:2,12 Jan 2016,-,-,05 Jan 2016,11 Jan 2016,-,1:2
+284,539132,WARDWIZFBL,Wardwizard Foods and Beverages Ltd,18 Feb 2016,Bonus issue 9:5,22 Feb 2016,-,-,15 Feb 2016,19 Feb 2016,-,9:5
+285,512165,ABANSENT,Abans Enterprises Ltd,03 Mar 2016,Bonus issue 7:1,04 Mar 2016,-,-,26 Feb 2016,03 Mar 2016,-,7:1
+286,507526,ASALCBR,Associated Alcohols & Breweries Ltd,10 Mar 2016,Bonus issue 1:1,11 Mar 2016,-,-,03 Mar 2016,10 Mar 2016,-,1:1
+287,531328,KRETTOSYS,Kretto Syscon Ltd,10 Mar 2016,Bonus issue 2:5,12 Mar 2016,-,-,04 Mar 2016,10 Mar 2016,-,2:5
+288,539309,RAMASTEEL,Rama Steel Tubes Ltd,14 Mar 2016,Bonus issue 4:1,15 Mar 2016,-,-,08 Mar 2016,14 Mar 2016,-,4:1
+289,590005,VEEDOL,Veedol Corporation Ltd,16 Mar 2016,Bonus issue 1:1,17 Mar 2016,-,-,10 Mar 2016,16 Mar 2016,-,1:1
+290,530187,ATHARVENT,Atharv Enterprises Ltd,17 Mar 2016,Bonus issue 1:1,19 Mar 2016,-,-,14 Mar 2016,17 Mar 2016,-,1:1
+291,506146,VIVIDHA,Visagar Polytex Ltd,30 Mar 2016,Bonus issue 1:3,02 Apr 2016,-,-,28 Mar 2016,30 Mar 2016,-,1:3
+292,539098,FILTRA,Filtra Consultants and Engineers Ltd,06 Apr 2016,Bonus issue 3:2,08 Apr 2016,-,-,31 Mar 2016,06 Apr 2016,-,3:2
+293,539223,AMBITION,Ambition Mica Ltd,11 May 2016,Bonus issue 1:1,12 May 2016,-,-,05 May 2016,11 May 2016,-,1:1
+294,507488,GMBREW,GM Breweries Ltd,30 May 2016,Bonus issue 1:4,31 May 2016,-,-,24 May 2016,30 May 2016,-,1:4
+295,537259,SUYOG,Suyog Telematics Ltd,13 Jun 2016,Bonus issue 1:5,14 Jun 2016,-,-,07 Jun 2016,13 Jun 2016,-,1:5
+296,538771,PINCON,Pincon Spirit Ltd,23 Jun 2016,Bonus issue 1:1,25 Jun 2016,-,-,20 Jun 2016,23 Jun 2016,-,1:1
+297,500875,ITC,ITC Ltd,01 Jul 2016,Bonus issue 1:2,04 Jul 2016,-,-,27 Jun 2016,01 Jul 2016,-,1:2
+298,500547,BPCL,Bharat Petroleum Corporation Ltd,13 Jul 2016,Bonus issue 1:1,14 Jul 2016,-,-,07 Jul 2016,13 Jul 2016,-,1:1
+299,531531,HATSUN,Hatsun Agro Product Ltd,13 Jul 2016,Bonus issue 2:5,14 Jul 2016,-,-,07 Jul 2016,13 Jul 2016,-,2:5
+300,526367,GANESHHOUC,Ganesh Housing Corporation Ltd-$,14 Jul 2016,Bonus issue 1:2,15 Jul 2016,-,-,12 Jul 2016,14 Jul 2016,-,1:2
+301,506076,GRINDWELL,Grindwell Norton Ltd-$,14 Jul 2016,Bonus issue 1:1,15 Jul 2016,-,-,08 Jul 2016,14 Jul 2016,-,1:1
+302,509480,BERGEPAINT,Berger Paints India Ltd,15 Jul 2016,Bonus issue 2:5,18 Jul 2016,-,-,11 Jul 2016,15 Jul 2016,-,2:5
+303,501298,INDPRUD,Industrial & Prudential Investment Company Ltd,19 Jul 2016,Bonus issue 2:1,20 Jul 2016,-,-,15 Jul 2016,19 Jul 2016,-,2:1
+304,539225,JIYAECO,Jiya Eco-Products Ltd,27 Jul 2016,Bonus issue 1:5,28 Jul 2016,-,-,25 Jul 2016,27 Jul 2016,-,1:5
+305,508980,FRONTCAP,Frontier Capital Ltd,28 Jul 2016,Bonus issue 1:3,29 Jul 2016,-,-,22 Jul 2016,28 Jul 2016,-,1:3
+306,539196,AEL,Amba Enterprises Ltd,08 Aug 2016,Bonus issue 1:5,09 Aug 2016,-,-,02 Aug 2016,08 Aug 2016,-,1:5
+307,590018,HISARMETAL,Hisar Metal Industries Ltd-$,09 Aug 2016,Bonus issue 1:2,10 Aug 2016,-,-,03 Aug 2016,09 Aug 2016,-,1:2
+308,533289,KTIL,Kesar Terminals & Infrastructure Ltd,11 Aug 2016,Bonus issue 1:25,13 Aug 2016,-,-,08 Aug 2016,11 Aug 2016,-,1:25
+309,532810,PFC,Power Finance Corporation Ltd,26 Aug 2016,Bonus issue 1:1,29 Aug 2016,-,-,22 Aug 2016,26 Aug 2016,-,1:1
+310,523828,MENONBE,Menon Bearings Ltd-$,30 Aug 2016,Bonus issue 1:5,31 Aug 2016,-,-,24 Aug 2016,30 Aug 2016,-,1:5
+311,538547,OASIS,Oasis Tradelink Ltd,30 Aug 2016,Bonus issue 1:3,31 Aug 2016,-,-,24 Aug 2016,30 Aug 2016,-,1:3
+312,513023,NAVA,Nava Ltd,01 Sep 2016,Bonus issue 1:1,03 Sep 2016,-,-,29 Aug 2016,01 Sep 2016,-,1:1
+313,500034,BAJFINANCE,Bajaj Finance Ltd,08 Sep 2016,Bonus issue 1:1,10 Sep 2016,-,-,02 Sep 2016,08 Sep 2016,-,1:1
+314,538706,ULTRACAB,Ultracab (India) Ltd,08 Sep 2016,Bonus issue 1:2,09 Sep 2016,-,-,01 Sep 2016,08 Sep 2016,-,1:2
+315,526586,WIMPLAST,Wim Plast Ltd-$,08 Sep 2016,Bonus issue 1:1,09 Sep 2016,-,-,01 Sep 2016,08 Sep 2016,-,1:1
+316,538713,ATISHAY,Atishay Ltd,14 Sep 2016,Bonus issue 1:4,15 Sep 2016,-,-,12 Sep 2016,14 Sep 2016,-,1:4
+317,500104,HINDPETRO,Hindustan Petroleum Corporation Ltd,14 Sep 2016,Bonus issue 2:1,15 Sep 2016,-,-,07 Sep 2016,14 Sep 2016,-,2:1
+318,517385,SYMPHONY,Symphony Ltd,14 Sep 2016,Bonus issue 1:1,15 Sep 2016,-,-,07 Sep 2016,14 Sep 2016,-,1:1
+319,507779,KANPRPLA,Kanpur Plastipack Ltd,23 Sep 2016,Bonus issue 1:2,26 Sep 2016,-,-,20 Sep 2016,23 Sep 2016,-,1:2
+320,537069,ARNOLD,Arnold Holdings Ltd,27 Sep 2016,Bonus issue 5:1,28 Sep 2016,-,-,21 Sep 2016,27 Sep 2016,-,5:1
+321,537524,VIAANINDUS,Viaan Industries Ltd,27 Sep 2016,Bonus issue 2:1,-,29 Sep 2016,29 Sep 2016,22 Sep 2016,28 Sep 2016,-,2:1
+322,532955,RECLTD,REC Ltd,28 Sep 2016,Bonus issue 1:1,29 Sep 2016,-,-,22 Sep 2016,28 Sep 2016,-,1:1
+323,502015,ASIIL,ASI Industries Ltd,29 Sep 2016,Bonus issue 1:4,30 Sep 2016,-,-,26 Sep 2016,29 Sep 2016,-,1:4
+324,538733,STARLIT,Starlit Power Systems Ltd,06 Oct 2016,Bonus issue 1:4,07 Oct 2016,-,-,30 Sep 2016,06 Oct 2016,-,1:4
+325,530305,PICCADIL,Piccadily Agro Industries Ltd,10 Oct 2016,Bonus issue 1:1,13 Oct 2016,-,-,05 Oct 2016,10 Oct 2016,-,1:1
+326,512161,SECURKLOUD,Securekloud Technologies Ltd,10 Oct 2016,Bonus issue 1:3,13 Oct 2016,-,-,04 Oct 2016,10 Oct 2016,-,1:3
+327,530307,CLSEL,Chaman Lal Setia Exports Ltd-$,14 Oct 2016,Bonus issue 1:10,17 Oct 2016,-,-,06 Oct 2016,14 Oct 2016,-,1:10
+328,530965,IOC,Indian Oil Corporation Ltd,18 Oct 2016,Bonus issue 1:1,19 Oct 2016,-,-,10 Oct 2016,18 Oct 2016,-,1:1
+329,531082,ALANKIT,Alankit Ltd,19 Oct 2016,Bonus issue 1:1,20 Oct 2016,-,-,14 Oct 2016,19 Oct 2016,-,1:1
+330,537092,MODEX,Modex International Securities Ltd,20 Oct 2016,Bonus issue 1:1,21 Oct 2016,-,-,14 Oct 2016,20 Oct 2016,-,1:1
+331,504741,INDIANHUME,Indian Hume Pipe Company Ltd,09 Dec 2016,Bonus issue 1:1,13 Dec 2016,-,-,06 Dec 2016,12 Dec 2016,-,1:1
+332,500312,ONGC,Oil and Natural Gas Corporation Ltd,15 Dec 2016,Bonus issue 1:2,16 Dec 2016,-,-,08 Dec 2016,15 Dec 2016,-,1:2
+333,539398,VISHALBL,Vishal Bearings Ltd,15 Dec 2016,Bonus issue 1:4,16 Dec 2016,-,-,08 Dec 2016,15 Dec 2016,-,1:4
+334,523319,BALMLAWRIE,Balmer Lawrie & Company Ltd,26 Dec 2016,Bonus issue 3:1,27 Dec 2016,-,-,20 Dec 2016,26 Dec 2016,-,3:1
+335,532178,ENGINERSIN,Engineers India Ltd,30 Dec 2016,Bonus issue 1:1,02 Jan 2017,-,-,26 Dec 2016,30 Dec 2016,-,1:1
+336,539982,ASYL,Advance Syntex Ltd,04 Jan 2017,Bonus issue 3:20,05 Jan 2017,-,-,29 Dec 2016,04 Jan 2017,-,3:20
+337,531723,GATECH,GACM Technologies Ltd,10 Jan 2017,Bonus issue 1:4,11 Jan 2017,-,-,09 Jan 2017,10 Jan 2017,-,1:4
+338,533106,OIL,Oil India Ltd,12 Jan 2017,Bonus issue 1:3,13 Jan 2017,-,-,06 Jan 2017,12 Jan 2017,-,1:3
+339,539223,AMBITION,Ambition Mica Ltd,03 Feb 2017,Bonus issue 1:2,06 Feb 2017,-,-,30 Jan 2017,03 Feb 2017,-,1:2
+340,531109,ISHANCH,Ishan Dyes and Chemicals Ltd,14 Feb 2017,Bonus issue 1:2,15 Feb 2017,-,-,08 Feb 2017,14 Feb 2017,-,1:2
+341,512626,ORBTEXP,Orbit Exports Ltd,14 Feb 2017,Bonus issue 1:1,15 Feb 2017,-,-,09 Feb 2017,14 Feb 2017,-,1:1
+342,534309,NBCC,NBCC (India) Ltd,17 Feb 2017,Bonus issue 1:2,21 Feb 2017,-,-,14 Feb 2017,17 Feb 2017,-,1:2
+343,539017,STARHFL,Star Housing Finance Ltd,07 Mar 2017,Bonus issue 1:1,08 Mar 2017,-,-,01 Mar 2017,07 Mar 2017,-,1:1
+344,539428,TEJNAKSH,Tejnaksh Healthcare Ltd,08 Mar 2017,Bonus issue 1:1,09 Mar 2017,-,-,02 Mar 2017,08 Mar 2017,-,1:1
+345,532155,GAIL,Gail (India) Ltd,09 Mar 2017,Bonus issue 1:3,11 Mar 2017,-,-,06 Mar 2017,09 Mar 2017,-,1:3
+346,540023,COLORCHIPS,Colorchips New Media Ltd,10 Mar 2017,Bonus issue 1:1,14 Mar 2017,-,-,06 Mar 2017,10 Mar 2017,-,1:1
+347,539686,KPEL,K.P. Energy Ltd,15 Mar 2017,Bonus issue 1.501     ,16 Mar 2017,-,-,08 Mar 2017,15 Mar 2017,-,1.501
+348,532953,VGUARD,V-Guard Industries Ltd,15 Mar 2017,Bonus issue 2:5,16 Mar 2017,-,-,08 Mar 2017,15 Mar 2017,-,2:5
+349,531768,POLYMED,Poly Medicure Ltd,24 Mar 2017,Bonus issue 1:1,28 Mar 2017,-,-,21 Mar 2017,24 Mar 2017,-,1:1
+350,531344,CONCOR,Container Corporation of India Ltd,05 Apr 2017,Bonus issue 1:4,06 Apr 2017,-,-,29 Mar 2017,05 Apr 2017,-,1:4
+351,509635,HINDCOMPOS,Hindustan Composites Ltd,25 May 2017,Bonus issue 1:2,26 May 2017,-,-,19 May 2017,25 May 2017,-,1:2
+352,511766,MUTHOOTCAP,Muthoot Capital Services Ltd,12 Jun 2017,Bonus issue 1:10,13 Jun 2017,-,-,06 Jun 2017,12 Jun 2017,-,1:10
+353,507685,WIPRO,Wipro Ltd,13 Jun 2017,Bonus issue 1:1,14 Jun 2017,-,-,07 Jun 2017,13 Jun 2017,-,1:1
+354,532523,BIOCON,Biocon Ltd,15 Jun 2017,Bonus issue 2:1,17 Jun 2017,-,-,12 Jun 2017,15 Jun 2017,-,2:1
+355,509945,THACKER,Thacker & Company Ltd,16 Jun 2017,Bonus issue 32:21,19 Jun 2017,-,-,12 Jun 2017,16 Jun 2017,-,32:21
+356,532174,ICICIBANK,ICICI Bank Ltd,20 Jun 2017,Bonus issue 1:10,-,22 Jun 2017,24 Jun 2017,15 Jun 2017,21 Jun 2017,-,1:10
+357,532424,GODREJCP,Godrej Consumer Products Ltd,22 Jun 2017,Bonus issue 1:1,24 Jun 2017,-,-,19 Jun 2017,22 Jun 2017,-,1:1
+358,521248,KITEX,Kitex Garments Ltd,22 Jun 2017,Bonus issue 2:5,23 Jun 2017,-,-,16 Jun 2017,22 Jun 2017,-,2:5
+359,532522,PETRONET,Petronet LNG Ltd,03 Jul 2017,Bonus issue 1:1,04 Jul 2017,-,-,27 Jun 2017,03 Jul 2017,-,1:1
+360,523648,PLASTIBLEN,Plastiblends India Ltd-$,03 Jul 2017,Bonus issue 1:1,04 Jul 2017,-,-,27 Jun 2017,03 Jul 2017,-,1:1
+361,519260,SANWARIA,Sanwaria Consumer Ltd-$,03 Jul 2017,Bonus issue 1:1,04 Jul 2017,-,-,27 Jun 2017,03 Jul 2017,-,1:1
+362,517334,MOTHERSON,Samvardhana Motherson International Ltd,05 Jul 2017,Bonus issue 1:2,-,07 Jul 2017,07 Jul 2017,30 Jun 2017,06 Jul 2017,-,1:2
+363,534809,PCJEWELLER,PC Jeweller Ltd,06 Jul 2017,Bonus issue 1:1,07 Jul 2017,-,-,30 Jun 2017,06 Jul 2017,-,1:1
+364,512297,SHANTAI,Shantai Industries Ltd,07 Jul 2017,Bonus issue 2:1,10 Jul 2017,-,-,03 Jul 2017,07 Jul 2017,-,2:1
+365,532906,MAANALU,Maan Aluminium Ltd,10 Jul 2017,Bonus issue 1:1,11 Jul 2017,-,-,04 Jul 2017,10 Jul 2017,-,1:1
+366,533088,MHRIL,Mahindra Holidays & Resorts India Ltd,10 Jul 2017,Bonus issue 1:2,11 Jul 2017,-,-,04 Jul 2017,10 Jul 2017,-,1:2
+367,500104,HINDPETRO,Hindustan Petroleum Corporation Ltd,11 Jul 2017,Bonus issue 1:2,12 Jul 2017,-,-,05 Jul 2017,11 Jul 2017,-,1:2
+368,520059,MUNJALAU,Munjal Auto Industries Ltd,11 Jul 2017,Bonus issue 1:1,12 Jul 2017,-,-,05 Jul 2017,11 Jul 2017,-,1:1
+369,534532,LYPSAGEMS,Lypsa Gems & Jewellery Ltd,12 Jul 2017,Bonus issue 2:5,13 Jul 2017,-,-,06 Jul 2017,12 Jul 2017,-,2:5
+370,500547,BPCL,Bharat Petroleum Corporation Ltd,13 Jul 2017,Bonus issue 1:2,15 Jul 2017,-,-,10 Jul 2017,13 Jul 2017,-,1:2
+371,532210,CUB,City Union Bank Ltd,13 Jul 2017,Bonus issue 1:10,15 Jul 2017,-,-,10 Jul 2017,13 Jul 2017,-,1:10
+372,533761,GPTINFRA,GPT Infraprojects Ltd,13 Jul 2017,Bonus issue 1:1,-,15 Jul 2017,17 Jul 2017,10 Jul 2017,13 Jul 2017,-,1:1
+373,500510,LT,Larsen & Toubro Ltd,13 Jul 2017,Bonus issue 1:2,14 Jul 2017,-,-,07 Jul 2017,13 Jul 2017,-,1:2
+374,524330,JAYAGROGN,Jayant Agro Organics Ltd,01 Aug 2017,Bonus issue 1:1,02 Aug 2017,-,-,26 Jul 2017,01 Aug 2017,-,1:1
+375,537820,VIJIFIN,Viji Finance Ltd,04 Aug 2017,Bonus issue 1:10,07 Aug 2017,-,-,31 Jul 2017,04 Aug 2017,-,1:10
+376,538734,CEINSYSTECH,Ceinsys Tech Ltd,10 Aug 2017,Bonus issue 1:10,11 Aug 2017,-,-,04 Aug 2017,10 Aug 2017,-,1:10
+377,539090,RAJPUTANA,Rajputana Investment and Finance Ltd,28 Aug 2017,Bonus issue 9:5,29 Aug 2017,-,-,21 Aug 2017,28 Aug 2017,-,9:5
+378,539275,MSL,Mangalam Seeds Ltd,30 Aug 2017,Bonus issue 1:1,31 Aug 2017,-,-,23 Aug 2017,30 Aug 2017,-,1:1
+379,500325,RELIANCE,Reliance Industries Ltd,07 Sep 2017,Bonus issue 1:1,09 Sep 2017,-,-,04 Sep 2017,07 Sep 2017,-,1:1
+380,500408,TATAELXSI,Tata Elxsi Ltd,18 Sep 2017,Bonus issue 1:1,19 Sep 2017,-,-,12 Sep 2017,18 Sep 2017,-,1:1
+381,539227,LOYAL,Loyal Equipments Ltd,27 Sep 2017,Bonus issue 1:2,28 Sep 2017,-,-,21 Sep 2017,27 Sep 2017,-,1:2
+382,539207,MANPASAND,Manpasand Beverages Ltd,27 Sep 2017,Bonus issue 1:1,28 Sep 2017,-,-,21 Sep 2017,27 Sep 2017,-,1:1
+383,533286,MOIL,Moil Ltd,27 Sep 2017,Bonus issue 1:1,28 Sep 2017,-,-,21 Sep 2017,27 Sep 2017,-,1:1
+384,500049,BEL,Bharat Electronics Ltd,28 Sep 2017,Bonus issue 1:10,29 Sep 2017,-,-,22 Sep 2017,28 Sep 2017,-,1:10
+385,500493,BHARATFORG,Bharat Forge Ltd,28 Sep 2017,Bonus issue 1:1,30 Sep 2017,-,-,25 Sep 2017,28 Sep 2017,-,1:1
+386,500103,BHEL,Bharat Heavy Electricals Ltd,28 Sep 2017,Bonus issue 1:2,30 Sep 2017,-,-,25 Sep 2017,28 Sep 2017,-,1:2
+387,524820,PANAMAPET,Panama Petrochem Ltd,03 Oct 2017,Bonus issue 1:2,04 Oct 2017,-,-,26 Sep 2017,03 Oct 2017,-,1:2
+388,513097,SBCL,Shivalik Bimetal Controls Ltd,05 Oct 2017,Bonus issue 1:1,06 Oct 2017,-,-,28 Sep 2017,05 Oct 2017,-,1:1
+389,539229,MRSS,Majestic Research Services and Solutions Ltd,10 Oct 2017,Bonus issue 1:1,11 Oct 2017,-,-,04 Oct 2017,10 Oct 2017,-,1:1
+390,511463,ALEXANDER,Alexander Stamps And Coin Ltd,11 Oct 2017,Bonus issue 1:5,12 Oct 2017,-,-,05 Oct 2017,11 Oct 2017,-,1:5
+391,539997,KPL,Kwality Pharmaceuticals Ltd,11 Oct 2017,Bonus issue 1:1,12 Oct 2017,-,-,09 Oct 2017,11 Oct 2017,-,1:1
+392,530201,KALLAM,Kallam Textiles Ltd-$,12 Oct 2017,Bonus issue 1:4,13 Oct 2017,-,-,06 Oct 2017,12 Oct 2017,-,1:4
+393,538987,TALBROSENG,Talbros Engineering Ltd,12 Oct 2017,Bonus issue 1:1,14 Oct 2017,-,-,09 Oct 2017,12 Oct 2017,-,1:1
+394,512277,AUTOINT,Autoriders International Ltd,19 Oct 2017,Bonus issue 1:1,31 Oct 2017,-,-,19 Oct 2017,03 Nov 2017,-,1:1
+395,531591,BAMPSL,Bampsl Securities Ltd,26 Oct 2017,Bonus issue 3:20,27 Oct 2017,-,-,18 Oct 2017,26 Oct 2017,-,3:20
+396,539151,ARFIN,Arfin India Ltd,01 Nov 2017,Bonus issue 2:1,02 Nov 2017,-,-,26 Oct 2017,01 Nov 2017,-,2:1
+397,539228,GGPL,Gala Global Products Ltd,10 Nov 2017,Bonus issue 1:20,13 Nov 2017,-,-,06 Nov 2017,10 Nov 2017,-,1:20
+398,535910,MMLF,Money Masters Leasing & Finance Ltd,13 Nov 2017,Bonus issue 1:4,14 Nov 2017,-,-,07 Nov 2017,13 Nov 2017,-,1:4
+399,539363,SKC,Sri Krishna Constructions (India) Ltd,06 Dec 2017,Bonus issue 1:10,07 Dec 2017,-,-,29 Nov 2017,06 Dec 2017,-,1:10
+400,502355,BALKRISIND,Balkrishna Industries Ltd-$,21 Dec 2017,Bonus issue 1:1,23 Dec 2017,-,-,18 Dec 2017,21 Dec 2017,-,1:1
+401,500870,CASTROLIND,Castrol India Ltd,21 Dec 2017,Bonus issue 1:1,23 Dec 2017,-,-,18 Dec 2017,21 Dec 2017,-,1:1
+402,500520,M&M,Mahindra & Mahindra Ltd,21 Dec 2017,Bonus issue 1:1,23 Dec 2017,-,-,18 Dec 2017,21 Dec 2017,-,1:1
+403,511431,VAKRANGEE,Vakrangee Ltd-$,21 Dec 2017,Bonus issue 1:1,23 Dec 2017,-,-,18 Dec 2017,21 Dec 2017,-,1:1
+404,539841,LANCER,Lancer Container Lines Ltd,03 Jan 2018,Bonus issue 3:5,04 Jan 2018,-,-,28 Dec 2017,03 Jan 2018,-,3:5
+405,533321,BILENERGY,Bil Energy Systems Ltd,11 Jan 2018,Bonus issue 1:1,13 Jan 2018,-,-,08 Jan 2018,11 Jan 2018,-,1:1
+406,536128,VKJINFRA,VKJ Infradevelopers Ltd,11 Jan 2018,Bonus issue 1:3,13 Jan 2018,-,-,08 Jan 2018,11 Jan 2018,-,1:3
+407,507910,FIBERWEB,Fiberweb India Ltd,17 Jan 2018,Bonus issue 1:1,18 Jan 2018,-,-,11 Jan 2018,17 Jan 2018,-,1:1
+408,533090,EXCEL,Excel Realty N Infra Ltd,23 Jan 2018,Bonus issue 2:1,24 Jan 2018,-,-,17 Jan 2018,23 Jan 2018,-,2:1
+409,512493,GARNETINT,Garnet International Ltd,06 Mar 2018,Bonus issue 2:1,07 Mar 2018,-,-,27 Feb 2018,06 Mar 2018,-,2:1
+410,539939,YASHCHEM,Yash Chemex Ltd,14 Mar 2018,Bonus issue 3:2,15 Mar 2018,-,-,08 Mar 2018,14 Mar 2018,-,3:2
+411,530965,IOC,Indian Oil Corporation Ltd,15 Mar 2018,Bonus issue 1:1,17 Mar 2018,-,-,12 Mar 2018,15 Mar 2018,-,1:1
+412,526947,LAOPALA,La Opala RG Ltd,22 Mar 2018,Bonus issue 1:1,23 Mar 2018,-,-,16 Mar 2018,22 Mar 2018,-,1:1
+413,502445,CITADEL,Citadel Realty and Developers Ltd,26 Mar 2018,Bonus issue 1:1,27 Mar 2018,-,-,20 Mar 2018,26 Mar 2018,-,1:1
+414,532155,GAIL,Gail (India) Ltd,27 Mar 2018,Bonus issue 1:3,29 Mar 2018,-,-,22 Mar 2018,27 Mar 2018,-,1:3
+415,519602,KELLTONTEC,Kellton Tech Solutions Ltd,27 Mar 2018,Bonus issue 1:1,29 Mar 2018,-,-,22 Mar 2018,27 Mar 2018,-,1:1
+416,533106,OIL,Oil India Ltd,27 Mar 2018,Bonus issue 1:2,29 Mar 2018,-,-,22 Mar 2018,27 Mar 2018,-,1:2
+417,538731,HANMAN,Hanman Fit Ltd,10 Apr 2018,Bonus issue 1:20,11 Apr 2018,-,-,04 Apr 2018,10 Apr 2018,-,1:20
+418,539148,SHIVALIK,Shivalik Rasayan Ltd,19 Apr 2018,Bonus issue 1:4,20 Apr 2018,-,-,13 Apr 2018,19 Apr 2018,-,1:4
+419,539620,KEIL,Kanoria Energy & Infrastructure Ltd,20 Apr 2018,Bonus issue 1:1,23 Apr 2018,-,-,16 Apr 2018,20 Apr 2018,-,1:1
+420,539686,KPEL,K.P. Energy Ltd,26 Apr 2018,Bonus issue 3:10,01 May 2018,-,-,24 Apr 2018,26 Apr 2018,-,3:10
+421,539428,TEJNAKSH,Tejnaksh Healthcare Ltd,26 Apr 2018,Bonus issue 36:10,28 Apr 2018,-,-,23 Apr 2018,25 Apr 2018,-,36:10
+422,513377,MMTC,MMTC Ltd,03 May 2018,Bonus issue 1:2,04 May 2018,-,-,25 Apr 2018,03 May 2018,-,1:2
+423,539837,RPEL,Raghav Productivity Enhancers Ltd,08 May 2018,Bonus issue 2:5,09 May 2018,-,-,02 May 2018,08 May 2018,-,2:5
+424,539228,GGPL,Gala Global Products Ltd,10 May 2018,Bonus issue 1:20,12 May 2018,-,-,07 May 2018,10 May 2018,-,1:20
+425,522014,UNIDT,United Drilling Tools Ltd,10 May 2018,Bonus issue 1:1,12 May 2018,-,-,07 May 2018,10 May 2018,-,1:1
+426,507488,GMBREW,GM Breweries Ltd,21 May 2018,Bonus issue 1:4,22 May 2018,-,-,15 May 2018,21 May 2018,-,1:4
+427,501831,COASTCORP,Coastal Corporation Ltd,23 May 2018,Bonus issue 3:1,24 May 2018,-,-,17 May 2018,23 May 2018,-,3:1
+428,532540,TCS,Tata Consultancy Services Ltd,31 May 2018,Bonus issue 1:1,02 Jun 2018,-,-,28 May 2018,31 May 2018,-,1:1
+429,500250,LGBBROSLTD,LG Balakrishnan & Bros Ltd,14 Jun 2018,Bonus issue 1:1,16 Jun 2018,-,-,11 Jun 2018,14 Jun 2018,-,1:1
+430,532410,TRANSCOR,Transcorp International Ltd,19 Jun 2018,Bonus issue 1:4,20 Jun 2018,-,-,13 Jun 2018,19 Jun 2018,-,1:4
+431,500135,EPL,EPL Ltd,20 Jun 2018,Bonus issue 1:1,21 Jun 2018,-,-,14 Jun 2018,20 Jun 2018,-,1:1
+432,539798,UMIYA,Umiya Tubes Ltd,20 Jun 2018,Bonus issue 1:3,21 Jun 2018,-,-,14 Jun 2018,20 Jun 2018,-,1:3
+433,531162,EMAMILTD,Emami Ltd-$,21 Jun 2018,Bonus issue 1:1,22 Jun 2018,-,-,15 Jun 2018,21 Jun 2018,-,1:1
+434,533155,JUBLFOOD,Jubilant FoodWorks Ltd,21 Jun 2018,Bonus issue 1:1,23 Jun 2018,-,-,18 Jun 2018,21 Jun 2018,-,1:1
+435,524735,HIKAL,Hikal Ltd,22 Jun 2018,Bonus issue 1:2,25 Jun 2018,-,-,18 Jun 2018,22 Jun 2018,-,1:2
+436,512573,AVANTIFEED,Avanti Feeds Ltd-$,26 Jun 2018,Bonus issue 1:2,27 Jun 2018,-,-,20 Jun 2018,26 Jun 2018,-,1:2
+437,540769,NIACL,The New India Assurance Company Ltd,27 Jun 2018,Bonus issue 1:1,28 Jun 2018,-,-,21 Jun 2018,27 Jun 2018,-,1:1
+438,532926,JYOTHYLAB,Jyothy Labs Ltd,28 Jun 2018,Bonus issue 1:1,30 Jun 2018,-,-,25 Jun 2018,28 Jun 2018,-,1:1
+439,540027,PTIL,Prabhat Technologies (India) Ltd,28 Jun 2018,Bonus issue 1:5,30 Jun 2018,-,-,25 Jun 2018,28 Jun 2018,-,1:5
+440,539217,SRESTHA,Srestha Finvest Ltd,06 Jul 2018,Bonus issue 1:10,09 Jul 2018,-,-,02 Jul 2018,06 Jul 2018,-,1:10
+441,532210,CUB,City Union Bank Ltd,10 Jul 2018,Bonus issue 1:10,11 Jul 2018,-,-,04 Jul 2018,10 Jul 2018,-,1:10
+442,532539,UNOMINDA,UNO Minda Ltd-$,11 Jul 2018,Bonus issue 2:1,12 Jul 2018,-,-,05 Jul 2018,11 Jul 2018,-,2:1
+443,533271,ASHOKA,Ashoka Buildcon Ltd,12 Jul 2018,Bonus issue 1:2,13 Jul 2018,-,-,06 Jul 2018,12 Jul 2018,-,1:2
+444,540755,GICRE,General Insurance Corporation of India,12 Jul 2018,Bonus issue 1:1,14 Jul 2018,-,-,09 Jul 2018,12 Jul 2018,-,1:1
+445,522241,MMFL,MM Forgings Ltd-$,18 Jul 2018,Bonus issue 1:1,19 Jul 2018,-,-,12 Jul 2018,18 Jul 2018,-,1:1
+446,502219,BORORENEW,Borosil Renewables Ltd,02 Aug 2018,Bonus issue 3:1,03 Aug 2018,-,-,27 Jul 2018,02 Aug 2018,-,3:1
+447,514211,SUMEETINDS,Sumeet Industries Ltd-$,02 Aug 2018,Bonus issue 1:4,04 Aug 2018,-,-,30 Jul 2018,02 Aug 2018,-,1:4
+448,506414,FERMENTA,Fermenta Biotech Ltd,08 Aug 2018,Bonus issue 1:1,09 Aug 2018,-,-,02 Aug 2018,08 Aug 2018,-,1:1
+449,590073,WHEELS,Wheels India Ltd,08 Aug 2018,Bonus issue 1:1,09 Aug 2018,-,-,02 Aug 2018,08 Aug 2018,-,1:1
+450,590003,KARURVYSYA,Karur Vysya Bank Ltd,14 Aug 2018,Bonus issue 1:10,18 Aug 2018,-,-,10 Aug 2018,14 Aug 2018,-,1:10
+451,526817,CHEVIOT,Cheviot Company Ltd-$,29 Aug 2018,Bonus issue 1:2,30 Aug 2018,-,-,23 Aug 2018,29 Aug 2018,-,1:2
+452,500209,INFY,Infosys Ltd,04 Sep 2018,Bonus issue 1:1,05 Sep 2018,-,-,29 Aug 2018,04 Sep 2018,-,1:1
+453,500660,GLAXO,GlaxoSmithKline Pharmaceuticals Ltd,11 Sep 2018,Bonus issue 1:1,13 Sep 2018,-,-,06 Sep 2018,11 Sep 2018,-,1:1
+454,532424,GODREJCP,Godrej Consumer Products Ltd,12 Sep 2018,Bonus issue 1:2,14 Sep 2018,-,-,06 Sep 2018,12 Sep 2018,-,1:2
+455,522108,YUKEN,Yuken India Ltd-$,12 Sep 2018,Bonus issue 3:1,14 Sep 2018,-,-,06 Sep 2018,12 Sep 2018,-,3:1
+456,538794,JETSOLAR,Jet Solar Ltd,14 Sep 2018,Bonus issue 1:1,17 Sep 2018,-,-,07 Sep 2018,14 Sep 2018,-,1:1
+457,540615,7NR,7NR Retail Ltd,17 Sep 2018,Bonus issue 1:2,18 Sep 2018,-,-,10 Sep 2018,17 Sep 2018,-,1:2
+458,540730,MEHAI,Mehai Technology Ltd,18 Sep 2018,Bonus issue 1:1,19 Sep 2018,-,-,11 Sep 2018,18 Sep 2018,-,1:1
+459,539884,DARSHANORNA,Darshan Orna Ltd,19 Sep 2018,Bonus issue 11:10,21 Sep 2018,-,-,12 Sep 2018,19 Sep 2018,-,11:10
+460,511463,ALEXANDER,Alexander Stamps And Coin Ltd,27 Sep 2018,Bonus issue 1:5,28 Sep 2018,-,-,21 Sep 2018,27 Sep 2018,-,1:5
+461,517380,IGARASHI,Igarashi Motors India Ltd,27 Sep 2018,Bonus issue 0:0,28 Sep 2018,-,-,21 Sep 2018,27 Sep 2018,-,0:0
+462,539098,FILTRA,Filtra Consultants and Engineers Ltd,04 Oct 2018,Bonus issue 1:5,06 Oct 2018,-,-,28 Sep 2018,04 Oct 2018,-,1:5
+463,539963,ZEAL,Zeal Aqua Ltd,04 Oct 2018,Bonus issue 2:1,05 Oct 2018,-,-,27 Sep 2018,04 Oct 2018,-,2:1
+464,541400,ZIMLAB,Zim Laboratories Ltd,04 Oct 2018,Bonus issue 1:1,06 Oct 2018,-,-,01 Oct 2018,04 Oct 2018,-,1:1
+465,539546,AGRIBIO,Agribio Spirits Ltd,08 Oct 2018,Bonus issue 1:1,09 Oct 2018,-,-,01 Oct 2018,08 Oct 2018,-,1:1
+466,540956,BHATIA,Bhatia Communications & Retail (India) Ltd,08 Oct 2018,Bonus issue 1:1,09 Oct 2018,-,-,01 Oct 2018,08 Oct 2018,-,1:1
+467,538891,MCLOUD,Magellanic Cloud Ltd,09 Oct 2018,Bonus issue 4:1,10 Oct 2018,-,-,03 Oct 2018,09 Oct 2018,-,4:1
+468,526519,ALPINEHOU,Alpine Housing Development Corporation Ltd,11 Oct 2018,Bonus issue 1:3,12 Oct 2018,-,-,05 Oct 2018,11 Oct 2018,-,1:3
+469,530843,CUPID,Cupid Ltd-$,11 Oct 2018,Bonus issue 1:5,12 Oct 2018,-,-,05 Oct 2018,11 Oct 2018,-,1:5
+470,539526,SCTL,Suncare Traders Ltd,11 Oct 2018,Bonus issue 1:1,12 Oct 2018,-,-,05 Oct 2018,11 Oct 2018,-,1:1
+471,530697,ZENLABS,Zenlabs Ethica Ltd,11 Oct 2018,Bonus issue 1:20,13 Oct 2018,-,-,08 Oct 2018,11 Oct 2018,-,1:20
+472,540147,SHASHIJIT,Shashijit Infraprojects Ltd,12 Oct 2018,Bonus issue 1:5,15 Oct 2018,-,-,08 Oct 2018,12 Oct 2018,-,1:5
+473,512341,CESL,CES Ltd,22 Oct 2018,Bonus issue 27:1,23 Oct 2018,-,-,15 Oct 2018,22 Oct 2018,-,27:1
+474,531471,DUKEOFS,Duke Offshore Ltd,26 Oct 2018,Bonus issue 1:1,29 Oct 2018,-,-,25 Oct 2018,26 Oct 2018,-,1:1
+475,517334,MOTHERSON,Samvardhana Motherson International Ltd,30 Oct 2018,Bonus issue 1:2,31 Oct 2018,-,-,24 Oct 2018,30 Oct 2018,-,1:2
+476,539151,ARFIN,Arfin India Ltd,13 Nov 2018,Bonus issue 1:5,14 Nov 2018,-,-,05 Nov 2018,13 Nov 2018,-,1:5
+477,539225,JIYAECO,Jiya Eco-Products Ltd,19 Nov 2018,Bonus issue 1:1,21 Nov 2018,-,-,14 Nov 2018,19 Nov 2018,-,1:1
+478,500078,OAL,Oriental Aromatics Ltd-$,13 Dec 2018,Bonus issue 1:1,14 Dec 2018,-,-,07 Dec 2018,13 Dec 2018,-,1:1
+479,540590,RIDDHICORP,Riddhi Corporate Services Ltd,21 Jan 2019,Bonus issue 25:10,22 Jan 2019,-,-,15 Jan 2019,21 Jan 2019,-,25:10
+480,531344,CONCOR,Container Corporation of India Ltd,04 Feb 2019,Bonus issue 1:4,05 Feb 2019,-,-,29 Jan 2019,04 Feb 2019,-,1:4
+481,513713,WHITEORG,White Organic Agro Ltd,06 Feb 2019,Bonus issue 1:1,07 Feb 2019,-,-,31 Jan 2019,06 Feb 2019,-,1:1
+482,540954,IWP,The Indian Wood Products Company Ltd,15 Feb 2019,Bonus issue 1:1,19 Feb 2019,-,-,12 Feb 2019,15 Feb 2019,-,1:1
+483,540401,MAXIMUS,Maximus International Ltd,26 Feb 2019,Bonus issue 1:1,27 Feb 2019,-,-,20 Feb 2019,26 Feb 2019,-,1:1
+484,539398,VISHALBL,Vishal Bearings Ltd,28 Feb 2019,Bonus issue 4:5,04 Mar 2019,-,-,25 Feb 2019,28 Feb 2019,-,4:5
+485,507685,WIPRO,Wipro Ltd,06 Mar 2019,Bonus issue 1:3,07 Mar 2019,-,-,27 Feb 2019,06 Mar 2019,-,1:3
+486,532555,NTPC,NTPC Ltd,19 Mar 2019,Bonus issue 1:5,20 Mar 2019,-,-,13 Mar 2019,19 Mar 2019,-,1:5
+487,524542,SUKHJITS,Sukhjit Starch & Chemicals Ltd-$,27 Mar 2019,Bonus issue 1:1,28 Mar 2019,-,-,20 Mar 2019,27 Mar 2019,-,1:1
+488,541083,INFLAME,Inflame Appliances Ltd,28 Mar 2019,Bonus issue 1:2,30 Mar 2019,-,-,25 Mar 2019,27 Mar 2019,-,1:2
+489,539872,BAJAJHCARE,Bajaj Healthcare Ltd,09 Apr 2019,Bonus issue 1:1,10 Apr 2019,-,-,03 Apr 2019,09 Apr 2019,-,1:1
+490,541304,INDOUS,Indo Us Bio-Tech Ltd,23 Apr 2019,Bonus issue 1:4,24 Apr 2019,-,-,15 Apr 2019,23 Apr 2019,-,1:4
+491,507552,FOODSIN,Foods & Inns Ltd,30 Apr 2019,Bonus issue 2:1,02 May 2019,-,-,23 Apr 2019,30 Apr 2019,-,2:1
+492,512399,SERA,Sera Investments & Finance India Ltd,14 May 2019,Bonus issue 3:2,15 May 2019,-,-,08 May 2019,14 May 2019,-,3:2
+493,517506,TTKPRESTIG,TTK Prestige Ltd,15 May 2019,Bonus issue 1:5,16 May 2019,-,-,09 May 2019,15 May 2019,-,1:5
+494,540823,VITESSE,Vitesse Agro Ltd,30 May 2019,Bonus issue 1:1,31 May 2019,-,-,24 May 2019,30 May 2019,-,1:1
+495,539268,SYNGENE,Syngene International Ltd,11 Jun 2019,Bonus issue 1:1,12 Jun 2019,-,-,04 Jun 2019,11 Jun 2019,-,1:1
+496,532523,BIOCON,Biocon Ltd,12 Jun 2019,Bonus issue 1:1,13 Jun 2019,-,-,06 Jun 2019,12 Jun 2019,-,1:1
+497,542206,NIVAKA,Nivaka Fashions Ltd,24 Jun 2019,Bonus issue 4:5,25 Jun 2019,-,-,18 Jun 2019,24 Jun 2019,-,4:5
+498,530517,RELAXO,Relaxo Footwears Ltd-$,26 Jun 2019,Bonus issue 1:1,27 Jun 2019,-,-,20 Jun 2019,26 Jun 2019,-,1:1
+499,540649,AVADHSUGAR,Avadh Sugar & Energy Ltd,27 Jun 2019,Bonus issue 1:1,30 Jun 2019,-,-,24 Jun 2019,27 Jun 2019,-,1:1
+500,540614,GGENG,G G Engineering Ltd,27 Jun 2019,Bonus issue 2:3,29 Jun 2019,-,-,24 Jun 2019,27 Jun 2019,-,2:3
+501,540650,MAGADSUGAR,Magadh Sugar & Energy Ltd,27 Jun 2019,Bonus issue 4:10,30 Jun 2019,-,-,24 Jun 2019,27 Jun 2019,-,4:10
+502,540405,OCEANIC,Oceanic Foods Ltd,27 Jun 2019,Bonus issue 2:1,28 Jun 2019,-,-,21 Jun 2019,27 Jun 2019,-,2:1
+503,512070,UPL,UPL Ltd,02 Jul 2019,Bonus issue 1:2,03 Jul 2019,-,-,26 Jun 2019,02 Jul 2019,-,1:2
+504,532155,GAIL,Gail (India) Ltd,09 Jul 2019,Bonus issue 1:1,10 Jul 2019,-,-,03 Jul 2019,09 Jul 2019,-,1:1
+505,531688,PRITHVIEXCH,Prithvi Exchange (India) Ltd,11 Jul 2019,Bonus issue 1:2,12 Jul 2019,-,-,05 Jul 2019,11 Jul 2019,-,1:2
+506,530803,BHAGERIA,Bhageria Industries Ltd,17 Jul 2019,Bonus issue 1:1,18 Jul 2019,-,-,11 Jul 2019,17 Jul 2019,-,1:1
+507,540652,CTCL,Captain Technocast Ltd,22 Jul 2019,Bonus issue 1:1,23 Jul 2019,-,-,16 Jul 2019,22 Jul 2019,-,1:1
+508,540180,VBL,Varun Beverages Ltd,25 Jul 2019,Bonus issue 1:2,27 Jul 2019,-,-,22 Jul 2019,25 Jul 2019,-,1:2
+509,541556,RITES,RITES Ltd,08 Aug 2019,Bonus issue 1:4,11 Aug 2019,-,-,05 Aug 2019,08 Aug 2019,-,1:4
+510,501430,BOMBCYC,Bombay Cycle & Motor Agency Ltd,13 Aug 2019,Bonus issue 1:1,14 Aug 2019,-,-,06 Aug 2019,13 Aug 2019,-,1:1
+511,530643,ECORECO,Eco Recycling Ltd,22 Aug 2019,Bonus issue 1:10,23 Aug 2019,-,-,16 Aug 2019,22 Aug 2019,-,1:10
+512,532051,SWELECTES,Swelect Energy Systems Ltd-$,22 Aug 2019,Bonus issue 1:2,23 Aug 2019,-,-,16 Aug 2019,22 Aug 2019,-,1:2
+513,532929,BRIGADE,Brigade Enterprises Ltd,28 Aug 2019,Bonus issue 1:2,29 Aug 2019,-,-,22 Aug 2019,28 Aug 2019,-,1:2
+514,517522,RAJRATAN,Rajratan Global Wire Ltd,11 Sep 2019,Bonus issue 4:3,12 Sep 2019,-,-,04 Sep 2019,11 Sep 2019,-,4:3
+515,532830,ASTRAL,Astral Ltd,16 Sep 2019,Bonus issue 1:4,17 Sep 2019,-,-,09 Sep 2019,16 Sep 2019,-,1:4
+516,537092,MODEX,Modex International Securities Ltd,26 Sep 2019,Bonus issue 1:1,-,28 Sep 2019,30 Sep 2019,23 Sep 2019,26 Sep 2019,-,1:1
+517,541701,SUPERSHAKT,Supershakti Metaliks Ltd,26 Sep 2019,Bonus issue 1:1,28 Sep 2019,-,-,23 Sep 2019,26 Sep 2019,-,1:1
+518,524208,AARTIIND,Aarti Industries Ltd,27 Sep 2019,Bonus issue 1:1,30 Sep 2019,-,-,23 Sep 2019,27 Sep 2019,-,1:1
+519,531412,RADIXIND,Radix Industries (India) Ltd,30 Sep 2019,Bonus issue 1:2,01 Oct 2019,-,-,24 Sep 2019,30 Sep 2019,-,1:2
+520,540545,BGJL,Bhakti Gems and Jewellery Ltd,04 Oct 2019,-,07 Oct 2019,-,-,27 Sep 2019,04 Oct 2019,-,
+521,542446,JONJUA,Jonjua Overseas Ltd,10 Oct 2019,Bonus issue 1:25,11 Oct 2019,-,-,03 Oct 2019,10 Oct 2019,-,1:25
+522,540738,STL,Shreeji Translogistics Ltd,14 Oct 2019,Bonus issue 2:1,15 Oct 2019,-,-,07 Oct 2019,14 Oct 2019,-,2:1
+523,590065,IMPAL,India Motor Parts & Accessories Ltd,25 Oct 2019,Bonus issue 1:2,29 Oct 2019,-,-,22 Oct 2019,27 Oct 2019,-,1:2
+524,538446,MONEYBOXX,Moneyboxx Finance Ltd,21 Nov 2019,Bonus issue 1:10,23 Nov 2019,-,-,18 Nov 2019,21 Nov 2019,-,1:10
+525,532281,HCLTECH,HCL Technologies Ltd,05 Dec 2019,Bonus issue 1:1,07 Dec 2019,-,-,02 Dec 2019,05 Dec 2019,-,1:1
+526,542285,AXITA,Axita Cotton Ltd,26 Dec 2019,Bonus issue 1:1,27 Dec 2019,-,-,19 Dec 2019,26 Dec 2019,-,1:1
+527,523319,BALMLAWRIE,Balmer Lawrie & Company Ltd,26 Dec 2019,Bonus issue 1:2,28 Dec 2019,-,-,20 Dec 2019,26 Dec 2019,-,1:2
+528,540727,POOJA,Poojawestern Metaliks Ltd,02 Jan 2020,Bonus issue 1:1,04 Jan 2020,-,-,30 Dec 2019,02 Jan 2020,-,1:1
+529,539026,SSPNFIN,SSPN Finance Ltd,16 Jan 2020,Bonus issue 1:1,17 Jan 2020,-,-,10 Jan 2020,16 Jan 2020,-,1:1
+530,540078,MITSU,Mitsu Chem Plast Ltd,28 Jan 2020,Bonus issue 2:1,29 Jan 2020,-,-,22 Jan 2020,28 Jan 2020,-,2:1
+531,540953,KENVI,Kenvi Jewels Ltd,29 Jan 2020,Bonus issue 11:10,30 Jan 2020,-,-,23 Jan 2020,29 Jan 2020,-,11:10
+532,540519,MEERA,Meera Industries Ltd,06 Feb 2020,Bonus issue 7:5,08 Feb 2020,-,-,03 Feb 2020,06 Feb 2020,-,7:5
+533,506414,FERMENTA,Fermenta Biotech Ltd,13 Feb 2020,Bonus issue 2:1,14 Feb 2020,-,-,07 Feb 2020,13 Feb 2020,-,2:1
+534,539526,SCTL,Suncare Traders Ltd,06 Mar 2020,Bonus issue 2:1,09 Mar 2020,-,-,02 Mar 2020,06 Mar 2020,-,2:1
+535,540366,RADIOCITY,Music Broadcast Ltd,12 Mar 2020,Bonus issue 1:4,13 Mar 2020,-,-,05 Mar 2020,12 Mar 2020,-,1:4
+536,532652,KTKBANK,Karnataka Bank Ltd,17 Mar 2020,Bonus issue 1:10,18 Mar 2020,-,-,11 Mar 2020,17 Mar 2020,-,1:10
+537,541444,PALMJEWELS,Palm Jewels Ltd,26 Mar 2020,Bonus issue 36:10,27 Mar 2020,-,-,19 Mar 2020,26 Mar 2020,-,36:10
+538,539216,GARMNTMNTR,Garment Mantra Lifestyle Ltd,30 Mar 2020,Bonus issue 1:2,01 Apr 2020,-,-,24 Mar 2020,30 Mar 2020,-,1:2
+539,540252,VSL,Veeram Securities Ltd,13 Apr 2020,Bonus issue 13:10,15 Apr 2020,-,-,03 Apr 2020,13 Apr 2020,-,13:10
+540,540108,TIAANC,Tiaan Consumer Ltd,02 Jul 2020,Bonus issue 1:4,03 Jul 2020,-,-,26 Jun 2020,02 Jul 2020,-,1:4
+541,541865,ASRL,Add-Shop ERetail Ltd,22 Jul 2020,Bonus issue 3:4,23 Jul 2020,-,-,16 Jul 2020,22 Jul 2020,-,3:4
+542,542667,WORL,White Organic Retail Ltd,28 Jul 2020,Bonus issue 1:1,29 Jul 2020,-,-,22 Jul 2020,28 Jul 2020,-,1:1
+543,542446,JONJUA,Jonjua Overseas Ltd,30 Jul 2020,Bonus issue 1:43,31 Jul 2020,-,-,24 Jul 2020,30 Jul 2020,-,1:43
+544,539894,MADHAVIPL,Madhav Infra Projects Ltd,06 Aug 2020,Bonus issue 3:1,07 Aug 2020,-,-,31 Jul 2020,06 Aug 2020,-,3:1
+545,540726,TTFL,Trident Texofab Ltd,11 Aug 2020,Bonus issue 14:10,12 Aug 2020,-,-,05 Aug 2020,11 Aug 2020,-,14:10
+546,539354,POLYSPIN,Polyspin Exports Ltd,07 Sep 2020,Bonus issue 1:4,08 Sep 2020,-,-,02 Sep 2020,07 Sep 2020,-,1:4
+547,540936,GGL,Gautam Gems Ltd,11 Sep 2020,Bonus issue 5:6,14 Sep 2020,-,-,07 Sep 2020,11 Sep 2020,-,5:6
+548,506642,SADHNANIQ,Sadhana Nitro Chem Ltd,17 Sep 2020,Bonus issue 1:2,18 Sep 2020,-,-,15 Sep 2020,17 Sep 2020,-,1:2
+549,506260,ANUHPHR,Anuh Pharma Ltd,18 Sep 2020,Bonus issue 1:1,21 Sep 2020,-,-,14 Sep 2020,18 Sep 2020,-,1:1
+550,522074,ELGIEQUIP,Elgi Equipments Ltd,24 Sep 2020,Bonus issue 1:1,26 Sep 2020,-,-,23 Sep 2020,24 Sep 2020,-,1:1
+551,543064,SUVENPHAR,Suven Pharmaceuticals Ltd,25 Sep 2020,Bonus issue 1:1,28 Sep 2020,-,-,21 Sep 2020,25 Sep 2020,-,1:1
+552,524348,AARTIDRUGS,Aarti Drugs Ltd,30 Sep 2020,Bonus issue 3:1,01 Oct 2020,-,-,24 Sep 2020,30 Sep 2020,-,3:1
+553,540737,SGRL,Shree Ganesh Remedies Ltd,06 Oct 2020,Bonus issue 3:26,07 Oct 2020,-,-,29 Sep 2020,06 Oct 2020,-,3:26
+554,539788,KDML,Khemani Distributors & Marketing Ltd,07 Oct 2020,Bonus issue 1:1,08 Oct 2020,-,-,30 Sep 2020,07 Oct 2020,-,1:1
+555,542034,SMGOLD,S. M. Gold Ltd,08 Oct 2020,Bonus issue 1:2,09 Oct 2020,-,-,01 Oct 2020,08 Oct 2020,-,1:2
+556,542046,VIVIDM,Vivid Mercantile Ltd,08 Oct 2020,Bonus issue 26:10,09 Oct 2020,-,-,01 Oct 2020,08 Oct 2020,-,26:10
+557,542019,SHUBHAM,Shubham Polyspin Ltd,09 Oct 2020,Bonus issue 1:1,12 Oct 2020,-,-,05 Oct 2020,09 Oct 2020,-,1:1
+558,540259,SHANGAR,Shangar Decor Ltd,12 Oct 2020,Bonus issue 1:1,13 Oct 2020,-,-,06 Oct 2020,12 Oct 2020,-,1:1
+559,539402,NAKSH,Naksh Precious Metals Ltd,15 Oct 2020,Bonus issue 3:5,17 Oct 2020,-,-,12 Oct 2020,15 Oct 2020,-,3:5
+560,542753,SEACOAST,Seacoast Shipping Services Ltd,03 Nov 2020,Bonus issue 1:2,04 Nov 2020,-,-,27 Oct 2020,03 Nov 2020,-,1:2
+561,539337,WAAREE,Waaree Technologies Ltd,03 Nov 2020,Bonus issue 2:5,04 Nov 2020,-,-,27 Oct 2020,03 Nov 2020,-,2:5
+562,542232,SRD,Shankar Lal Rampal Dye-Chem Ltd,05 Nov 2020,Bonus issue 1:3,07 Nov 2020,-,-,02 Nov 2020,05 Nov 2020,-,1:3
+563,540693,SHISHIND,Shish Industries Ltd,01 Dec 2020,Bonus issue 6:5,02 Dec 2020,-,-,24 Nov 2020,01 Dec 2020,-,6:5
+564,531531,HATSUN,Hatsun Agro Product Ltd,09 Dec 2020,Bonus issue 1:3,10 Dec 2020,-,-,03 Dec 2020,09 Dec 2020,-,1:3
+565,538598,VISHAL,Vishal Fabrics Ltd,16 Dec 2020,Bonus issue 1:2,17 Dec 2020,-,-,11 Dec 2020,16 Dec 2020,-,1:2
+566,540145,VALIANTORG,Valiant Organics Ltd,24 Dec 2020,Bonus issue 1:1,28 Dec 2020,-,-,18 Dec 2020,24 Dec 2020,-,1:1
+567,539883,PILANIINVS,Pilani Investment and Industries Corporation Ltd,31 Dec 2020,Bonus issue 2:5,02 Jan 2021,-,-,28 Dec 2020,31 Dec 2020,-,2:5
+568,532942,KNRCON,KNR Constructions Ltd,03 Feb 2021,Bonus issue 1:1,04 Feb 2021,-,-,28 Jan 2021,03 Feb 2021,-,1:1
+569,526433,ASMTEC,ASM Technologies Ltd,17 Feb 2021,Bonus issue 1:1,19 Feb 2021,-,-,12 Feb 2021,17 Feb 2021,-,1:1
+570,541418,NGIL,Nakoda Group of Industries Ltd,25 Feb 2021,Bonus issue 5:8,26 Feb 2021,-,-,18 Feb 2021,25 Feb 2021,-,5:8
+571,539515,QUINT,Quint Digital Ltd,02 Mar 2021,Bonus issue 1:1,03 Mar 2021,-,-,24 Feb 2021,02 Mar 2021,-,1:1
+572,531869,SACHEMT,Sacheta Metals Ltd,08 Mar 2021,Bonus issue 1:10,09 Mar 2021,-,-,02 Mar 2021,08 Mar 2021,-,1:10
+573,534755,TRIOMERC,Trio Mercantile & Trading Ltd,09 Mar 2021,Bonus issue 1:6,10 Mar 2021,-,-,03 Mar 2021,09 Mar 2021,-,1:6
+574,540686,SMRUTHIORG,Smruthi Organics Ltd,16 Mar 2021,Bonus issue 2:1,17 Mar 2021,-,-,09 Mar 2021,16 Mar 2021,-,2:1
+575,532830,ASTRAL,Astral Ltd,18 Mar 2021,Bonus issue 1:3,19 Mar 2021,-,-,12 Mar 2021,18 Mar 2021,-,1:3
+576,539807,INFIBEAM,Infibeam Avenues Ltd,18 Mar 2021,Bonus issue 1:1,20 Mar 2021,-,-,15 Mar 2021,18 Mar 2021,-,1:1
+577,540006,EASTWEST,East West Freight Carriers Ltd,30 Mar 2021,Bonus issue 1:4,31 Mar 2021,-,-,23 Mar 2021,26 Mar 2021,-,1:4
+578,541445,WAA,Waa Solar Ltd,27 Apr 2021,Bonus issue 1:1,28 Apr 2021,-,-,20 Apr 2021,27 Apr 2021,-,1:1
+579,540404,PRIMEFRESH,Prime Fresh Ltd,06 May 2021,Bonus issue 2:1,08 May 2021,-,-,03 May 2021,06 May 2021,-,2:1
+580,541956,IRCON,IRCON International Ltd,20 May 2021,Bonus issue 1:1,21 May 2021,-,-,14 May 2021,20 May 2021,-,1:1
+581,541634,RAWEDGE,Raw Edge Industrial Solutions Ltd,03 Jun 2021,Bonus issue 1:5,04 Jun 2021,-,-,28 May 2021,03 Jun 2021,-,1:5
+582,520066,JAYBARMARU,Jay Bharat Maruti Ltd,07 Jun 2021,Bonus issue 1:1,08 Jun 2021,-,-,01 Jun 2021,07 Jun 2021,-,1:1
+583,540180,VBL,Varun Beverages Ltd,10 Jun 2021,Bonus issue 1:2,12 Jun 2021,-,-,07 Jun 2021,10 Jun 2021,-,1:2
+584,542459,KRANTI,Kranti Industries Ltd,15 Jun 2021,Bonus issue 1:5,16 Jun 2021,-,-,09 Jun 2021,15 Jun 2021,-,1:5
+585,524208,AARTIIND,Aarti Industries Ltd,22 Jun 2021,Bonus issue 1:1,23 Jun 2021,-,-,16 Jun 2021,22 Jun 2021,-,1:1
+586,538546,BRPL,Bansal Roofing Products Ltd,06 Jul 2021,Bonus issue 3:1,07 Jul 2021,-,-,30 Jun 2021,06 Jul 2021,-,3:1
+587,542446,JONJUA,Jonjua Overseas Ltd,08 Jul 2021,Bonus issue 5:37,09 Jul 2021,-,-,02 Jul 2021,08 Jul 2021,-,5:37
+588,540786,SHARIKA,Sharika Enterprises Ltd,08 Jul 2021,Bonus issue 1:1,10 Jul 2021,-,-,05 Jul 2021,08 Jul 2021,-,1:1
+589,540642,SALASAR,Salasar Techno Engineering Ltd,13 Jul 2021,Bonus issue 1:1,14 Jul 2021,-,-,07 Jul 2021,13 Jul 2021,-,1:1
+590,531449,GRMOVER,GRM Overseas Ltd,15 Jul 2021,Bonus issue 2:1,16 Jul 2021,-,-,12 Jul 2021,15 Jul 2021,-,2:1
+591,506642,SADHNANIQ,Sadhana Nitro Chem Ltd,19 Jul 2021,Bonus issue 2:5,21 Jul 2021,-,-,14 Jul 2021,19 Jul 2021,-,2:5
+592,540108,TIAANC,Tiaan Consumer Ltd,20 Jul 2021,Bonus issue 59:10,22 Jul 2021,-,-,14 Jul 2021,20 Jul 2021,-,59:10
+593,590005,VEEDOL,Veedol Corporation Ltd,26 Jul 2021,Bonus issue 1:1,27 Jul 2021,-,-,-,26 Jul 2021,-,1:1
+594,532898,POWERGRID,Power Grid Corporation of India Ltd,29 Jul 2021,Bonus issue 1:3,30 Jul 2021,-,-,23 Jul 2021,29 Jul 2021,-,1:3
+595,532906,MAANALU,Maan Aluminium Ltd,02 Aug 2021,Bonus issue 1:1,03 Aug 2021,-,-,27 Jul 2021,02 Aug 2021,-,1:1
+596,538902,DTIL,Dhunseri Tea & Industries Ltd,05 Aug 2021,Bonus issue 1:2,06 Aug 2021,-,-,30 Jul 2021,05 Aug 2021,-,1:2
+597,542770,ALPHALOGIC,Alphalogic Techsys Ltd,09 Aug 2021,Bonus issue 27:10,10 Aug 2021,-,-,03 Aug 2021,09 Aug 2021,-,27:10
+598,530067,CSLFINANCE,CSL Finance Ltd,09 Aug 2021,Bonus issue 2:1,10 Aug 2021,-,-,03 Aug 2021,09 Aug 2021,-,2:1
+599,542724,MURAE,Murae Organisor Ltd,09 Aug 2021,Bonus issue 1:1,10 Aug 2021,-,-,03 Aug 2021,09 Aug 2021,-,1:1
+600,541161,KBCGLOBAL,KBC Global Ltd,12 Aug 2021,Bonus issue 4:1,13 Aug 2021,-,-,06 Aug 2021,11 Aug 2021,-,4:1
+601,542025,SUNRETAIL,Sun Retail Ltd,13 Aug 2021,Bonus issue 3:5,17 Aug 2021,-,-,10 Aug 2021,16 Aug 2021,-,3:5
+602,542012,A1L,A-1 Ltd,17 Aug 2021,Bonus issue 3:20,19 Aug 2021,-,-,11 Aug 2021,17 Aug 2021,-,3:20
+603,532368,BCG,Brightcom Group Ltd,18 Aug 2021,Bonus issue 1:4,20 Aug 2021,-,-,11 Aug 2021,18 Aug 2021,-,1:4
+604,532805,REDINGTON,Redington Ltd,18 Aug 2021,Bonus issue 1:1,20 Aug 2021,-,-,11 Aug 2021,18 Aug 2021,-,1:1
+605,510245,SWASTIVI,Swasti Vinayaka Synthetics Ltd,23 Aug 2021,Bonus issue 2:7,24 Aug 2021,-,-,13 Aug 2021,23 Aug 2021,-,2:7
+606,540395,CHEMCRUX,Chemcrux Enterprises Ltd,06 Sep 2021,Bonus issue 2:1,07 Sep 2021,-,-,31 Aug 2021,06 Sep 2021,-,2:1
+607,533088,MHRIL,Mahindra Holidays & Resorts India Ltd,08 Sep 2021,Bonus issue 1:2,09 Sep 2021,-,-,02 Sep 2021,08 Sep 2021,-,1:2
+608,532313,MAHLIFE,Mahindra Lifespace Developers Ltd,14 Sep 2021,Bonus issue 2:1,15 Sep 2021,-,-,07 Sep 2021,14 Sep 2021,-,2:1
+609,507779,KANPRPLA,Kanpur Plastipack Ltd,15 Sep 2021,Bonus issue 1:2,16 Sep 2021,-,-,08 Sep 2021,15 Sep 2021,-,1:2
+610,533758,APLAPOLLO,APL Apollo Tubes Ltd,16 Sep 2021,Bonus issue 1:1,18 Sep 2021,-,-,13 Sep 2021,16 Sep 2021,-,1:1
+611,526582,TPLPLASTEH,TPL Plastech Ltd,16 Sep 2021,Bonus issue 1:1,18 Sep 2021,-,-,13 Sep 2021,16 Sep 2021,-,1:1
+612,504028,GEE,GEE Ltd,21 Sep 2021,Bonus issue 1:10,22 Sep 2021,-,-,15 Sep 2021,21 Sep 2021,-,1:10
+613,540694,ANG,ANG Lifesciences India Ltd,22 Sep 2021,Bonus issue 1:1,23 Sep 2021,-,-,16 Sep 2021,22 Sep 2021,-,1:1
+614,539221,SPORTKING,Sportking India Ltd,23 Sep 2021,Bonus issue 3:1,24 Sep 2021,-,-,17 Sep 2021,23 Sep 2021,-,3:1
+615,542802,GALACTICO,Galactico Corporate Services Ltd,27 Sep 2021,Bonus issue 1:1,28 Sep 2021,-,-,21 Sep 2021,27 Sep 2021,-,1:1
+616,542666,GKP,G. K. P. Printing & Packaging Ltd,29 Sep 2021,Bonus issue 1:1,30 Sep 2021,-,-,23 Sep 2021,29 Sep 2021,-,1:1
+617,538610,UNISON,Unison Metals Ltd,07 Oct 2021,Bonus issue 4:1,08 Oct 2021,-,-,01 Oct 2021,07 Oct 2021,-,4:1
+618,542851,GENSOL,Gensol Engineering Ltd,11 Oct 2021,Bonus issue 1:3,12 Oct 2021,-,-,05 Oct 2021,11 Oct 2021,-,1:3
+619,541152,GOYALALUM,Goyal Aluminiums Ltd,13 Oct 2021,Bonus issue 44100     ,14 Oct 2021,-,-,07 Oct 2021,13 Oct 2021,-,44100
+620,539841,LANCER,Lancer Container Lines Ltd,13 Oct 2021,Bonus issue 2:1,14 Oct 2021,-,-,07 Oct 2021,13 Oct 2021,-,2:1
+621,503806,SRF,SRF Ltd,13 Oct 2021,Bonus issue 4:1,14 Oct 2021,-,-,07 Oct 2021,13 Oct 2021,-,4:1
+622,532734,GPIL,Godawari Power and Ispat Ltd,26 Oct 2021,Bonus issue 1:1,27 Oct 2021,-,-,20 Oct 2021,26 Oct 2021,-,1:1
+623,540737,SGRL,Shree Ganesh Remedies Ltd,01 Nov 2021,Bonus issue 1:5,02 Nov 2021,-,-,26 Oct 2021,01 Nov 2021,-,1:5
+624,539314,UNIAUTO,Universal Autofoundry Ltd,11 Nov 2021,Bonus issue 1:4,13 Nov 2021,-,-,08 Nov 2021,11 Nov 2021,-,1:4
+625,540937,MEDICO,Medico Remedies Ltd,16 Nov 2021,Bonus issue 3:1,17 Nov 2021,-,-,11 Nov 2021,16 Nov 2021,-,3:1
+626,533169, MANINFRA,Man Infraconstruction Ltd,17 Nov 2021,Bonus issue 1:2,19 Nov 2021,-,-,12 Nov 2021,17 Nov 2021,-,1:2
+627,542580,AARTECH,Aartech Solonics Ltd,17 Nov 2021,Bonus issue 1:2,19 Nov 2021,-,-,12 Nov 2021,17 Nov 2021,-,1:2
+628,543274,SUUMAYA,Suumaya Corporation Ltd,17 Nov 2021,Bonus issue 2:1,19 Nov 2021,-,-,12 Nov 2021,17 Nov 2021,-,2:1
+629,541304,INDOUS,Indo Us Bio-Tech Ltd,29 Nov 2021,Bonus issue 1:5,30 Nov 2021,-,-,23 Nov 2021,29 Nov 2021,-,1:5
+630,531761,APOLLOPIPE,Apollo Pipes Ltd,02 Dec 2021,Bonus issue 2:1,04 Dec 2021,-,-,29 Nov 2021,02 Dec 2021,-,2:1
+631,530557,NCLRESE,NCL Research & Financial Services Ltd,02 Dec 2021,Bonus issue 1:1,03 Dec 2021,-,-,26 Nov 2021,02 Dec 2021,-,1:1
+632,540750,IEX,Indian Energy Exchange Ltd,03 Dec 2021,Bonus issue 2:1,06 Dec 2021,-,-,29 Nov 2021,03 Dec 2021,-,2:1
+633,531726,PANCHSHEEL,Panchsheel Organics Ltd,06 Dec 2021,Bonus issue 1:1,07 Dec 2021,-,-,30 Nov 2021,06 Dec 2021,-,1:1
+634,532732,KKCL,Kewal Kiran Clothing Ltd,16 Dec 2021,Bonus issue 4:1,17 Dec 2021,-,-,10 Dec 2021,16 Dec 2021,-,4:1
+635,542232,SRD,Shankar Lal Rampal Dye-Chem Ltd,16 Dec 2021,Bonus issue 1:1,17 Dec 2021,-,-,10 Dec 2021,16 Dec 2021,-,1:1
+636,541601,RAJNISH,Rajnish Wellness Ltd,23 Dec 2021,Bonus issue 5:4,24 Dec 2021,-,-,17 Dec 2021,23 Dec 2021,-,5:4
+637,533047,IMFA,Indian Metals & Ferro Alloys Ltd,07 Jan 2022,Bonus issue 1:1,10 Jan 2022,-,-,03 Jan 2022,07 Jan 2022,-,1:1
+638,542285,AXITA,Axita Cotton Ltd,11 Jan 2022,Bonus issue 1:2,12 Jan 2022,-,-,05 Jan 2022,11 Jan 2022,-,1:2
+639,541865,ASRL,Add-Shop ERetail Ltd,14 Jan 2022,Bonus issue 7:10,17 Jan 2022,-,-,10 Jan 2022,14 Jan 2022,-,7:10
+640,531025,VISAGAR,Visagar Financial Services Ltd,20 Jan 2022,Bonus issue 1:2,21 Jan 2022,-,-,14 Jan 2022,20 Jan 2022,-,1:2
+641,542694,PARSHVA,Parshva Enterprises Ltd,03 Feb 2022,Bonus issue 205:100,04 Feb 2022,-,-,28 Jan 2022,03 Feb 2022,-,205:100
+642,512359,SWORDEDGE,Sword-Edge Commercials Ltd,03 Feb 2022,Bonus issue 1:1,04 Feb 2022,-,-,28 Jan 2022,03 Feb 2022,-,1:1
+643,538890,MKEXIM,M.K. Exim (India) Ltd,08 Feb 2022,Bonus issue 2:1,09 Feb 2022,-,-,02 Feb 2022,08 Feb 2022,-,2:1
+644,531328,KRETTOSYS,Kretto Syscon Ltd,10 Feb 2022,Bonus issue 1:10,11 Feb 2022,-,-,04 Feb 2022,10 Feb 2022,-,1:10
+645,530109,ANUPAM,Anupam Finserv Ltd,17 Feb 2022,Bonus issue 1:10,18 Feb 2022,-,-,11 Feb 2022,17 Feb 2022,-,1:10
+646,532859,HGS,Hinduja Global Solutions Ltd,22 Feb 2022,Bonus issue 1:1,23 Feb 2022,-,-,16 Feb 2022,22 Feb 2022,-,1:1
+647,542725,SBC,SBC Exports Ltd,22 Feb 2022,Bonus issue 1:1,23 Feb 2022,-,-,16 Feb 2022,22 Feb 2022,-,1:1
+648,539097,URSUGAR,UR Sugar Industries Ltd,24 Feb 2022,Bonus issue 1:2,26 Feb 2022,-,-,21 Feb 2022,24 Feb 2022,-,1:2
+649,543272,EASEMYTRIP,Easy Trip Planners Ltd,28 Feb 2022,Bonus issue 1:1,02 Mar 2022,-,-,22 Feb 2022,28 Feb 2022,-,1:1
+650,541778,DEEP,Deep Polymers Ltd,08 Mar 2022,Bonus issue 3:4,09 Mar 2022,-,-,02 Mar 2022,08 Mar 2022,-,3:4
+651,539621,BCLENTERPR,BCL Enterprises Ltd,10 Mar 2022,Bonus issue 1:1,11 Mar 2022,-,-,04 Mar 2022,10 Mar 2022,-,1:1
+652,538706,ULTRACAB,Ultracab (India) Ltd,10 Mar 2022,Bonus issue 1:2,12 Mar 2022,-,-,07 Mar 2022,10 Mar 2022,-,1:2
+653,538598,VISHAL,Vishal Fabrics Ltd,10 Mar 2022,Bonus issue 2:1,11 Mar 2022,-,-,04 Mar 2022,10 Mar 2022,-,2:1
+654,539807,INFIBEAM,Infibeam Avenues Ltd,14 Mar 2022,Bonus issue 1:1,15 Mar 2022,-,-,08 Mar 2022,14 Mar 2022,-,1:1
+655,532368,BCG,Brightcom Group Ltd,15 Mar 2022,Bonus issue 2:3,16 Mar 2022,-,-,09 Mar 2022,15 Mar 2022,-,2:3
+656,532372,VIRINCHI,Virinchi Ltd,21 Mar 2022,Bonus issue 1:1,22 Mar 2022,-,-,14 Mar 2022,21 Mar 2022,-,1:1
+657,543193,DJML,DJ Mediaprint & Logistics Ltd,24 Mar 2022,Bonus issue 1:1,25 Mar 2022,-,-,17 Mar 2022,24 Mar 2022,-,1:1
+658,532641,NDL,Nandan Denim Ltd,24 Mar 2022,Bonus issue 2:1,25 Mar 2022,-,-,17 Mar 2022,24 Mar 2022,-,2:1
+659,542918,GIANLIFE,Gian Life Care Ltd,29 Mar 2022,Bonus issue 6:5,30 Mar 2022,-,-,23 Mar 2022,29 Mar 2022,-,6:5
+660,538788,GILADAFINS,Gilada Finance & Investments Ltd,30 Mar 2022,Bonus issue 1:1,31 Mar 2022,-,-,24 Mar 2022,29 Mar 2022,-,1:1
+661,532154,JOHNPHARMA,Johnson Pharmacare Ltd,07 Apr 2022,Bonus issue 1:10,08 Apr 2022,-,-,31 Mar 2022,07 Apr 2022,-,1:10
+662,530627,VIPULORG,Vipul Organics Ltd,07 Apr 2022,Bonus issue 1:4,09 Apr 2022,-,-,04 Apr 2022,07 Apr 2022,-,1:4
+663,542667,WORL,White Organic Retail Ltd,12 Apr 2022,Bonus issue 2:1,14 Apr 2022,-,-,07 Apr 2022,12 Apr 2022,-,2:1
+664,534674,DUCON,Ducon Infratechnologies Ltd,18 Apr 2022,Bonus issue 1:10,19 Apr 2022,-,-,08 Apr 2022,18 Apr 2022,-,1:10
+665,543194,NIRMITEE,Nirmitee Robotics India Ltd,25 Apr 2022,Bonus issue 5:1,26 Apr 2022,-,-,19 Apr 2022,25 Apr 2022,-,5:1
+666,539470,SHREEGANES,Shree Ganesh Biotech (India) Ltd,27 Apr 2022,Bonus issue 1:1,28 Apr 2022,-,-,21 Apr 2022,27 Apr 2022,-,1:1
+667,511557,PROFINC,Pro Fin Capital Services Ltd,28 Apr 2022,Bonus issue 2:1,29 Apr 2022,-,-,22 Apr 2022,28 Apr 2022,-,2:1
+668,530477,VIKRAMTH,Vikram Thermo India Ltd,12 May 2022,Bonus issue 4:1,13 May 2022,-,-,06 May 2022,11 May 2022,-,4:1
+669,540073,BLS,BLS International Services Ltd,13 May 2022,Bonus issue 1:1,17 May 2022,-,-,10 May 2022,16 May 2022,-,1:1
+670,542013,DOLFIN,Dolfin Rubbers Ltd,13 May 2022,Bonus issue 1:3,17 May 2022,-,-,10 May 2022,16 May 2022,-,1:3
+671,532029,SINDHUTRAD,Sindhu Trade Links Ltd,19 May 2022,Bonus issue 2:1,21 May 2022,-,-,13 May 2022,19 May 2022,-,2:1
+672,531893,SAWACA,Sawaca Enterprises Ltd,27 May 2022,Bonus issue 10:100,27 May 2022,-,-,23 May 2022,27 May 2022,-,10:100
+673,539594,MISHTANN ,Mishtann Foods Ltd,02 Jun 2022,Bonus issue 1:1,03 Jun 2022,-,-,27 May 2022,02 Jun 2022,-,1:1
+674,543171,ROJL,RO Jewels Ltd,02 Jun 2022,Bonus issue 82:32,03 Jun 2022,-,-,27 May 2022,02 Jun 2022,-,82:32
+675,539843,NINSYS,NINtec Systems Ltd,06 Jun 2022,Bonus issue 1:2,07 Jun 2022,-,-,31 May 2022,06 Jun 2022,-,1:2
+676,540180,VBL,Varun Beverages Ltd,06 Jun 2022,Bonus issue 1:2,07 Jun 2022,-,-,31 May 2022,06 Jun 2022,-,1:2
+677,540611,AUBANK,AU Small Finance Bank Ltd,09 Jun 2022,Bonus issue 1:1,10 Jun 2022,-,-,03 Jun 2022,09 Jun 2022,-,1:1
+678,508814,COSMOFIRST,Cosmo First Ltd,16 Jun 2022,Bonus issue 1:2,18 Jun 2022,-,-,13 Jun 2022,16 Jun 2022,-,1:2
+679,542802,GALACTICO,Galactico Corporate Services Ltd,16 Jun 2022,Bonus issue 3:10,17 Jun 2022,-,-,10 Jun 2022,16 Jun 2022,-,3:10
+680,531169,SKPSEC,SKP Securities Ltd,16 Jun 2022,Bonus issue 1:1,17 Jun 2022,-,-,10 Jun 2022,16 Jun 2022,-,1:1
+681,532406,AVANTEL,Avantel Ltd,17 Jun 2022,Bonus issue 3:1,20 Jun 2022,-,-,13 Jun 2022,17 Jun 2022,-,3:1
+682,511724,BAIDFIN,Baid Finserv Ltd,20 Jun 2022,Bonus issue 1:1,21 Jun 2022,-,-,14 Jun 2022,20 Jun 2022,-,1:1
+683,532331,AJANTPHARM,Ajanta Pharma Ltd,22 Jun 2022,Bonus issue 1:2,23 Jun 2022,-,-,16 Jun 2022,22 Jun 2022,-,1:2
+684,543280,NAZARA,Nazara Technologies Ltd,24 Jun 2022,Bonus issue 1:1,27 Jun 2022,-,-,20 Jun 2022,24 Jun 2022,-,1:1
+685,530965,IOC,Indian Oil Corporation Ltd,30 Jun 2022,Bonus issue 1:2,01 Jul 2022,-,-,24 Jun 2022,30 Jun 2022,-,1:2
+686,520111,RATNAMANI,Ratnamani Metals & Tubes Ltd-$,30 Jun 2022,Bonus issue 1:2,01 Jul 2022,-,-,24 Jun 2022,30 Jun 2022,-,1:2
+687,512257,SVARTCORP,Swasti Vinayaka Art And Heritage Corporation Ltd,01 Jul 2022,Bonus issue 5:4,04 Jul 2022,-,-,27 Jun 2022,01 Jul 2022,-,5:4
+688,590013,XPROINDIA,Xpro India Ltd,01 Jul 2022,Bonus issue 1:2,04 Jul 2022,-,-,27 Jun 2022,01 Jul 2022,-,1:2
+689,543284,EKI,EKI Energy Services Ltd,04 Jul 2022,Bonus issue 3:1,05 Jul 2022,-,-,30 Jun 2022,04 Jul 2022,-,3:1
+690,532539,UNOMINDA,UNO Minda Ltd-$,07 Jul 2022,Bonus issue 1:1,08 Jul 2022,-,-,01 Jul 2022,07 Jul 2022,-,1:1
+691,500420,TORNTPHARM,Torrent Pharmaceuticals Ltd,08 Jul 2022,Bonus issue 1:1,11 Jul 2022,-,-,04 Jul 2022,08 Jul 2022,-,1:1
+692,505255,GMMPFAUDLR,GMM Pfaudler Ltd,11 Jul 2022,Bonus issue 2:1,12 Jul 2022,-,-,05 Jul 2022,11 Jul 2022,-,2:1
+693,539620,KEIL,Kanoria Energy & Infrastructure Ltd,12 Jul 2022,Bonus issue 1:1,13 Jul 2022,-,-,06 Jul 2022,12 Jul 2022,-,1:1
+694,540694,ANG,ANG Lifesciences India Ltd,13 Jul 2022,Bonus issue 1:4,14 Jul 2022,-,-,07 Jul 2022,13 Jul 2022,-,1:4
+695,531273,RADHEDE,Radhe Developers India Ltd,14 Jul 2022,Bonus issue 1:1,15 Jul 2022,-,-,08 Jul 2022,14 Jul 2022,-,1:1
+696,542232,SRD,Shankar Lal Rampal Dye-Chem Ltd,14 Jul 2022,Bonus issue 2:1,15 Jul 2022,-,-,08 Jul 2022,14 Jul 2022,-,2:1
+697,542020,AKI,AKI India Ltd,19 Jul 2022,Bonus issue 3:10,20 Jul 2022,-,-,13 Jul 2022,19 Jul 2022,-,3:10
+698,539143,PANTH,Panth Infinity Ltd,19 Jul 2022,Bonus issue 1:2,19 Jul 2022,-,-,13 Jul 2022,19 Jul 2022,-,1:2
+699,541601,RAJNISH,Rajnish Wellness Ltd,21 Jul 2022,Bonus issue 2:1,22 Jul 2022,-,-,15 Jul 2022,21 Jul 2022,-,2:1
+700,539760,RELICAB,Relicab Cable Manufacturing Ltd,22 Jul 2022,Bonus issue 74:100,25 Jul 2022,-,-,18 Jul 2022,22 Jul 2022,-,74:100
+701,541276,HARDWYN,Hardwyn India Ltd,25 Jul 2022,Bonus issue 1:2,26 Jul 2022,-,-,19 Jul 2022,25 Jul 2022,-,1:2
+702,532955,RECLTD,REC Ltd,17 Aug 2022,Bonus issue 1:3,18 Aug 2022,-,-,08 Aug 2022,17 Aug 2022,-,1:3
+703,541967,SKYGOLD,Sky Gold Ltd,01 Sep 2022,Bonus issue 1:1,03 Sep 2022,-,-,26 Aug 2022,01 Sep 2022,-,1:1
+704,540455,ESCORP,Escorp Asset Management Ltd,06 Sep 2022,Bonus issue 2:3,06 Sep 2022,-,-,30 Aug 2022,06 Sep 2022,-,2:3
+705,532155,GAIL,Gail (India) Ltd,06 Sep 2022,Bonus issue 1:2,07 Sep 2022,-,-,30 Aug 2022,06 Sep 2022,-,1:2
+706,514448,JYOTIRES,Jyoti Resins & Adhesives Ltd,08 Sep 2022,Bonus issue 2:1,09 Sep 2022,-,-,02 Sep 2022,08 Sep 2022,-,2:1
+707,532221,SONATSOFTW,Sonata Software Ltd,08 Sep 2022,Bonus issue 1:3,10 Sep 2022,-,-,05 Sep 2022,08 Sep 2022,-,1:3
+708,532978,BAJAJFINSV,Bajaj Finserv Ltd,13 Sep 2022,Bonus issue 1:1,14 Sep 2022,-,-,07 Sep 2022,13 Sep 2022,-,1:1
+709,500049,BEL,Bharat Electronics Ltd,15 Sep 2022,Bonus issue 2:1,16 Sep 2022,-,-,09 Sep 2022,15 Sep 2022,-,2:1
+710,542666,GKP,G. K. P. Printing & Packaging Ltd,16 Sep 2022,Bonus issue 1:2,19 Sep 2022,-,-,12 Sep 2022,16 Sep 2022,-,1:2
+711,542770,ALPHALOGIC,Alphalogic Techsys Ltd,21 Sep 2022,Bonus issue 1:2,21 Sep 2022,-,-,15 Sep 2022,21 Sep 2022,-,1:2
+712,532927,ECLERX,eClerx Services Ltd,21 Sep 2022,Bonus issue 1:2,22 Sep 2022,-,-,15 Sep 2022,21 Sep 2022,-,1:2
+713,540377,IFL,IFL Enterprises Ltd,21 Sep 2022,Bonus issue 1:1,21 Sep 2022,-,-,15 Sep 2022,21 Sep 2022,-,1:1
+714,542019,SHUBHAM,Shubham Polyspin Ltd,21 Sep 2022,Bonus issue 1:10,22 Sep 2022,-,-,15 Sep 2022,21 Sep 2022,-,1:10
+715,531358,CHOICEIN,Choice International Ltd,22 Sep 2022,Bonus issue 1:1,23 Sep 2022,-,-,16 Sep 2022,22 Sep 2022,-,1:1
+716,511092,JMDVL,JMD Ventures Ltd,23 Sep 2022,Bonus issue 1:1,23 Sep 2022,-,-,19 Sep 2022,23 Sep 2022,-,1:1
+717,503169,RUBYMILLS,Ruby Mills Ltd,23 Sep 2022,Bonus issue 1:1,26 Sep 2022,-,-,22 Sep 2022,23 Sep 2022,-,1:1
+718,505688,BHARATGEAR,Bharat Gears Ltd,27 Sep 2022,Bonus issue 1:2,28 Sep 2022,-,-,21 Sep 2022,27 Sep 2022,-,1:2
+719,533090,EXCEL,Excel Realty N Infra Ltd,28 Sep 2022,Bonus issue 1:2,28 Sep 2022,-,-,22 Sep 2022,28 Sep 2022,-,1:2
+720,532626,POCL,Pondy Oxides & Chemicals Ltd,28 Sep 2022,Bonus issue 1:1,29 Sep 2022,-,-,22 Sep 2022,28 Sep 2022,-,1:1
+721,522281,RAMRAT,Ram Ratna Wires Ltd-$,28 Sep 2022,Bonus issue 1:1,29 Sep 2022,-,-,22 Sep 2022,28 Sep 2022,-,1:1
+722,532851,INSECTICID,Insecticides (India) Ltd,30 Sep 2022,Bonus issue 1:2,03 Oct 2022,-,-,28 Sep 2022,30 Sep 2022,-,1:2
+723,542446,JONJUA,Jonjua Overseas Ltd,03 Oct 2022,Bonus issue 4:23,03 Oct 2022,-,-,27 Sep 2022,03 Oct 2022,-,4:23
+724,517334,MOTHERSON,Samvardhana Motherson International Ltd,03 Oct 2022,Bonus issue 1:2,05 Oct 2022,-,-,28 Sep 2022,03 Oct 2022,-,1:2
+725,540550,YUG,Yug Decor Ltd,03 Oct 2022,Bonus issue 1:2,03 Oct 2022,-,-,28 Sep 2022,03 Oct 2022,-,1:2
+726,512153,MLINDLTD,M Lakhamsi Industries Ltd,04 Oct 2022,Bonus issue 6:1,05 Oct 2022,-,-,29 Sep 2022,04 Oct 2022,-,6:1
+727,533227,AHLEAST,Asian Hotels (East) Ltd,06 Oct 2022,Bonus issue 1:2,07 Oct 2022,-,-,29 Sep 2022,06 Oct 2022,-,1:2
+728,512091,NIBEORD,Nibe Ordnance and Maritime Ltd,07 Oct 2022,Bonus issue 4:1,07 Oct 2022,-,-,30 Sep 2022,07 Oct 2022,-,4:1
+729,512097,SAICOM,Saianand Commercial Ltd,07 Oct 2022,Bonus issue 1:1,08 Oct 2022,-,-,07 Oct 2022,07 Oct 2022,-,1:1
+730,532785,RUCHIRA,Ruchira Papers Ltd,10 Oct 2022,Bonus issue 1:10,11 Oct 2022,-,-,04 Oct 2022,10 Oct 2022,-,1:10
+731,540756,KAARYAFSL,Kaarya Facilities and Services Ltd,12 Oct 2022,Bonus issue 1:1,12 Oct 2022,-,-,06 Oct 2022,12 Oct 2022,-,1:1
+732,513097,SBCL,Shivalik Bimetal Controls Ltd,12 Oct 2022,Bonus issue 1:2,13 Oct 2022,-,-,06 Oct 2022,12 Oct 2022,-,1:2
+733,543234,SECMARK,SecMark Consultancy Ltd,12 Oct 2022,Bonus issue 3:2,12 Oct 2022,-,-,06 Oct 2022,12 Oct 2022,-,3:2
+734,543324,GCSL,Gretex Corporate Services Ltd,13 Oct 2022,Bonus issue 8:1,13 Oct 2022,-,-,07 Oct 2022,13 Oct 2022,-,8:1
+735,540252,VSL,Veeram Securities Ltd,14 Oct 2022,Bonus issue 1:2,15 Oct 2022,-,-,11 Oct 2022,14 Oct 2022,-,1:2
+736,541338,UHZAVERI,U. H. Zaveri Ltd,19 Oct 2022,Bonus issue 2:3,19 Oct 2022,-,-,13 Oct 2022,19 Oct 2022,-,2:3
+737,543236,ATAM,Atam Valves Ltd,21 Oct 2022,Bonus issue 1:1,24 Oct 2022,-,-,18 Oct 2022,24 Oct 2022,-,1:1
+738,540175,REGENCY,Regency Fincorp Ltd,21 Oct 2022,Bonus issue 1:1,21 Oct 2022,-,-,17 Oct 2022,20 Oct 2022,-,1:1
+739,512099,EY,Eyantra Ventures Ltd,09 Nov 2022,Bonus issue 5:1,09 Nov 2022,-,-,02 Nov 2022,09 Nov 2022,-,5:1
+740,543384,NYKAA,FSN E-Commerce Ventures Ltd,10 Nov 2022,Bonus issue 5:1,11 Nov 2022,-,-,03 Nov 2022,10 Nov 2022,-,5:1
+741,533761,GPTINFRA,GPT Infraprojects Ltd,11 Nov 2022,Bonus issue 1:1,12 Nov 2022,-,-,11 Nov 2022,11 Nov 2022,-,1:1
+742,543539,MODIS,Modis Navnirman Ltd,15 Nov 2022,Bonus issue 3:1,15 Nov 2022,-,-,15 Nov 2022,15 Nov 2022,-,3:1
+743,543498,MSUMI,Motherson Sumi Wiring India Ltd,16 Nov 2022,Bonus issue 2:5,17 Nov 2022,-,-,10 Nov 2022,16 Nov 2022,-,2:5
+744,543272,EASEMYTRIP,Easy Trip Planners Ltd,21 Nov 2022,Bonus issue 3:1,22 Nov 2022,-,-,15 Nov 2022,21 Nov 2022,-,3:1
+745,539986,COMSYN,Commercial Syn Bags Ltd,25 Nov 2022,Bonus issue 2:1,25 Nov 2022,-,-,21 Nov 2022,25 Nov 2022,-,2:1
+746,500265,MAHSEAMLES,Maharashtra Seamless Ltd,25 Nov 2022,Bonus issue 1:1,28 Nov 2022,-,-,22 Nov 2022,25 Nov 2022,-,1:1
+747,503657,VEERENRGY,Veer Energy & Infrastructure Ltd,25 Nov 2022,Bonus issue 3:10,25 Nov 2022,-,-,21 Nov 2022,25 Nov 2022,-,3:10
+748,540615,7NR,7NR Retail Ltd,28 Nov 2022,Bonus issue 1:5,28 Nov 2022,-,-,22 Nov 2022,28 Nov 2022,-,1:5
+749,542924,JANUSCORP,Janus Corporation Ltd,28 Nov 2022,Bonus issue 4:3,28 Nov 2022,-,-,22 Nov 2022,28 Nov 2022,-,4:3
+750,543305,NAVODAYENT,Navoday Enterprises Ltd,29 Nov 2022,Bonus issue 1:1,29 Nov 2022,-,-,23 Nov 2022,29 Nov 2022,-,1:1
+751,540073,BLS,BLS International Services Ltd,08 Dec 2022,Bonus issue 1:1,10 Dec 2022,-,-,05 Dec 2022,08 Dec 2022,-,1:1
+752,539277,ALSTONE,Alstone Textiles (India) Ltd,14 Dec 2022,Bonus issue 9:1,14 Dec 2022,-,-,08 Dec 2022,14 Dec 2022,-,9:1
+753,540403,CLEDUCATE,CL Educate Ltd,16 Dec 2022,Bonus issue 1:1,16 Dec 2022,-,-,12 Dec 2022,16 Dec 2022,-,1:1
+754,542351,GLOSTERLTD,Gloster Ltd,16 Dec 2022,Bonus issue 1:1,17 Dec 2022,-,-,13 Dec 2022,16 Dec 2022,-,1:1
+755,539017,STARHFL,Star Housing Finance Ltd,16 Dec 2022,Bonus issue 1:1,16 Dec 2022,-,-,12 Dec 2022,16 Dec 2022,-,1:1
+756,531930,SARTHAKIND,Sarthak Industries Ltd,20 Dec 2022,Bonus issue 1:3,20 Dec 2022,-,-,14 Dec 2022,20 Dec 2022,-,1:3
+757,540203,SFL,Sheela Foam Ltd,21 Dec 2022,Bonus issue 1:1,22 Dec 2022,-,-,15 Dec 2022,21 Dec 2022,-,1:1
+758,523539,PRECWIRE,Precision Wires India Ltd,22 Dec 2022,Bonus issue 1:2,22 Dec 2022,-,-,16 Dec 2022,22 Dec 2022,-,1:2
+759,541400,ZIMLAB,Zim Laboratories Ltd,22 Dec 2022,Bonus issue 2:1,22 Dec 2022,-,-,16 Dec 2022,22 Dec 2022,-,2:1
+760,543230,ADVAIT,Advait Energy Transitions Ltd,28 Dec 2022,Bonus issue 1:1,28 Dec 2022,-,-,22 Dec 2022,28 Dec 2022,-,1:1
+761,538668,MIIL,Meghna Infracon Infrastructure Ltd,30 Dec 2022,Bonus issue 15:10,31 Dec 2022,-,-,27 Dec 2022,30 Dec 2022,-,15:10
+762,543239,GMPL,G M Polyplast Ltd,04 Jan 2023,Bonus issue 6:1,04 Jan 2023,-,-,29 Dec 2022,04 Jan 2023,-,6:1
+763,543625,SECURCRED,SecUR Credentials Ltd,04 Jan 2023,Bonus issue 3:1,04 Jan 2023,-,-,29 Dec 2022,04 Jan 2023,-,3:1
+764,540266,GLCL,Globe Commercials Ltd,06 Jan 2023,Bonus issue 1:1,07 Jan 2023,-,-,03 Jan 2023,06 Jan 2023,-,1:1
+765,539309,RAMASTEEL,Rama Steel Tubes Ltd,06 Jan 2023,Bonus issue 4:1,06 Jan 2023,-,-,02 Jan 2023,06 Jan 2023,-,4:1
+766,542323,KPIGREEN,KPI Green Energy Ltd,18 Jan 2023,Bonus issue 1:1,18 Jan 2023,-,-,12 Jan 2023,18 Jan 2023,-,1:1
+767,542668,EVANS,Evans Electric Ltd,10 Feb 2023,Bonus issue 1:1,10 Feb 2023,-,-,06 Feb 2023,10 Feb 2023,-,1:1
+768,543670,VINNY,Vinny Overseas Ltd,24 Feb 2023,Bonus issue 13:10,24 Feb 2023,-,-,20 Feb 2023,24 Feb 2023,-,13:10
+769,543544,JAYANT,Jayant Infratech Ltd,01 Mar 2023,Bonus issue 2:1,01 Mar 2023,-,-,27 Feb 2023,01 Mar 2023,-,2:1
+770,542772,360ONE,360 ONE WAM LTD,02 Mar 2023,Bonus issue 1:1,02 Mar 2023,-,-,24 Feb 2023,02 Mar 2023,-,1:1
+771,538817,CAPPIPES,Captain Pipes Ltd,03 Mar 2023,Bonus issue 2:1,03 Mar 2023,-,-,27 Feb 2023,03 Mar 2023,-,2:1
+772,543590,RHETAN,Rhetan TMT Ltd,10 Mar 2023,Bonus issue 11:4,10 Mar 2023,-,-,03 Mar 2023,10 Mar 2023,-,11:4
+773,532830,ASTRAL,Astral Ltd,14 Mar 2023,Bonus issue 1:3,14 Mar 2023,-,-,08 Mar 2023,14 Mar 2023,-,1:3
+774,538891,MCLOUD,Magellanic Cloud Ltd,21 Mar 2023,Bonus issue 3:1,22 Mar 2023,-,-,16 Mar 2023,22 Mar 2023,-,3:1
+775,539222,GROWINGTON,Growington Ventures India Ltd,24 Mar 2023,Bonus issue 24:100,25 Mar 2023,-,-,20 Mar 2023,24 Mar 2023,-,24:100
+776,530263,GLOBALCA,Global Capital Markets Ltd,20 Apr 2023,Bonus issue 6:10,20 Apr 2023,-,-,13 Apr 2023,20 Apr 2023,-,6:10
+777,540377,IFL,IFL Enterprises Ltd,21 Apr 2023,Bonus issue 1:4,21 Apr 2023,-,-,17 Apr 2023,21 Apr 2023,-,1:4
+778,538794,JETSOLAR,Jet Solar Ltd,21 Apr 2023,Bonus issue 1:1,21 Apr 2023,-,-,17 Apr 2023,21 Apr 2023,-,1:1
+779,511658,NETTLINX,Nettlinx Ltd,24 Apr 2023,Bonus issue 1:1,24 Apr 2023,-,-,18 Apr 2023,24 Apr 2023,-,1:1
+780,543499,ACHYUT,Achyut Healthcare Ltd,25 Apr 2023,Bonus issue 1:2,25 Apr 2023,-,-,19 Apr 2023,25 Apr 2023,-,1:2
+781,540079,SPRAYKING,Sprayking Ltd,28 Apr 2023,Bonus issue 2:3,30 Apr 2023,-,-,25 Apr 2023,28 Apr 2023,-,2:3
+782,540914,SRUSTEELS,SRU Steels Ltd,03 May 2023,Bonus issue 1:2,03 May 2023,-,-,27 Apr 2023,03 May 2023,-,1:2
+783,543686,SIRCA,Sirca Paints India Ltd,11 May 2023,Bonus issue 1:1,11 May 2023,-,-,04 May 2023,11 May 2023,-,1:1
+784,540953,KENVI,Kenvi Jewels Ltd,19 May 2023,Bonus issue 1:4,19 May 2023,-,-,18 May 2023,19 May 2023,-,1:4
+785,543545,VEERKRUPA,Veerkrupa Jewellers Ltd,19 May 2023,Bonus issue 2:3,19 May 2023,-,-,15 May 2023,19 May 2023,-,2:3
+786,534392,VSSL,Vardhman Special Steels Ltd,26 May 2023,Bonus issue 1:1,26 May 2023,-,-,24 May 2023,26 May 2023,-,1:1
+787,543287,LODHA,Macrotech Developers Ltd,31 May 2023,Bonus issue 1:1,31 May 2023,-,-,25 May 2023,31 May 2023,-,1:1
+788,541276,HARDWYN,Hardwyn India Ltd,05 Jun 2023,Bonus issue 1:3,05 Jun 2023,-,-,30 May 2023,05 Jun 2023,-,1:3
+789,512247,ASHCAP,Ashirwad Capital Ltd,19 Jun 2023,Bonus issue 1:2,19 Jun 2023,-,-,13 Jun 2023,19 Jun 2023,-,1:2
+790,500067,BLUESTARCO,Blue Star Ltd,20 Jun 2023,Bonus issue 1:1,20 Jun 2023,-,-,14 Jun 2023,20 Jun 2023,-,1:1
+791,532457,GULPOLY,Gulshan Polyols Ltd,21 Jun 2023,Bonus issue 1:5,21 Jun 2023,-,-,15 Jun 2023,21 Jun 2023,-,1:5
+792,542726,INDIAMART,IndiaMART InterMESH Ltd,21 Jun 2023,Bonus issue 1:1,21 Jun 2023,-,-,15 Jun 2023,21 Jun 2023,-,1:1
+793,543547,DDEVPLSTIK,Ddev Plastiks Industries Ltd,30 Jun 2023,Bonus issue 1:10,30 Jun 2023,-,-,23 Jun 2023,30 Jun 2023,-,1:10
+794,500165,KANSAINER,Kansai Nerolac Paints Ltd,04 Jul 2023,Bonus issue 1:2,04 Jul 2023,-,-,27 Jun 2023,04 Jul 2023,-,1:2
+795,500052,BEPL,Bhansali Engineering Polymers Ltd-$,05 Jul 2023,Bonus issue 1:2,05 Jul 2023,-,-,28 Jun 2023,05 Jul 2023,-,1:2
+796,506642,SADHNANIQ,Sadhana Nitro Chem Ltd,05 Jul 2023,Bonus issue 2:9,05 Jul 2023,-,-,04 Jul 2023,05 Jul 2023,-,2:9
+797,542774,MUFIN,Mufin Green Finance Ltd,07 Jul 2023,Bonus issue 2:1,07 Jul 2023,-,-,03 Jul 2023,07 Jul 2023,-,2:1
+798,517500,ROTO,Roto Pumps Ltd,07 Jul 2023,Bonus issue 1:1,08 Jul 2023,-,-,04 Jul 2023,07 Jul 2023,-,1:1
+799,505685,TAPARIA,Taparia Tools Ltd,11 Jul 2023,Bonus issue 4:1,11 Jul 2023,-,-,06 Jul 2023,11 Jul 2023,-,4:1
+800,532475,APTECHT,Aptech Ltd,14 Jul 2023,Bonus issue 2:5,14 Jul 2023,-,-,10 Jul 2023,14 Jul 2023,-,2:5
+801,533158,THANGAMAYL,Thangamayil Jewellery Ltd,17 Jul 2023,Bonus issue 1:1,17 Jul 2023,-,-,12 Jul 2023,17 Jul 2023,-,1:1
+802,542437,ANMOL,Anmol India Ltd,18 Jul 2023,Bonus issue 4:1,18 Jul 2023,-,-,12 Jul 2023,18 Jul 2023,-,4:1
+803,540360,LLFICL,Leading Leasing Finance And Investment Company Ltd,20 Jul 2023,Bonus issue 1:1,20 Jul 2023,-,-,14 Jul 2023,20 Jul 2023,-,1:1
+804,543214,NDRAUTO,NDR Auto Components Ltd,24 Jul 2023,Bonus issue 1:1,24 Jul 2023,-,-,18 Jul 2023,24 Jul 2023,-,1:1
+805,542654,VRFILMS,V R Films & Studios Ltd,26 Jul 2023,Bonus issue 7:1,26 Jul 2023,-,-,20 Jul 2023,26 Jul 2023,-,7:1
+806,532906,MAANALU,Maan Aluminium Ltd,27 Jul 2023,Bonus issue 1:1,27 Jul 2023,-,-,21 Jul 2023,27 Jul 2023,-,1:1
+807,539561,REMLIFE,Remedium Lifecare Ltd,28 Jul 2023,Bonus issue 9:5,29 Jul 2023,-,-,25 Jul 2023,28 Jul 2023,-,9:5
+808,540693,SHISHIND,Shish Industries Ltd,28 Jul 2023,Bonus issue 2:1,28 Jul 2023,-,-,26 Jul 2023,28 Jul 2023,-,2:1
+809,543747,KAMOPAINTS,Kamdhenu Ventures Ltd,01 Aug 2023,Bonus issue 1:1,01 Aug 2023,-,-,26 Jul 2023,01 Aug 2023,-,1:1
+810,539843,NINSYS,NINtec Systems Ltd,03 Aug 2023,Bonus issue 4:5,03 Aug 2023,-,-,28 Jul 2023,03 Aug 2023,-,4:5
+811,539837,RPEL,Raghav Productivity Enhancers Ltd,08 Aug 2023,Bonus issue 1:1,08 Aug 2023,-,-,02 Aug 2023,08 Aug 2023,-,1:1
+812,509048,LANCORHOL,Lancor Holdings Ltd,18 Aug 2023,Bonus issue 1:2,18 Aug 2023,-,-,10 Aug 2023,18 Aug 2023,-,1:2
+813,543241,VGIL,Veer Global Infraconstruction Ltd,22 Aug 2023,Bonus issue 1:1,22 Aug 2023,-,-,14 Aug 2023,22 Aug 2023,-,1:1
+814,543312,FOCUS,Focus Business Solution Ltd,23 Aug 2023,Bonus issue 4:5,23 Aug 2023,-,-,17 Aug 2023,23 Aug 2023,-,4:5
+815,541304,INDOUS,Indo Us Bio-Tech Ltd,29 Aug 2023,Bonus issue 1:1,29 Aug 2023,-,-,23 Aug 2023,29 Aug 2023,-,1:1
+816,540124,GNA,G N A Axles Ltd,01 Sep 2023,Bonus issue 1:1,02 Sep 2023,-,-,29 Aug 2023,01 Sep 2023,-,1:1
+817,541735,VIVANTA,Vivanta Industries Ltd,05 Sep 2023,Bonus issue 1:4,05 Sep 2023,-,-,30 Aug 2023,05 Sep 2023,-,1:4
+818,531201,SHILCTECH,Shilchar Technologies Ltd,06 Sep 2023,Bonus issue 1:1,06 Sep 2023,-,-,01 Sep 2023,06 Sep 2023,-,1:1
+819,534600,JTLIND,JTL Industries Ltd,07 Sep 2023,Bonus issue 1:1,07 Sep 2023,-,-,01 Sep 2023,07 Sep 2023,-,1:1
+820,543515,SEML,Sunrise Efficient Marketing Ltd,08 Sep 2023,Bonus issue 1:1,09 Sep 2023,-,-,05 Sep 2023,08 Sep 2023,-,1:1
+821,532898,POWERGRID,Power Grid Corporation of India Ltd,12 Sep 2023,Bonus issue 1:3,12 Sep 2023,-,-,06 Sep 2023,12 Sep 2023,-,1:3
+822,543688,SARVESHWAR,Sarveshwar Foods Ltd,15 Sep 2023,Bonus issue 2:1,15 Sep 2023,-,-,11 Sep 2023,15 Sep 2023,-,2:1
+823,530475,TINNARUBR,Tinna Rubber and Infrastructure Ltd,15 Sep 2023,Bonus issue 1:1,16 Sep 2023,-,-,12 Sep 2023,15 Sep 2023,-,1:1
+824,540361,DANUBE,Danube Industries Ltd,20 Sep 2023,Bonus issue 1:1,20 Sep 2023,-,-,20 Sep 2023,20 Sep 2023,-,1:1
+825,532810,PFC,Power Finance Corporation Ltd,21 Sep 2023,Bonus issue 1:4,21 Sep 2023,-,-,15 Sep 2023,21 Sep 2023,-,1:4
+826,509480,BERGEPAINT,Berger Paints India Ltd,22 Sep 2023,Bonus issue 1:5,23 Sep 2023,-,-,20 Sep 2023,22 Sep 2023,-,1:5
+827,539841,LANCER,Lancer Container Lines Ltd,22 Sep 2023,Bonus issue 2:1,23 Sep 2023,-,-,18 Sep 2023,22 Sep 2023,-,2:1
+828,511523,VEERHEALTH,Veerhealth Care Ltd,22 Sep 2023,Bonus issue 1:1,22 Sep 2023,-,-,20 Sep 2023,22 Sep 2023,-,1:1
+829,540550,YUG,Yug Decor Ltd,05 Oct 2023,Bonus issue 15:100,05 Oct 2023,-,-,27 Sep 2023,05 Oct 2023,-,15:100
+830,542446,JONJUA,Jonjua Overseas Ltd,10 Oct 2023,Bonus issue 9:50,10 Oct 2023,-,-,04 Oct 2023,10 Oct 2023,-,9:50
+831,521048,ADVLIFE,Advance Lifestyles Ltd,13 Oct 2023,Bonus issue 1:1,13 Oct 2023,-,-,09 Oct 2023,13 Oct 2023,-,1:1
+832,543262,MRP,MRP Agro Ltd,13 Oct 2023,Bonus issue 2:1,13 Oct 2023,-,-,09 Oct 2023,13 Oct 2023,-,2:1
+833,540358,RMC,RMC Switchgears Ltd,13 Oct 2023,Bonus issue 1:2,13 Oct 2023,-,-,09 Oct 2023,13 Oct 2023,-,1:2
+834,542851,GENSOL,Gensol Engineering Ltd,17 Oct 2023,Bonus issue 2:1,17 Oct 2023,-,-,11 Oct 2023,17 Oct 2023,-,2:1
+835,532468,KAMAHOLD,Kama Holdings Ltd-$,17 Oct 2023,Bonus issue 4:1,17 Oct 2023,-,-,11 Oct 2023,17 Oct 2023,-,4:1
+836,539226,RUDRA,Rudra Global Infra Products Ltd,18 Oct 2023,Bonus issue 1:1,18 Oct 2023,-,-,12 Oct 2023,18 Oct 2023,-,1:1
+837,543464,SPITZE,Maruti Interior Products Ltd,27 Oct 2023,Bonus issue 1:1,27 Oct 2023,-,-,23 Oct 2023,27 Oct 2023,-,1:1
+838,543373,SVRL,Shri Venkatesh Refineries Ltd,27 Oct 2023,Bonus issue 1:1,28 Oct 2023,-,-,23 Oct 2023,27 Oct 2023,-,1:1
+839,543962,DPWIRES,D.P. Wires Ltd,08 Nov 2023,Bonus issue 1:7,08 Nov 2023,-,-,02 Nov 2023,08 Nov 2023,-,1:7
+840,543578,OLATECH,Olatech Solutions Ltd,20 Nov 2023,Bonus issue 17:20,20 Nov 2023,-,-,13 Nov 2023,20 Nov 2023,-,17:20
+841,532406,AVANTEL,Avantel Ltd,24 Nov 2023,Bonus issue 2:1,24 Nov 2023,-,-,20 Nov 2023,24 Nov 2023,-,2:1
+842,543937,ALPHAIND,Alphalogic Industries Ltd,01 Dec 2023,Bonus issue 1:1,01 Dec 2023,-,-,24 Nov 2023,01 Dec 2023,-,1:1
+843,532011,POOJAENT,Vashu Bhagnani Industries Ltd,08 Dec 2023,Bonus issue 6:1,09 Dec 2023,-,-,05 Dec 2023,08 Dec 2023,-,6:1
+844,543516,DHYAANITR,Dhyaani Tradeventtures Ltd,12 Dec 2023,Bonus issue 9:5,12 Dec 2023,-,-,07 Dec 2023,12 Dec 2023,-,9:5
+845,523025,SAFARI,Safari Industries India Ltd,12 Dec 2023,Bonus issue 1:1,12 Dec 2023,-,-,06 Dec 2023,12 Dec 2023,-,1:1
+846,532221,SONATSOFTW,Sonata Software Ltd,12 Dec 2023,Bonus issue 1:1,12 Dec 2023,-,-,06 Dec 2023,12 Dec 2023,-,1:1
+847,540377,IFL,IFL Enterprises Ltd,18 Dec 2023,Bonus issue 1:10,18 Dec 2023,-,-,12 Dec 2023,18 Dec 2023,-,1:10
+848,539113,PML,Paul Merchants Ltd,19 Dec 2023,Bonus issue 2:1,19 Dec 2023,-,-,13 Dec 2023,19 Dec 2023,-,2:1
+849,542770,ALPHALOGIC,Alphalogic Techsys Ltd,22 Dec 2023,Bonus issue 1:3,22 Dec 2023,-,-,18 Dec 2023,22 Dec 2023,-,1:3
+850,542285,AXITA,Axita Cotton Ltd,22 Dec 2023,Bonus issue 1:3,25 Dec 2023,-,-,19 Dec 2023,22 Dec 2023,-,1:3
+851,511700,STANCAP,Standard Capital Markets Ltd,29 Dec 2023,Bonus issue 2:1,29 Dec 2023,-,-,-,29 Dec 2023,-,2:1
+852,532749,ALLCARGO,Allcargo Logistics Ltd,02 Jan 2024,Bonus issue 3:1,02 Jan 2024,-,-,27 Dec 2023,02 Jan 2024,-,3:1
+853,512153,MLINDLTD,M Lakhamsi Industries Ltd,05 Jan 2024,Bonus issue 1:50,06 Jan 2024,-,-,02 Jan 2024,05 Jan 2024,-,1:50
+854,535958,ESSENTIA,Integra Essentia Ltd,11 Jan 2024,Bonus issue 1:1,11 Jan 2024,-,-,05 Jan 2024,11 Jan 2024,-,1:1
+855,540900,NEWGEN,Newgen Software Technologies Ltd,12 Jan 2024,Bonus issue 1:1,12 Jan 2024,-,-,08 Jan 2024,12 Jan 2024,-,1:1
+856,538890,MKEXIM,M.K. Exim (India) Ltd,17 Jan 2024,Bonus issue 1:2,17 Jan 2024,-,-,11 Jan 2024,17 Jan 2024,-,1:2
+857,542725,SBC,SBC Exports Ltd,19 Jan 2024,Bonus issue 1:2,19 Jan 2024,-,-,15 Jan 2024,18 Jan 2024,-,1:2
+858,523023,SINCLAIR,Sinclairs Hotels Ltd-$,29 Jan 2024,Bonus issue 1:1,29 Jan 2024,-,-,-,29 Jan 2024,-,1:1
+859,506184,KANANIIND,Kanani Industries Ltd,30 Jan 2024,Bonus issue 1:1,30 Jan 2024,-,-,23 Jan 2024,30 Jan 2024,-,1:1
+860,540642,SALASAR,Salasar Techno Engineering Ltd,01 Feb 2024,Bonus issue 4:1,01 Feb 2024,-,-,25 Jan 2024,01 Feb 2024,-,4:1
+861,504918,SANDUMA,Sandur Manganese & Iron Ores Ltd,02 Feb 2024,Bonus issue 5:1,02 Feb 2024,-,-,29 Jan 2024,02 Feb 2024,-,5:1
+862,543624,MAAGHADV,Maagh Advertising and Marketing Services Ltd,05 Feb 2024,Bonus issue 1:4,05 Feb 2024,-,-,30 Jan 2024,05 Feb 2024,-,1:4
+863,540738,STL,Shreeji Translogistics Ltd,08 Feb 2024,Bonus issue 1:3,08 Feb 2024,-,-,02 Feb 2024,08 Feb 2024,-,1:3
+864,506134,GOURMET,Gourmet Gateway India Ltd,12 Feb 2024,Bonus issue 2:1,12 Feb 2024,-,-,06 Feb 2024,12 Feb 2024,-,2:1
+865,539686,KPEL,K.P. Energy Ltd,12 Feb 2024,Bonus issue 2:1,12 Feb 2024,-,-,07 Feb 2024,12 Feb 2024,-,2:1
+866,541303,AKSHAR,Akshar Spintex Ltd,15 Feb 2024,Bonus issue 1:5,15 Feb 2024,-,-,09 Feb 2024,15 Feb 2024,-,1:5
+867,542323,KPIGREEN,KPI Green Energy Ltd,15 Feb 2024,Bonus issue 1:2,15 Feb 2024,-,-,13 Feb 2024,15 Feb 2024,-,1:2
+868,531358,CHOICEIN,Choice International Ltd,20 Feb 2024,Bonus issue 1:1,20 Feb 2024,-,-,14 Feb 2024,20 Feb 2024,-,1:1
+869,543746,LOGICA,Logica Infoway Ltd,21 Feb 2024,Bonus issue 5:1,21 Feb 2024,-,-,14 Feb 2024,21 Feb 2024,-,5:1
+870,540749,MASFIN,MAS Financial Services Ltd,22 Feb 2024,Bonus issue 2:1,22 Feb 2024,-,-,19 Feb 2024,22 Feb 2024,-,2:1
+871,512329,SGMART,SG Mart Ltd,22 Feb 2024,Bonus issue 1:1,22 Feb 2024,-,-,15 Feb 2024,22 Feb 2024,-,1:1
+872,543268,DRCSYSTEMS,DRC Systems India Ltd,27 Feb 2024,Bonus issue 2:1,27 Feb 2024,-,-,21 Feb 2024,27 Feb 2024,-,2:1
+873,532768,FIEMIND,Fiem Industries Ltd,28 Feb 2024,Bonus issue 1:1,28 Feb 2024,-,-,22 Feb 2024,28 Feb 2024,-,1:1
+874,531595,CGCL,Capri Global Capital Ltd,05 Mar 2024,Bonus issue 1:1,05 Mar 2024,-,-,28 Feb 2024,05 Mar 2024,-,1:1
+875,539574,SCL,Sunshine Capital Ltd,07 Mar 2024,Bonus issue 7:1,08 Mar 2024,-,-,05 Mar 2024,07 Mar 2024,-,7:1
+876,524226,GAEL,Gujarat Ambuja Exports Ltd,15 Mar 2024,Bonus issue 1:1,16 Mar 2024,-,-,12 Mar 2024,15 Mar 2024,-,1:1
+877,543919,MKPL,M. K. Proteins Ltd,15 Mar 2024,Bonus issue 2:1,15 Mar 2024,-,-,11 Mar 2024,15 Mar 2024,-,2:1
+878,531205,SPRIGHT,Spright Agro Ltd,18 Mar 2024,Bonus issue 1:1,18 Mar 2024,-,-,12 Mar 2024,18 Mar 2024,-,1:1
+879,542866,COLAB,Colab Platforms Ltd,19 Mar 2024,Bonus issue 1:1,19 Mar 2024,-,-,13 Mar 2024,19 Mar 2024,-,1:1
+880,543542,KESAR,Kesar India Ltd,19 Mar 2024,Bonus issue 6:1,19 Mar 2024,-,-,13 Mar 2024,19 Mar 2024,-,6:1
+881,539309,RAMASTEEL,Rama Steel Tubes Ltd,19 Mar 2024,Bonus issue 2:1,19 Mar 2024,-,-,13 Mar 2024,19 Mar 2024,-,2:1
+882,523269,ADVANIHOTR,Advani Hotels & Resorts (India) Ltd,20 Mar 2024,Bonus issue 1:1,20 Mar 2024,-,-,15 Mar 2024,20 Mar 2024,-,1:1
+883,532900,PAISALO,Paisalo Digital Ltd,20 Mar 2024,Bonus issue 1:1,20 Mar 2024,-,-,14 Mar 2024,20 Mar 2024,-,1:1
+884,540952,LAL,Lorenzini Apparels Ltd,28 Mar 2024,Bonus issue 6:11,28 Mar 2024,-,-,27 Mar 2024,27 Mar 2024,-,6:11
+885,543515,SEML,Sunrise Efficient Marketing Ltd,03 Apr 2024,Bonus issue 1:2,03 Apr 2024,-,-,03 Apr 2024,03 Apr 2024,-,1:2
+886,530843,CUPID,Cupid Ltd-$,04 Apr 2024,Bonus issue 1:1,04 Apr 2024,-,-,04 Apr 2024,04 Apr 2024,-,1:1
+887,543375,PROMAX,Promax Power Ltd,08 Apr 2024,Bonus issue 1:1,09 Apr 2024,-,-,09 Apr 2024,09 Apr 2024,-,1:1
+888,505710,GRAUWEIL,Grauer & Weil India Ltd-$,10 Apr 2024,Bonus issue 1:1,10 Apr 2024,-,-,10 Apr 2024,10 Apr 2024,-,1:1
+889,531889,IIL,Integrated Industries Ltd,16 Apr 2024,Bonus issue 1:1,16 Apr 2024,-,-,16 Apr 2024,16 Apr 2024,-,1:1
+890,543351,NBL,Naapbooks Ltd,19 Apr 2024,Bonus issue 2:1,19 Apr 2024,-,-,19 Apr 2024,19 Apr 2024,-,2:1
+891,524632,SHUKRAPHAR,Shukra Pharmaceuticals Ltd,19 Apr 2024,Bonus issue 3:1,20 Apr 2024,-,-,19 Apr 2024,19 Apr 2024,-,3:1
+892,542460,ANUP,The Anup Engineering Ltd,23 Apr 2024,Bonus issue 1:1,23 Apr 2024,-,-,23 Apr 2024,23 Apr 2024,-,1:1
+893,512103,NIDHGRN,Nidhi Granites Ltd,02 May 2024,Bonus issue 1:1,02 May 2024,-,-,02 May 2024,02 May 2024,-,1:1
+894,521005,TITANIN,Titan Intech Ltd,17 May 2024,Bonus issue 3:5,17 May 2024,-,-,16 May 2024,16 May 2024,-,3:5
+895,531959,NEWINFRA,Newtime Infrastructure Ltd,22 May 2024,Bonus issue 2:1,23 May 2024,-,-,23 May 2024,23 May 2024,-,2:1
+896,507488,GMBREW,GM Breweries Ltd,24 May 2024,Bonus issue 1:4,25 May 2024,-,-,24 May 2024,24 May 2024,-,1:4
+897,539083,INOXWIND,Inox Wind Ltd,24 May 2024,Bonus issue 3:1,25 May 2024,-,-,24 May 2024,24 May 2024,-,3:1
+898,505232,VELJAN,Veljan Denison Ltd,29 May 2024,Bonus issue 1:1,29 May 2024,-,-,29 May 2024,29 May 2024,-,1:1
+899,532892,MOTILALOFS,Motilal Oswal Financial Services Ltd,10 Jun 2024,Bonus issue 3:1,10 Jun 2024,-,-,10 Jun 2024,10 Jun 2024,-,3:1
+900,500547,BPCL,Bharat Petroleum Corporation Ltd,21 Jun 2024,Bonus issue 1:1,22 Jun 2024,-,-,21 Jun 2024,21 Jun 2024,-,1:1
+901,500104,HINDPETRO,Hindustan Petroleum Corporation Ltd,21 Jun 2024,Bonus issue 1:2,21 Jun 2024,-,-,21 Jun 2024,21 Jun 2024,-,1:2
+902,536659,PVVINFRA,PVV Infra Ltd,21 Jun 2024,Bonus issue 1:5,21 Jun 2024,-,-,21 Jun 2024,21 Jun 2024,-,1:5
+903,512247,ASHCAP,Ashirwad Capital Ltd,25 Jun 2024,Bonus issue 1:2,25 Jun 2024,-,-,25 Jun 2024,25 Jun 2024,-,1:2
+904,532668,AURIONPRO,Aurionpro Solutions Ltd,27 Jun 2024,Bonus issue 1:1,27 Jun 2024,-,-,27 Jun 2024,27 Jun 2024,-,1:1
+905,533106,OIL,Oil India Ltd,02 Jul 2024,Bonus issue 1:2,02 Jul 2024,-,-,02 Jul 2024,02 Jul 2024,-,1:2
+906,533761,GPTINFRA,GPT Infraprojects Ltd,03 Jul 2024,Bonus issue 1:1,03 Jul 2024,-,-,03 Jul 2024,03 Jul 2024,-,1:1
+907,504084,KAYCEEI,Kaycee Industries Ltd,05 Jul 2024,Bonus issue 4:1,06 Jul 2024,-,-,05 Jul 2024,05 Jul 2024,-,4:1
+908,539561,REMLIFE,Remedium Lifecare Ltd,05 Jul 2024,Bonus issue 3:1,06 Jul 2024,-,-,05 Jul 2024,05 Jul 2024,-,3:1
+909,543435,CLARA,Clara Industries Ltd,08 Jul 2024,Bonus issue 4:1,08 Jul 2024,-,-,08 Jul 2024,08 Jul 2024,-,4:1
+910,534064,AIML,Alliance Integrated Metaliks Ltd,11 Jul 2024,Bonus issue 2:1,11 Jul 2024,-,-,11 Jul 2024,11 Jul 2024,-,2:1
+911,542770,ALPHALOGIC,Alphalogic Techsys Ltd,12 Jul 2024,Bonus issue 14:48,13 Jul 2024,-,-,12 Jul 2024,12 Jul 2024,-,14:48
+912,539098,FILTRA,Filtra Consultants and Engineers Ltd,12 Jul 2024,Bonus issue 1:3,13 Jul 2024,-,-,12 Jul 2024,12 Jul 2024,-,1:3
+913,522241,MMFL,MM Forgings Ltd-$,16 Jul 2024,Bonus issue 1:1,16 Jul 2024,-,-,16 Jul 2024,16 Jul 2024,-,1:1
+914,543538,GOEL,Goel Food Products Ltd,31 Jul 2024,Bonus issue 4:1,31 Jul 2024,-,-,31 Jul 2024,31 Jul 2024,-,4:1
+915,522257,RAJOOENG,Rajoo Engineers Ltd-$,08 Aug 2024,Bonus issue 1:1,08 Aug 2024,-,-,08 Aug 2024,08 Aug 2024,-,1:1
+916,542580,AARTECH,Aartech Solonics Ltd,09 Aug 2024,Bonus issue 1:2,09 Aug 2024,-,-,09 Aug 2024,09 Aug 2024,-,1:2
+917,534732,CASPIAN,Caspian Corporate Services Ltd,09 Aug 2024,Bonus issue 2:1,09 Aug 2024,-,-,09 Aug 2024,09 Aug 2024,-,2:1
+918,543193,DJML,DJ Mediaprint & Logistics Ltd,09 Aug 2024,Bonus issue 2:1,09 Aug 2024,-,-,09 Aug 2024,09 Aug 2024,-,2:1
+919,506879,GUJTHEM,Gujarat Themis Biosyn Ltd,09 Aug 2024,Bonus issue 1:2,09 Aug 2024,-,-,09 Aug 2024,09 Aug 2024,-,1:2
+920,531540,MAINFRA,Maruti Infrastructure Ltd,09 Aug 2024,Bonus issue 1:2,09 Aug 2024,-,-,09 Aug 2024,09 Aug 2024,-,1:2
+921,532713,SAKUMA,Sakuma Exports Ltd,09 Aug 2024,Bonus issue 4:1,10 Aug 2024,-,-,09 Aug 2024,09 Aug 2024,-,4:1
+922,509152,GRPLTD,GRP Ltd,12 Aug 2024,Bonus issue 3:1,12 Aug 2024,-,-,12 Aug 2024,12 Aug 2024,-,3:1
+923,523127,EIHAHOTELS,EIH Associated Hotels Ltd-$,13 Aug 2024,Bonus issue 1:1,13 Aug 2024,-,-,13 Aug 2024,13 Aug 2024,-,1:1
+924,507621,MLKFOOD,Milkfood Ltd,13 Aug 2024,Bonus issue 1:1,13 Aug 2024,-,-,13 Aug 2024,13 Aug 2024,-,1:1
+925,536659,PVVINFRA,PVV Infra Ltd,20 Aug 2024,Bonus issue 1:1,20 Aug 2024,-,-,20 Aug 2024,20 Aug 2024,-,1:1
+926,540079,SPRAYKING,Sprayking Ltd,21 Aug 2024,Bonus issue 1:1,21 Aug 2024,-,-,21 Aug 2024,21 Aug 2024,-,1:1
+927,539216,GARMNTMNTR,Garment Mantra Lifestyle Ltd,03 Sep 2024,Bonus issue 1:1,03 Sep 2024,-,-,03 Sep 2024,03 Sep 2024,-,1:1
+928,509966,VSTIND,VST Industries Ltd,06 Sep 2024,Bonus issue 10:1,06 Sep 2024,-,-,06 Sep 2024,06 Sep 2024,-,10:1
+929,540190,FRANKLININD,Franklin Industries Ltd,09 Sep 2024,Bonus issue 1:1,09 Sep 2024,-,-,09 Sep 2024,09 Sep 2024,-,1:1
+930,538838,ICL,Indo Cotspin Ltd,10 Sep 2024,Bonus issue 7:10,10 Sep 2024,-,-,10 Sep 2024,10 Sep 2024,-,7:10
+931,543938,ACCELERATE,Acceleratebs India Ltd,12 Sep 2024,Bonus issue 3:5,12 Sep 2024,-,-,12 Sep 2024,12 Sep 2024,-,3:5
+932,540061,BIGBLOC,Bigbloc Construction Ltd,12 Sep 2024,Bonus issue 1:1,12 Sep 2024,-,-,12 Sep 2024,12 Sep 2024,-,1:1
+933,511551,MONARCH,Monarch Networth Capital Ltd,13 Sep 2024,Bonus issue 1:1,13 Sep 2024,-,-,12 Sep 2024,12 Sep 2024,-,1:1
+934,590051,SAKSOFT,Saksoft Ltd,19 Sep 2024,Bonus issue 1:4,19 Sep 2024,-,-,19 Sep 2024,19 Sep 2024,-,1:4
+935,542285,AXITA,Axita Cotton Ltd,20 Sep 2024,Bonus issue 1:3,20 Sep 2024,-,-,20 Sep 2024,20 Sep 2024,-,1:3
+936,540377,IFL,IFL Enterprises Ltd,20 Sep 2024,Bonus issue 1:150,21 Sep 2024,-,-,20 Sep 2024,20 Sep 2024,-,1:150
+937,517344,MINDTECK,Mindteck (India) Ltd,20 Sep 2024,Bonus issue 1:4,20 Sep 2024,-,-,20 Sep 2024,20 Sep 2024,-,1:4
+938,503100,PHOENIXLTD,The Phoenix Mills Ltd,20 Sep 2024,Bonus issue 1:1,21 Sep 2024,-,-,20 Sep 2024,20 Sep 2024,-,1:1
+939,541556,RITES,RITES Ltd,20 Sep 2024,Bonus issue 1:1,20 Sep 2024,-,-,20 Sep 2024,20 Sep 2024,-,1:1
+940,533644,UEL,Ujaas Energy Ltd,20 Sep 2024,Bonus issue 1:4,20 Sep 2024,-,-,20 Sep 2024,20 Sep 2024,-,1:4
+941,543214,NDRAUTO,NDR Auto Components Ltd,25 Sep 2024,Bonus issue 1:1,25 Sep 2024,-,-,25 Sep 2024,25 Sep 2024,-,1:1
+942,540492,STARLENT,Starlineps Enterprises Ltd,25 Sep 2024,Bonus issue 1:5,25 Sep 2024,-,-,25 Sep 2024,25 Sep 2024,-,1:5
+943,512591,PULSRIN,Pulsar International Ltd,27 Sep 2024,Bonus issue 1:10,28 Sep 2024,-,-,27 Sep 2024,27 Sep 2024,-,1:10
+944,512213,CLASELE,Classic Electricals Ltd,04 Oct 2024,Bonus issue 5:1,04 Oct 2024,-,-,04 Oct 2024,04 Oct 2024,-,5:1
+945,507952,SHIKHARLETR,Shikhar Leasing & Trading Ltd,04 Oct 2024,Bonus issue 3:1,04 Oct 2024,-,-,04 Oct 2024,04 Oct 2024,-,3:1
+946,534309,NBCC,NBCC (India) Ltd,07 Oct 2024,Bonus issue 1:2,07 Oct 2024,-,-,07 Oct 2024,07 Oct 2024,-,1:2
+947,539302,POWERMECH,Power Mech Projects Ltd,08 Oct 2024,Bonus issue 1:1,08 Oct 2024,-,-,08 Oct 2024,08 Oct 2024,-,1:1
+948,539522,GROVY,Grovy India Ltd,23 Oct 2024,Bonus issue 3:1,23 Oct 2024,-,-,23 Oct 2024,23 Oct 2024,-,3:1
+949,500325,RELIANCE,Reliance Industries Ltd,28 Oct 2024,Bonus issue 1:1,28 Oct 2024,-,-,28 Oct 2024,28 Oct 2024,-,1:1
+950,538875,SELLWIN,Sellwin Traders Ltd,31 Oct 2024,Bonus issue 1:8,01 Nov 2024,-,-,01 Nov 2024,01 Nov 2024,-,1:8
+951,523105,CROPSTER,Cropster Agro Ltd,08 Nov 2024,Bonus issue 2:1,08 Nov 2024,-,-,08 Nov 2024,08 Nov 2024,-,2:1
+952,507944,BAJAJST,Bajaj Steel Industries Ltd,12 Nov 2024,Bonus issue 3:1,12 Nov 2024,-,-,12 Nov 2024,12 Nov 2024,-,3:1
+953,538451,WORTH,Worth Investment & Trading Co Ltd,14 Nov 2024,Bonus issue 3:2,14 Nov 2024,-,-,14 Nov 2024,14 Nov 2024,-,3:2
+954,531431,SHAKTIPUMP,Shakti Pumps India Ltd-$,25 Nov 2024,Bonus issue 5:1,25 Nov 2024,-,-,25 Nov 2024,25 Nov 2024,-,5:1
+955,543272,EASEMYTRIP,Easy Trip Planners Ltd,29 Nov 2024,Bonus issue 1:1,29 Nov 2024,-,-,29 Nov 2024,29 Nov 2024,-,1:1
+956,539837,RPEL,Raghav Productivity Enhancers Ltd,29 Nov 2024,Bonus issue 1:1,29 Nov 2024,-,-,29 Nov 2024,29 Nov 2024,-,1:1
+957,531205,SPRIGHT,Spright Agro Ltd,29 Nov 2024,Bonus issue 1:1,29 Nov 2024,-,-,29 Nov 2024,29 Nov 2024,-,1:1
+958,522257,RAJOOENG,Rajoo Engineers Ltd-$,02 Dec 2024,Bonus issue 1:3,02 Dec 2024,-,-,02 Dec 2024,02 Dec 2024,-,1:3
+959,507685,WIPRO,Wipro Ltd,03 Dec 2024,Bonus issue 1:1,03 Dec 2024,-,-,03 Dec 2024,03 Dec 2024,-,1:1
+960,539091,CITL,Consecutive Investment & Trading Company Ltd,06 Dec 2024,Bonus issue 1:1,06 Dec 2024,-,-,06 Dec 2024,06 Dec 2024,-,1:1
+961,543499,ACHYUT,Achyut Healthcare Ltd,10 Dec 2024,Bonus issue 4:10,10 Dec 2024,-,-,10 Dec 2024,10 Dec 2024,-,4:10
+962,541967,SKYGOLD,Sky Gold Ltd,16 Dec 2024,Bonus issue 9:1,16 Dec 2024,-,-,16 Dec 2024,16 Dec 2024,-,9:1
+963,543285,RCAN,Rajeshwari Cans Ltd,19 Dec 2024,Bonus issue 1:1,19 Dec 2024,-,-,19 Dec 2024,19 Dec 2024,-,1:1
+964,523229,BHARATSE,Bharat Seats Ltd-$,20 Dec 2024,Bonus issue 1:1,20 Dec 2024,-,-,20 Dec 2024,20 Dec 2024,-,1:1
+965,531241,LINC,Linc Ltd-$,20 Dec 2024,Bonus issue 1:1,20 Dec 2024,-,-,20 Dec 2024,20 Dec 2024,-,1:1
+966,539528,AAYUSH,Aayush Wellness Ltd,26 Dec 2024,Bonus issue 1:2,26 Dec 2024,-,-,26 Dec 2024,26 Dec 2024,-,1:2
+967,542668,EVANS,Evans Electric Ltd,26 Dec 2024,Bonus issue 1:1,26 Dec 2024,-,-,26 Dec 2024,26 Dec 2024,-,1:1
+968,541276,HARDWYN,Hardwyn India Ltd,27 Dec 2024,Bonus issue 2:5,27 Dec 2024,-,-,27 Dec 2024,27 Dec 2024,-,2:5
+969,526371,NMDC,NMDC Ltd,27 Dec 2024,Bonus issue 2:1,27 Dec 2024,-,-,27 Dec 2024,27 Dec 2024,-,2:1
+970,500039,BANCOINDIA,Banco Products (India) Ltd-$,30 Dec 2024,Bonus issue 1:1,30 Dec 2024,-,-,30 Dec 2024,30 Dec 2024,-,1:1
+971,500336,SURYAROSNI,Surya Roshni Ltd,01 Jan 2025,Bonus issue 1:1,01 Jan 2025,-,-,01 Jan 2025,01 Jan 2025,-,1:1
+972,531119,CEENIK,Ceenik Exports India Ltd,03 Jan 2025,Bonus issue 1:5,03 Jan 2025,-,-,03 Jan 2025,03 Jan 2025,-,1:5
+973,509557,GARFIBRES,Garware Technical Fibres Ltd,03 Jan 2025,Bonus issue 4:1,03 Jan 2025,-,-,03 Jan 2025,03 Jan 2025,-,4:1
+974,542323,KPIGREEN,KPI Green Energy Ltd,03 Jan 2025,Bonus issue 1:2,03 Jan 2025,-,-,03 Jan 2025,03 Jan 2025,-,1:2
+975,505725,AQFINTECH,Algoquant Fintech Ltd,08 Jan 2025,Bonus issue 1:2,08 Jan 2025,-,-,08 Jan 2025,08 Jan 2025,-,1:2
+976,531395,PADAMCO,Padam Cotton Yarns Ltd,08 Jan 2025,Bonus issue 1:1,08 Jan 2025,-,-,08 Jan 2025,08 Jan 2025,-,1:1
+977,521248,KITEX,Kitex Garments Ltd,17 Jan 2025,Bonus issue 2:1,17 Jan 2025,-,-,17 Jan 2025,17 Jan 2025,-,2:1
+978,539519,SATTVASUKU,Sattva Sukun Lifecare Ltd,17 Jan 2025,Bonus issue 3:5,17 Jan 2025,-,-,17 Jan 2025,17 Jan 2025,-,3:5
+979,523019,BNRSEC,BN Rathi Securities Ltd,24 Jan 2025,Bonus issue 1:1,24 Jan 2025,-,-,24 Jan 2025,24 Jan 2025,-,1:1
+980,531771,SHRADDHA,Shraddha Prime Projects Ltd,27 Jan 2025,Bonus issue 1:1,27 Jan 2025,-,-,27 Jan 2025,27 Jan 2025,-,1:1
+981,543656,TECHNOPACK,Technopack Polymers Ltd,29 Jan 2025,Bonus issue 1:1,29 Jan 2025,-,-,29 Jan 2025,29 Jan 2025,-,1:1
+982,532514,IGL,Indraprastha Gas Ltd,31 Jan 2025,Bonus issue 1:1,31 Jan 2025,-,-,31 Jan 2025,31 Jan 2025,-,1:1

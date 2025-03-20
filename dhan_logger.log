@@ -1,0 +1,151 @@
+2025-03-13 10:39:03,584 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:40:17,139 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:41:30,526 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:42:34,638 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:42:55,446 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:43:12,213 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:47:21,159 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:47:42,668 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:47:48,853 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:48:00,347 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:48:05,534 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:48:22,844 - dhanlogger - ERROR - Error fetching expiry dates: not enough values to unpack (expected 2, got 1)
+2025-03-13 10:49:22,741 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:49:31,430 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:49:52,651 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:1333 with payload: {'UnderlyingScrip': 1333, 'UnderlyingSeg': 'NSE_EQ'}
+2025-03-13 10:50:02,450 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:13333 with payload: {'UnderlyingScrip': 13333, 'UnderlyingSeg': 'NSE_EQ'}
+2025-03-13 10:50:02,460 - dhanlogger - ERROR - Error fetching expiry dates: Failed to fetch expiry dates: {'data': {'813': 'Invalid SecurityId'}, 'status': 'failed'}
+2025-03-13 10:50:11,334 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:1333 with payload: {'UnderlyingScrip': 1333, 'UnderlyingSeg': 'NSE_EQ'}
+2025-03-13 10:50:45,037 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:50:57,585 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:51:00,475 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:51:02,353 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:51:02,353 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:51:11,546 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:51:29,367 - dhanlogger - ERROR - Error fetching expiry dates: not enough values to unpack (expected 2, got 1)
+2025-03-13 10:51:29,367 - dhanlogger - ERROR - Error fetching expiry dates: not enough values to unpack (expected 2, got 1)
+2025-03-13 10:51:42,461 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:1333 with payload: {'UnderlyingScrip': 1333, 'UnderlyingSeg': 'NSE_EQ'}
+2025-03-13 10:52:09,185 - dhanlogger - INFO - Requesting expiry dates for NSE_EQ:1333 with payload: {'UnderlyingScrip': 1333, 'UnderlyingSeg': 'NSE_EQ'}
+2025-03-13 10:52:09,194 - dhanlogger - INFO - Requesting option chain for 1333 for expiry 2025-04-24 
+2025-03-13 10:54:19,938 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:54:55,268 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:02,959 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:07,945 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:14,432 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:28,434 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:39,130 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:47,324 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:55:49,708 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:56:12,523 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:56:19,213 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:56:21,395 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:56:33,393 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:56:35,075 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:57:21,762 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:59:13,423 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:59:26,124 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:59:30,311 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 10:59:32,192 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:06,066 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:11,473 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:13,354 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:20,068 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:21,764 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:25,658 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:27,353 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:29,550 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:31,233 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:38,438 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:40,123 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:45,838 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:00:48,225 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:09,830 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:12,031 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:13,923 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:15,123 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:16,822 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:21,210 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:23,909 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:31,866 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:42,350 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:43,544 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:47,949 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:51,839 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:54,529 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:01:58,919 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:08,126 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:11,533 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:18,765 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:24,163 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:25,567 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:28,457 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:31,670 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:33,360 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:43,106 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:47,001 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:49,411 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:53,303 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:58,302 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:02:59,492 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:03:00,679 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:03:03,372 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:03:05,762 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:03:07,953 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:03:15,955 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:03:26,159 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:04:09,372 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:06:30,547 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:06:32,246 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:06:46,185 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:09:13,141 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:11:19,134 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:11:35,924 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:12:21,888 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:12:54,337 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:13:44,520 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:14:01,937 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:14:09,462 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:14:11,351 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:14:13,921 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:14:24,862 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:15:36,962 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:16:16,485 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:16:32,941 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:16:42,474 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:16:50,266 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:16:54,962 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:16:55,545 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:17:04,163 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:05,550 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:10,243 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:11,878 - dhanlogger - ERROR - Error calculating margin: unhashable type: 'slice'
+2025-03-13 11:17:30,272 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:35,672 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:36,879 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:45,580 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:47,982 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:51,687 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:17:57,090 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:18:16,904 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:18:26,603 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:18:30,292 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:20:19,880 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:20:23,773 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:20:51,608 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:21:14,931 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:21:31,451 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:21:33,151 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:22:00,178 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:22:18,994 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:23:26,290 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:25:19,150 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:25:22,036 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:25:25,222 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:25:33,719 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:28:09,157 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:28:23,364 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:29:46,083 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:36:38,627 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-13 11:36:41,524 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-18 08:40:14,639 - dhanlogger - INFO - Initialized DhanBroker for ACC1
+2025-03-18 08:44:45,834 - dhanlogger - INFO - Initialized DhanBroker for ACC1
