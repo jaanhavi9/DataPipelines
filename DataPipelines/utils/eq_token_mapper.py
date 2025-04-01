@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import pyarrow.parquet as pq
 
-PARTITIONED_DATA_PATH = "../historical_data/partitioned_data"
+PARTITIONED_DATA_PATH = "fut/"
 REFERENCE_FILE_PATH = "security_mapping.csv"
 
 reference_df = pd.read_csv(REFERENCE_FILE_PATH)  
