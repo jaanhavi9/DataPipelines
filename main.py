@@ -46,7 +46,6 @@ def nanoseconds_to_datetime(ns):
     return datetime.utcfromtimestamp(seconds)
 
 
-#function to convert date string in format YYYY-MM-DD to nanoseconds - useful for manipulating input
 def convert_date_to_epoch(date: str):
     """Converts a date string (YYYY-MM-DD) to epoch time in nanoseconds."""
     try:
@@ -58,47 +57,72 @@ def convert_date_to_epoch(date: str):
         print(f"Invalid date format: {date}")
         raise HTTPException(status_code=400, detail=f"Invalid date format: {date}. Use 'YYYY-MM-DD'.")
 
-
-
-#function to resample data
 def resample_data(df, interval):
     """Resamples the given DataFrame based on the specified interval."""
-
     try:
         print(f"Resampling data with interval: {interval}")
-        df["date"] = pd.to_numeric(df["date"], errors="coerce")
-        df["date"] = pd.to_datetime(df["date"] // 1_000_000, unit="ms")
+
+        if 'datetime' in df.columns:
+            df.rename(columns={'datetime': 'date'}, inplace=True)
+
+        if pd.api.types.is_numeric_dtype(df["date"]):
+            df["date"] = pd.to_datetime(df["date"] // 1_000_000, unit="ms", errors="coerce")
+        else:
+            df["date"] = pd.to_datetime(df["date"], errors="coerce")
         df.set_index("date", inplace=True)
 
         interval_mapping = {
-            "1d": "D",
-            "1w": "W",
-            "1mo": "M",
-            "3mo": "3M",
-            "6m": "6M",
-            "1y": "Y"
+            "1m": "min", "2m": "2min", "5m": "5min", "15m": "15min", "30m": "30min", "60m": "60min",
+            "1min": "min", "2min": "2min", "5min": "5min", "15min": "15min", "30min": "30min", "60min": "60min",
+            "1h": "H", "2h": "2H", "4h": "4H", "6h": "6H", "12h": "12H",
+            "1d": "D", "1w": "W", "1mo": "M", "3mo": "3M", "6m": "6M", "1y": "Y"
         }
-
         if interval not in interval_mapping:
-            print(f"Invalid interval: {interval}")
-            raise HTTPException(status_code=400, detail="Invalid interval format. Use '1d', '1w', '1mo', '3mo', '6m', '1y'.")
+            raise HTTPException(status_code=400, detail="Invalid interval format.")
+        resample_rule = interval_mapping[interval]
 
+        # Optional groupby columns
+        groupby_cols = [col for col in ['strikeprice', 'option_type'] if col in df.columns]
+        print("Using groupby columns:", groupby_cols)
 
-        resampled_df = df.resample(interval_mapping[interval]).agg({
+        # Ensure aggregation columns are numeric to avoid mix-type errors.
+        numeric_cols = ["open", "high", "low", "close", "volume"]
+        if "open_interest" in df.columns:
+            numeric_cols.append("open_interest")
+        df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors="coerce")
+
+        # Aggregation dictionary
+        agg_dict = {
             "open": "first",
             "high": "max",
             "low": "min",
             "close": "last",
             "volume": "sum"
-        }).dropna().reset_index()
+        }
+        if "open_interest" in df.columns:
+            agg_dict["open_interest"] = "last"
 
+        # Resample (with optional grouping)
+        if groupby_cols:
+            resampled_dfs = []
+            for keys, group_df in df.groupby(groupby_cols):
+                # Ensure keys is a tuple
+                keys = (keys,) if not isinstance(keys, tuple) else keys
+                resampled = group_df.resample(resample_rule).agg(agg_dict).dropna()
+                # Reassign the grouping keys to the resampled data
+                for col, val in zip(groupby_cols, keys):
+                    resampled[col] = val
+                resampled_dfs.append(resampled)
+            resampled_df = pd.concat(resampled_dfs).reset_index()
+        else:
+            resampled_df = df.resample(resample_rule).agg(agg_dict).dropna().reset_index()
 
         print("Successfully resampled data.")
         return resampled_df
-    
+
     except Exception as e:
-        print(f"Error while resampling data: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Error while resampling data: {str(e)}")
+        print(f"Error while resampling data: {e}")
+        raise HTTPException(status_code=500, detail=f"Error while resampling data: {e}")
 
 
 
@@ -236,8 +260,9 @@ def get_data_single_day(security_id: str, date: str):
        
         if df.empty:
             print(f"No data found for {security_id} on {date}")
-            return {"message": "No data found for the given date."}
+            return {"message": "No data found for the given date or incorrect parameters given."}
         
+        df['date'] = df['date'].astype(int).apply(nanoseconds_to_datetime)
         return df.to_dict(orient="records")
     
     except Exception as e:
@@ -274,6 +299,7 @@ def get_data_single_day(security_id: str, date: str, expiry: int):
         selected_expiry = unique_expiry_dates[expiry]
 
         filtered_df = df[df['expiry'] == selected_expiry]
+        filtered_df['date'] = filtered_df['date'].astype(int).apply(nanoseconds_to_datetime)
 
         return filtered_df.to_dict(orient="records")
 
@@ -323,6 +349,7 @@ def get_data_single_day(security_id: str, date: str,strike_price: float, option_
         selected_expiry = unique_expiry_dates[expiry]
 
         filtered_df = df[df['expiry'] == selected_expiry]
+        filtered_df['datetime'] = filtered_df['datetime'].astype(int).apply(nanoseconds_to_datetime)
 
         return filtered_df.to_dict(orient="records")
 
@@ -345,13 +372,13 @@ def get_data_single_day(security_id: str, date: str,strike_price: float, option_
 def get_fut_1min_single_day(
     security_id: str, 
     date: str, 
-    expiry: int
+    expiry: int,
+    interval:str = "1m"
 ):
     """Retrieves complete 1-minute futures data for a single trading day with expiry selection."""
     print(f"Fetching full day 1min FUT data for {security_id} on {date} with expiry index {expiry}")
 
     try:
-      
         date_obj = datetime.strptime(date, "%Y-%m-%d")
         start_of_day = int(date_obj.timestamp()) * 1_000_000_000
         end_of_day = start_of_day + (86400 * 1_000_000_000)  
@@ -416,6 +443,10 @@ def get_fut_1min_single_day(
         filtered_df['datetime'] = filtered_df['datetime'].dt.strftime('%Y-%m-%d %H:%M:%S')
         
         filtered_df.drop(columns=['expiry_date'], inplace=True, errors='ignore')
+
+        if interval != "1min" or interval != "1m":
+            resampled_df = resample_data(filtered_df, interval)
+            return resampled_df.to_dict(orient = "records")
         
         return filtered_df.to_dict(orient="records")
 
@@ -434,7 +465,8 @@ def get_options_1min_single_day(
     date: str,
     expiry: int,
     strike_price: Optional[float] = None,
-    option_type: Optional[str] = None
+    option_type: Optional[str] = None,
+    interval: Optional[str] = "1m"
 ):
     """Retrieves complete 1-minute options data for a single trading day with expiry, strike price, and option type selection."""
     print(f"Fetching full day 1min OPTIONS data for {security_id} on {date} with expiry index {expiry}, strike {strike_price}, type {option_type}")
@@ -483,9 +515,7 @@ def get_options_1min_single_day(
         query += " ORDER BY datetime ASC;"
         
         
-        df = run_athena_query(query, OPT_DATABASE_MIN)
-        print(df)
-      
+        df = run_athena_query(query, OPT_DATABASE_MIN)    
 
         if df.empty:
             print(f"No 1min OPTIONS data found for {security_id} on {date}")
@@ -503,13 +533,10 @@ def get_options_1min_single_day(
 
         selected_expiry = unique_expiry_dates[expiry]
         filtered_df = df[df['expiry_date'] == selected_expiry].copy()
-        
-        print(filtered_df)
 
         if not filtered_df.empty:
           
             filtered_df.set_index('timestamp', inplace=True)
-            
             
             resample_columns = {
                 'open': 'first',
@@ -555,6 +582,10 @@ def get_options_1min_single_day(
                 filtered_df[col] = pd.to_numeric(filtered_df[col], errors='coerce')
         
         filtered_df.drop(columns=['expiry_date'], inplace=True, errors='ignore')
+
+        if interval != "1min" or interval != "1m":
+            resampled_df = resample_data(filtered_df, interval)
+            return resampled_df.to_dict(orient = "records")
         
         return filtered_df.to_dict(orient="records")
 
@@ -599,8 +630,11 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, interv
             print(f"No data found for {security_id} from {start_date} to {end_date}")
             return {"message": "No data found for the given date range."}
 
-        df_resampled = resample_data(df, interval)
-        return df_resampled.to_dict(orient="records")
+        if interval != "1d":
+            df_resampled = resample_data(df, interval)
+            return df_resampled.to_dict(orient="records")
+        
+        return df.to_dict(orient="records")
 
     except Exception as e:
         print(f"Error fetching date-range data: {str(e)}")
@@ -645,6 +679,11 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, expiry
         selected_expiry = unique_expiry_dates[expiry]
 
         filtered_df = df[df['expiry'] == selected_expiry]
+        filtered_df['date'] = filtered_df['date'].astype(int).apply(nanoseconds_to_datetime)
+
+        if interval != "1d":
+            resampled_df = resample_data(filtered_df, interval)
+            return resampled_df.to_dict(orient = "records")
 
         return filtered_df.to_dict(orient="records")
 
@@ -718,6 +757,7 @@ def get_options_date_range(
 
         if interval != "1d":
             filtered_df = resample_data(filtered_df, interval)
+            return filtered_df.to_dict(orient = "records")
 
         filtered_df['datetime'] = pd.to_datetime(filtered_df['datetime'].astype(int) // 1_000_000, unit='ms')
         
@@ -745,7 +785,8 @@ def get_fut_1min_date_range(
     security_id: str,
     start_date: str,
     end_date: str,
-    expiry: int
+    expiry: int,
+    interval: str = "1m"
 ):
     """Retrieves complete 1-minute futures data for a date range with expiry selection."""
     print(f"Fetching 1min FUT data for {security_id} from {start_date} to {end_date} with expiry index {expiry}")
@@ -819,6 +860,11 @@ def get_fut_1min_date_range(
             day_df.reset_index(inplace=True)
             day_df.rename(columns={'index': 'datetime'}, inplace=True)
             day_df['datetime'] = day_df['datetime'].dt.strftime('%Y-%m-%d %H:%M:%S')
+
+            if interval != "1m":
+                resampled_df = resample_data(day_df, interval)
+                results.extend(resampled_df.to_dict(orient="records"))
+                return results
             
             results.extend(day_df.to_dict(orient='records'))
 
@@ -840,7 +886,8 @@ def get_options_1min_date_range(
     end_date: str,
     expiry: int,
     strike_price: Optional[float] = None,
-    option_type: Optional[str] = None
+    option_type: Optional[str] = None,
+    interval: str = "1m"
 ):
     """Retrieves complete 1-minute options data for a date range with expiry, strike and type selection."""
     print(f"Fetching 1min OPTIONS data for {security_id} from {start_date} to {end_date} with expiry {expiry}, strike {strike_price}, type {option_type}")
@@ -853,8 +900,8 @@ def get_options_1min_date_range(
         start_date_obj = datetime.strptime(start_date, "%Y-%m-%d")
         end_date_obj = datetime.strptime(end_date, "%Y-%m-%d")
         
-        start_ns = int(start_date_obj.timestamp()) * 1_000_000_000
-        end_ns = int(end_date_obj.timestamp()) * 1_000_000_000 + (86400 * 1_000_000_000)  
+        start_ns = convert_date_to_epoch(start_date)
+        end_ns = convert_date_to_epoch(end_date)  
 
         if start_ns > end_ns:
             raise HTTPException(status_code=400, detail="Start date cannot be after end date")
@@ -887,9 +934,9 @@ def get_options_1min_date_range(
         if option_type is not None:
             opt_type_upper = option_type.upper()
             if opt_type_upper in ['CALL', 'CE']:
-                query += f" AND (\"call/put\" = 'CE' OR \"call/put\" = 'CALL')"
+                query += f" AND (\"call/put\" = 'CE' OR \"call/put\" = 'Call')"
             elif opt_type_upper in ['PUT', 'PE']:
-                query += f" AND (\"call/put\" = 'PE' OR \"call/put\" = 'PUT')"
+                query += f" AND (\"call/put\" = 'PE' OR \"call/put\" = 'Put')"
         
         query += " ORDER BY datetime ASC;"
         
@@ -911,58 +958,14 @@ def get_options_1min_date_range(
         filtered_df = df[df['expiry_date'] == selected_expiry].copy()
 
         filtered_df['timestamp'] = pd.to_datetime(filtered_df['datetime'].astype(int) // 1_000_000, unit='ms')
-        
-        results = []
-        for date, day_df in filtered_df.groupby(filtered_df['timestamp'].dt.date):
-            day_df = day_df.copy()
             
-            day_df.set_index('timestamp', inplace=True)
-            
-            resample_columns = {
-                'open': 'first',
-                'high': 'max',
-                'low': 'min',
-                'close': 'last',
-                'volume': 'sum',
-                'open_interest': 'last',
-                'strikeprice': 'last',
-                'option_type': 'last',
-                'ticker': 'last',
-                'stockname': 'last'
-            }
-            
-            day_df = day_df.resample('1T').agg(resample_columns).dropna()
-          
-            market_open = time(9, 15)
-            market_close = time(15, 30)
-            full_range = pd.date_range(
-                start=day_df.index.min().replace(hour=9, minute=15),
-                end=day_df.index.max().replace(hour=15, minute=30),
-                freq='1T'
-            )
-            day_df = day_df.reindex(full_range)
+        if interval != "1m":
+            resampled_df = resample_data(filtered_df, interval)
+         
+            return resampled_df.to_dict(orient="records")
+        return filtered_df.to_dict(orient="records")
 
-            ohlc_cols = ['open', 'high', 'low', 'close']
-            last_cols = ['open_interest', 'strikeprice', 'option_type', 'ticker', 'stockname']
-            
-            day_df[ohlc_cols] = day_df[ohlc_cols].ffill()
-            day_df[last_cols] = day_df[last_cols].fillna(method='ffill')
-            
-            if 'volume' in day_df.columns:
-                day_df['volume'] = day_df['volume'].fillna(0)
-
-            day_df.reset_index(inplace=True)
-            day_df.rename(columns={'index': 'datetime'}, inplace=True)
-            day_df['datetime'] = day_df['datetime'].dt.strftime('%Y-%m-%d %H:%M:%S')
-            
-            numeric_cols = ['open', 'high', 'low', 'close', 'strikeprice']
-            for col in numeric_cols:
-                if col in day_df.columns:
-                    day_df[col] = pd.to_numeric(day_df[col], errors='coerce')
-            
-            results.extend(day_df.to_dict(orient='records'))
-
-        return results
+  
 
     except ValueError as ve:
         print(f"Invalid date format: {str(ve)}")
@@ -1133,6 +1136,7 @@ def get_option_chain_1d(
         print(f"Error fetching 1d option chain: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
     
+
 ################################################
 '''
 
@@ -1140,6 +1144,7 @@ LIVE DATA ENDPOINTS - DHAN
 
 '''
 #################################################
+
 
 @app.get("/data/live/ohlc-quote/{exchange_token}")
 async def get_ohlc_quote(exchange_token: str):
