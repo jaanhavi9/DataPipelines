@@ -35,7 +35,7 @@ athena_client = boto3.client(
     region_name=aws_region
 )
 
-logger.info("Initializing Dhan Broker...")
+print("Initializing Dhan Broker...")
 broker = dhan_broker.DhanBroker(account_name="ACC1", logger=logger)
 
 
@@ -52,10 +52,10 @@ def convert_date_to_epoch(date: str):
     try:
         date_obj = datetime.strptime(date, "%Y-%m-%d")
         epoch_time = int(date_obj.timestamp() * 1_000_000_000)
-        logger.info(f"Converted date {date} to epoch time {epoch_time}")
+        print(f"Converted date {date} to epoch time {epoch_time}")
         return epoch_time
     except ValueError:
-        logger.error(f"Invalid date format: {date}")
+        print(f"Invalid date format: {date}")
         raise HTTPException(status_code=400, detail=f"Invalid date format: {date}. Use 'YYYY-MM-DD'.")
 
 
@@ -65,7 +65,7 @@ def resample_data(df, interval):
     """Resamples the given DataFrame based on the specified interval."""
 
     try:
-        logger.info(f"Resampling data with interval: {interval}")
+        print(f"Resampling data with interval: {interval}")
         df["date"] = pd.to_numeric(df["date"], errors="coerce")
         df["date"] = pd.to_datetime(df["date"] // 1_000_000, unit="ms")
         df.set_index("date", inplace=True)
@@ -80,7 +80,7 @@ def resample_data(df, interval):
         }
 
         if interval not in interval_mapping:
-            logger.error(f"Invalid interval: {interval}")
+            print(f"Invalid interval: {interval}")
             raise HTTPException(status_code=400, detail="Invalid interval format. Use '1d', '1w', '1mo', '3mo', '6m', '1y'.")
 
 
@@ -93,11 +93,11 @@ def resample_data(df, interval):
         }).dropna().reset_index()
 
 
-        logger.info("Successfully resampled data.")
+        print("Successfully resampled data.")
         return resampled_df
     
     except Exception as e:
-        logger.error(f"Error while resampling data: {str(e)}")
+        print(f"Error while resampling data: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error while resampling data: {str(e)}")
 
 
@@ -107,7 +107,7 @@ def run_athena_query(query: str, DATABASE):
     """Executes an Athena query and returns the results as a DataFrame."""
     
     try:
-        logger.info(f"Executing Athena query: {query}")
+        print(f"Executing Athena query: {query}")
         response = athena_client.start_query_execution(
             QueryString=query,
             QueryExecutionContext={"Database": DATABASE},
@@ -123,25 +123,25 @@ def run_athena_query(query: str, DATABASE):
 
         if state != "SUCCEEDED":
             error_message = status["QueryExecution"]["Status"].get("StateChangeReason", "Unknown error")
-            logger.error(f"Athena query failed: {error_message}")
+            print(f"Athena query failed: {error_message}")
             raise HTTPException(status_code=500, detail=f"Athena query failed: {error_message}")
 
         results = athena_client.get_query_results(QueryExecutionId=query_execution_id)
         rows = results["ResultSet"]["Rows"]
 
         if not rows:
-            logger.warning("Athena query returned no data.")
+            print("Athena query returned no data.")
             return pd.DataFrame()
 
         columns = [col["VarCharValue"] for col in rows[0]["Data"]]
         data = [[col.get("VarCharValue", None) for col in row["Data"]] for row in rows[1:]]
 
         df = pd.DataFrame(data, columns=columns)
-        logger.info(f"Athena query returned {len(df)} rows.")
+        print(f"Athena query returned {len(df)} rows.")
         return df
 
     except Exception as e:
-        logger.error(f"Unexpected error while querying Athena: {str(e)}")
+        print(f"Unexpected error while querying Athena: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Unexpected error while querying Athena: {str(e)}")
 
 
@@ -150,7 +150,7 @@ def run_athena_query(query: str, DATABASE):
 @app.on_event("startup")
 async def startup_event():
     """Initialize the broker when the app starts."""
-    logger.info("Initializing broker at startup...")
+    print("Initializing broker at startup...")
     await broker.initialize()
 
 
@@ -159,15 +159,15 @@ async def startup_event():
 @app.get("/data/historical/expiry")
 def get_expiry(year: int, month: int):
     """ Get Expiry from 2010 - 2025/04 """
-    logger.info(f"Fetching expiry for {year} and {month}")
+    print(f"Fetching expiry for {year} and {month}")
     try:
         expiry_df = pd.read_csv("expiry.csv")
         filtered_df = expiry_df[(expiry_df['Year'] == year) & (expiry_df['Month'] == month)]['Expiry'].values[0]
      
         return {"data": filtered_df}
     except Exception as e:
-        logger.error("Error in getting Expiry Date")
-        logger.error(e)
+        print("Error in getting Expiry Date")
+        print(e)
 
 
 
@@ -183,7 +183,7 @@ def get_security_id(trading_symbol: str = Query(..., description="Trading symbol
     Returns:
         Dictionary containing the security_id if found, or error message if not found
     """
-    logger.info(f"Looking up security_id for trading symbol: {trading_symbol}")
+    print(f"Looking up security_id for trading symbol: {trading_symbol}")
     
     try:
    
@@ -194,21 +194,21 @@ def get_security_id(trading_symbol: str = Query(..., description="Trading symbol
         
         if not match.empty:
             security_id = match.iloc[0]['Security_id']
-            logger.info(f"Found security_id {security_id} for trading symbol {trading_symbol}")
+            print(f"Found security_id {security_id} for trading symbol {trading_symbol}")
             return {
                 "status": "success",
                 "trading_symbol": trading_symbol,
                 "security_id": security_id
             }
         else:
-            logger.warning(f"No security_id found for trading symbol: {trading_symbol}")
+            print(f"No security_id found for trading symbol: {trading_symbol}")
             raise HTTPException(
                 status_code=404,
                 detail=f"No security_id found for trading symbol: {trading_symbol}"
             )
             
     except Exception as e:
-        logger.error(f"Error looking up security_id: {str(e)}")
+        print(f"Error looking up security_id: {str(e)}")
         raise HTTPException(
             status_code=500,
             detail=f"Error looking up security_id: {str(e)}"
@@ -228,20 +228,20 @@ def get_security_id(trading_symbol: str = Query(..., description="Trading symbol
 @app.get("/data/historical/1d/eq/single-day")
 def get_data_single_day(security_id: str, date: str):
     """Retrieves data for a single day."""
-    logger.info(f"Fetching data for {security_id} on {date}")
+    print(f"Fetching data for {security_id} on {date}")
     try:
         epoch_time = convert_date_to_epoch(date)
         query = f"SELECT * FROM {EQ_DATABASE}.{EQ_TABLE} WHERE security_id = '{security_id}' AND date = {epoch_time};"
         df = run_athena_query(query, EQ_DATABASE)
        
         if df.empty:
-            logger.warning(f"No data found for {security_id} on {date}")
+            print(f"No data found for {security_id} on {date}")
             return {"message": "No data found for the given date."}
         
         return df.to_dict(orient="records")
     
     except Exception as e:
-        logger.error(f"Error fetching single-day data: {str(e)}")
+        print(f"Error fetching single-day data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -249,7 +249,7 @@ def get_data_single_day(security_id: str, date: str):
 @app.get("/data/historical/1d/fut/single-day")
 def get_data_single_day(security_id: str, date: str, expiry: int):
     """Retrieves data for a single day."""
-    logger.info(f"Fetching data for {security_id} on {date} with expiry index {expiry}")
+    print(f"Fetching data for {security_id} on {date} with expiry index {expiry}")
     try:
         epoch_time = convert_date_to_epoch(date)
 
@@ -257,7 +257,7 @@ def get_data_single_day(security_id: str, date: str, expiry: int):
         df = run_athena_query(query, FUT_DATABASE)
 
         if df.empty:
-            logger.warning(f"No data found for {security_id} on {date}")
+            print(f"No data found for {security_id} on {date}")
             return {"message": "No data found for the given date."}
 
        
@@ -268,7 +268,7 @@ def get_data_single_day(security_id: str, date: str, expiry: int):
         unique_expiry_dates = df['expiry'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -278,7 +278,7 @@ def get_data_single_day(security_id: str, date: str, expiry: int):
         return filtered_df.to_dict(orient="records")
 
     except Exception as e:
-        logger.error(f"Error fetching single-day data: {str(e)}")
+        print(f"Error fetching single-day data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -286,7 +286,7 @@ def get_data_single_day(security_id: str, date: str, expiry: int):
 @app.get("/data/historical/1d/opt/single-day")
 def get_data_single_day(security_id: str, date: str,strike_price: float, option_type: str,  expiry: int):
     """Retrieves data for a single day."""
-    logger.info(f"Fetching data for {security_id} on {date} with expiry index {expiry}")
+    print(f"Fetching data for {security_id} on {date} with expiry index {expiry}")
     try:
         epoch_time = convert_date_to_epoch(date)
 
@@ -306,7 +306,7 @@ def get_data_single_day(security_id: str, date: str,strike_price: float, option_
         df = run_athena_query(query, OPT_DATABASE)
 
         if df.empty:
-            logger.warning(f"No data found for {security_id} on {date}")
+            print(f"No data found for {security_id} on {date}")
             return {"message": "No data found for the given date."}
 
        
@@ -317,7 +317,7 @@ def get_data_single_day(security_id: str, date: str,strike_price: float, option_
         unique_expiry_dates = df['expiry'].unique()
 
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -327,7 +327,7 @@ def get_data_single_day(security_id: str, date: str,strike_price: float, option_
         return filtered_df.to_dict(orient="records")
 
     except Exception as e:
-        logger.error(f"Error fetching single-day data: {str(e)}")
+        print(f"Error fetching single-day data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -348,7 +348,7 @@ def get_fut_1min_single_day(
     expiry: int
 ):
     """Retrieves complete 1-minute futures data for a single trading day with expiry selection."""
-    logger.info(f"Fetching full day 1min FUT data for {security_id} on {date} with expiry index {expiry}")
+    print(f"Fetching full day 1min FUT data for {security_id} on {date} with expiry index {expiry}")
 
     try:
       
@@ -368,7 +368,7 @@ def get_fut_1min_single_day(
         df = run_athena_query(query, FUT_DATABASE_MIN)
 
         if df.empty:
-            logger.warning(f"No 1min FUT data found for {security_id} on {date}")
+            print(f"No 1min FUT data found for {security_id} on {date}")
             return {"message": "No data found for the given date."}
 
      
@@ -377,7 +377,7 @@ def get_fut_1min_single_day(
         unique_expiry_dates = df['expiry_date'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -420,10 +420,10 @@ def get_fut_1min_single_day(
         return filtered_df.to_dict(orient="records")
 
     except ValueError as ve:
-        logger.error(f"Invalid date format: {str(ve)}")
+        print(f"Invalid date format: {str(ve)}")
         raise HTTPException(status_code=400, detail="Invalid date format. Use 'YYYY-MM-DD'.")
     except Exception as e:
-        logger.error(f"Error fetching full day 1min FUT data: {str(e)}")
+        print(f"Error fetching full day 1min FUT data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -437,7 +437,7 @@ def get_options_1min_single_day(
     option_type: Optional[str] = None
 ):
     """Retrieves complete 1-minute options data for a single trading day with expiry, strike price, and option type selection."""
-    logger.info(f"Fetching full day 1min OPTIONS data for {security_id} on {date} with expiry index {expiry}, strike {strike_price}, type {option_type}")
+    print(f"Fetching full day 1min OPTIONS data for {security_id} on {date} with expiry index {expiry}, strike {strike_price}, type {option_type}")
 
     try:
        
@@ -484,11 +484,11 @@ def get_options_1min_single_day(
         
         
         df = run_athena_query(query, OPT_DATABASE_MIN)
-        logger.info(df)
+        print(df)
       
 
         if df.empty:
-            logger.warning(f"No 1min OPTIONS data found for {security_id} on {date}")
+            print(f"No 1min OPTIONS data found for {security_id} on {date}")
             return {"message": "No data found for the given criteria."}
 
         df['timestamp'] = pd.to_datetime(df['datetime'].astype(int) // 1_000_000, unit='ms')
@@ -498,13 +498,13 @@ def get_options_1min_single_day(
         unique_expiry_dates = df['expiry_date'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
         filtered_df = df[df['expiry_date'] == selected_expiry].copy()
         
-        logger.info(filtered_df)
+        print(filtered_df)
 
         if not filtered_df.empty:
           
@@ -559,10 +559,10 @@ def get_options_1min_single_day(
         return filtered_df.to_dict(orient="records")
 
     except ValueError as ve:
-        logger.error(f"Invalid date format: {str(ve)}")
+        print(f"Invalid date format: {str(ve)}")
         raise HTTPException(status_code=400, detail="Invalid date format. Use 'YYYY-MM-DD'.")
     except Exception as e:
-        logger.error(f"Error fetching full day 1min OPTIONS data: {str(e)}")
+        print(f"Error fetching full day 1min OPTIONS data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -579,13 +579,13 @@ DATE RANGE ENDPOINTS - 1D
 @app.get("/data/historical/1d/eq/date-range")
 def get_data_date_range(security_id: str, start_date: str, end_date: str, interval: str = "1d"):
     """Retrieves historical data for a given date range and interval."""
-    logger.info(f"Fetching data for {security_id} from {start_date} to {end_date} with interval {interval}")
+    print(f"Fetching data for {security_id} from {start_date} to {end_date} with interval {interval}")
     try:
         start_epoch = convert_date_to_epoch(start_date)
         end_epoch = convert_date_to_epoch(end_date)
 
         if start_epoch > end_epoch:
-            logger.error("Start date cannot be after end date.")
+            print("Start date cannot be after end date.")
             raise HTTPException(status_code=400, detail="Start date cannot be after end date.")
 
         query = f"""
@@ -596,14 +596,14 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, interv
         df = run_athena_query(query, EQ_DATABASE)
 
         if df.empty:
-            logger.warning(f"No data found for {security_id} from {start_date} to {end_date}")
+            print(f"No data found for {security_id} from {start_date} to {end_date}")
             return {"message": "No data found for the given date range."}
 
         df_resampled = resample_data(df, interval)
         return df_resampled.to_dict(orient="records")
 
     except Exception as e:
-        logger.error(f"Error fetching date-range data: {str(e)}")
+        print(f"Error fetching date-range data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -611,13 +611,13 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, interv
 @app.get("/data/historical/1d/fut/date-range")
 def get_data_date_range(security_id: str, start_date: str, end_date: str, expiry : int, interval: str = "1d"):
     """Retrieves historical data for a given date range and interval."""
-    logger.info(f"Fetching data for {security_id} from {start_date} to {end_date} with interval {interval}")
+    print(f"Fetching data for {security_id} from {start_date} to {end_date} with interval {interval}")
     try:
         start_epoch = convert_date_to_epoch(start_date)
         end_epoch = convert_date_to_epoch(end_date)
 
         if start_epoch > end_epoch:
-            logger.error("Start date cannot be after end date.")
+            print("Start date cannot be after end date.")
             raise HTTPException(status_code=400, detail="Start date cannot be after end date.")
 
         query = f"""
@@ -628,7 +628,7 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, expiry
         df = run_athena_query(query, FUT_DATABASE)
         
         if df.empty:
-            logger.warning(f"No data found for {security_id} between {start_date} and {end_date}")
+            print(f"No data found for {security_id} between {start_date} and {end_date}")
             return {"message": "No data found for the given date."}
 
        
@@ -639,7 +639,7 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, expiry
         unique_expiry_dates = df['expiry'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -649,7 +649,7 @@ def get_data_date_range(security_id: str, start_date: str, end_date: str, expiry
         return filtered_df.to_dict(orient="records")
 
     except Exception as e:
-        logger.error(f"Error fetching date-range data: {str(e)}")
+        print(f"Error fetching date-range data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -666,7 +666,7 @@ def get_options_date_range(
     interval: str = "1d"
 ):
     """Retrieves historical options data for a given date range with expiry, strike and type selection."""
-    logger.info(f"Fetching OPTIONS data for {security_id} from {start_date} to {end_date} with expiry {expiry}, strike {strike_price}, type {option_type}")
+    print(f"Fetching OPTIONS data for {security_id} from {start_date} to {end_date} with expiry {expiry}, strike {strike_price}, type {option_type}")
     
     try:
     
@@ -677,7 +677,7 @@ def get_options_date_range(
         end_epoch = convert_date_to_epoch(end_date)
 
         if start_epoch > end_epoch:
-            logger.error("Start date cannot be after end date.")
+            print("Start date cannot be after end date.")
             raise HTTPException(status_code=400, detail="Start date cannot be after end date.")
 
        
@@ -702,7 +702,7 @@ def get_options_date_range(
         df = run_athena_query(query, OPT_DATABASE)
 
         if df.empty:
-            logger.warning(f"No OPTIONS data found for {security_id} between {start_date} and {end_date}")
+            print(f"No OPTIONS data found for {security_id} between {start_date} and {end_date}")
             return {"message": "No data found for the given criteria."}
 
         df['expiry_date'] = df['expiry'].astype(int).apply(nanoseconds_to_datetime)
@@ -710,7 +710,7 @@ def get_options_date_range(
         unique_expiry_dates = df['expiry_date'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -726,7 +726,7 @@ def get_options_date_range(
         return filtered_df.to_dict(orient="records")
 
     except Exception as e:
-        logger.error(f"Error fetching OPTIONS date-range data: {str(e)}")
+        print(f"Error fetching OPTIONS date-range data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
     
 
@@ -748,7 +748,7 @@ def get_fut_1min_date_range(
     expiry: int
 ):
     """Retrieves complete 1-minute futures data for a date range with expiry selection."""
-    logger.info(f"Fetching 1min FUT data for {security_id} from {start_date} to {end_date} with expiry index {expiry}")
+    print(f"Fetching 1min FUT data for {security_id} from {start_date} to {end_date} with expiry index {expiry}")
 
     try:
         start_date_obj = datetime.strptime(start_date, "%Y-%m-%d")
@@ -773,7 +773,7 @@ def get_fut_1min_date_range(
         df = run_athena_query(query, FUT_DATABASE_MIN)
 
         if df.empty:
-            logger.warning(f"No 1min FUT data found for {security_id} between {start_date} and {end_date}")
+            print(f"No 1min FUT data found for {security_id} between {start_date} and {end_date}")
             return {"message": "No data found for the given date range."}
 
         df['expiry_date'] = df['expiry'].astype(int).apply(nanoseconds_to_datetime)
@@ -781,7 +781,7 @@ def get_fut_1min_date_range(
         unique_expiry_dates = df['expiry_date'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -825,10 +825,10 @@ def get_fut_1min_date_range(
         return results
 
     except ValueError as ve:
-        logger.error(f"Invalid date format: {str(ve)}")
+        print(f"Invalid date format: {str(ve)}")
         raise HTTPException(status_code=400, detail="Invalid date format. Use 'YYYY-MM-DD'.")
     except Exception as e:
-        logger.error(f"Error fetching date range 1min FUT data: {str(e)}")
+        print(f"Error fetching date range 1min FUT data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -843,7 +843,7 @@ def get_options_1min_date_range(
     option_type: Optional[str] = None
 ):
     """Retrieves complete 1-minute options data for a date range with expiry, strike and type selection."""
-    logger.info(f"Fetching 1min OPTIONS data for {security_id} from {start_date} to {end_date} with expiry {expiry}, strike {strike_price}, type {option_type}")
+    print(f"Fetching 1min OPTIONS data for {security_id} from {start_date} to {end_date} with expiry {expiry}, strike {strike_price}, type {option_type}")
 
     try:
       
@@ -896,7 +896,7 @@ def get_options_1min_date_range(
         df = run_athena_query(query, OPT_DATABASE_MIN)
 
         if df.empty:
-            logger.warning(f"No 1min OPTIONS data found for {security_id} between {start_date} and {end_date}")
+            print(f"No 1min OPTIONS data found for {security_id} between {start_date} and {end_date}")
             return {"message": "No data found for the given criteria."}
 
         df['expiry_date'] = df['expiry'].astype(int).apply(nanoseconds_to_datetime)
@@ -904,7 +904,7 @@ def get_options_1min_date_range(
         unique_expiry_dates = df['expiry_date'].unique()
     
         if expiry >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
 
         selected_expiry = unique_expiry_dates[expiry]
@@ -965,10 +965,10 @@ def get_options_1min_date_range(
         return results
 
     except ValueError as ve:
-        logger.error(f"Invalid date format: {str(ve)}")
+        print(f"Invalid date format: {str(ve)}")
         raise HTTPException(status_code=400, detail="Invalid date format. Use 'YYYY-MM-DD'.")
     except Exception as e:
-        logger.error(f"Error fetching date range 1min OPTIONS data: {str(e)}")
+        print(f"Error fetching date range 1min OPTIONS data: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -994,7 +994,7 @@ def get_option_chain_1d(
     Retrieves complete option chain for a given date with strike price filtering for a specific expiry.
     Handles cases where either call or put data might be missing for certain strike prices.
     """
-    logger.info(f"Fetching 1d option chain for {security_id} on {date} with expiry index {expiry_index}")
+    print(f"Fetching 1d option chain for {security_id} on {date} with expiry index {expiry_index}")
     
     try:
         epoch_time = convert_date_to_epoch(date)
@@ -1024,7 +1024,7 @@ def get_option_chain_1d(
         df = run_athena_query(query, OPT_DATABASE)
         
         if df.empty:
-            logger.warning(f"No option data found for {security_id} on {date}")
+            print(f"No option data found for {security_id} on {date}")
             return {"message": "No option data found for the given date."}
         
 
@@ -1033,7 +1033,7 @@ def get_option_chain_1d(
         unique_expiry_dates = df['expiry_date'].unique()
         
         if expiry_index >= len(unique_expiry_dates):
-            logger.warning(f"Invalid expiry index {expiry_index}. Only {len(unique_expiry_dates)} expiry dates found.")
+            print(f"Invalid expiry index {expiry_index}. Only {len(unique_expiry_dates)} expiry dates found.")
             return {"message": f"Invalid expiry index. Only {len(unique_expiry_dates)} expiry dates available."}
         
 
@@ -1041,7 +1041,7 @@ def get_option_chain_1d(
         filtered_df = df[df['expiry_date'] == selected_expiry].copy()
         
         if filtered_df.empty:
-            logger.warning(f"No option data found for {security_id} on {date} with expiry {selected_expiry}")
+            print(f"No option data found for {security_id} on {date} with expiry {selected_expiry}")
             return {"message": f"No option data found for the selected expiry {selected_expiry}."}
         
 
@@ -1130,7 +1130,7 @@ def get_option_chain_1d(
         return option_chain
     
     except Exception as e:
-        logger.error(f"Error fetching 1d option chain: {str(e)}")
+        print(f"Error fetching 1d option chain: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
     
 ################################################
@@ -1144,12 +1144,12 @@ LIVE DATA ENDPOINTS - DHAN
 @app.get("/data/live/ohlc-quote/{exchange_token}")
 async def get_ohlc_quote(exchange_token: str):
     """Get OHLC data for a given exchange token."""
-    logger.info(f"Fetching OHLC data for {exchange_token}")
+    print(f"Fetching OHLC data for {exchange_token}")
     try:
         data = await broker.ohlc_quote(exchange_token=exchange_token)
         return {"status": "success", "data": data}
     except Exception as e:
-        logger.error(f"Error fetching OHLC quote: {str(e)}")
+        print(f"Error fetching OHLC quote: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -1157,12 +1157,12 @@ async def get_ohlc_quote(exchange_token: str):
 @app.get("/data/live/ltp-quote/{exchange_token}")
 async def get_ltp_quote(exchange_token: str):
     """Get the last traded price (LTP) for a given exchange token."""
-    logger.info(f"Fetching LTP for {exchange_token}")
+    print(f"Fetching LTP for {exchange_token}")
     try:
         data = await broker.ltp_quote(exchange_token=exchange_token)
         return {"status": "success", "data": data}
     except Exception as e:
-        logger.error(f"Error fetching LTP quote: {str(e)}")
+        print(f"Error fetching LTP quote: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -1170,12 +1170,12 @@ async def get_ltp_quote(exchange_token: str):
 @app.get("/data/live/full-market-quote/{exchange_token}")
 async def get_full_market_quote(exchange_token: str):
     """Get full market depth for a given exchange token."""
-    logger.info(f"Fetching full market depth for {exchange_token}")
+    print(f"Fetching full market depth for {exchange_token}")
     try:
         data = await broker.full_market_quote(exchange_token=exchange_token)
         return {"status": "success", "data": data}
     except Exception as e:
-        logger.error(f"Error fetching full market quote: {str(e)}")
+        print(f"Error fetching full market quote: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -1186,7 +1186,7 @@ async def get_option_chain(
     expiry_date: Optional[str] = None,
 ):
     """Get option chain data for a given exchange token."""
-    logger.info(f"Fetching option chain for {exchange_token} with expiry {expiry_date}")
+    print(f"Fetching option chain for {exchange_token} with expiry {expiry_date}")
     try:
         data = await broker.option_chain(
             exchange_token=exchange_token,
@@ -1194,7 +1194,7 @@ async def get_option_chain(
         )
         return {"status": "success", "data": data}
     except Exception as e:
-        logger.error(f"Error fetching option chain: {str(e)}")
+        print(f"Error fetching option chain: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -1202,12 +1202,12 @@ async def get_option_chain(
 @app.get("/data/live/expiry-dates/{exchange_token}")
 async def get_expiry_dates(exchange_token: str):
     """Get expiry dates for a given exchange token."""
-    logger.info(f"Fetching expiry dates for {exchange_token}")
+    print(f"Fetching expiry dates for {exchange_token}")
     try:
         data = await broker.expiry_dates(exchange_token=exchange_token)
         return {"status": "success", "data": data}
     except Exception as e:
-        logger.error(f"Error fetching expiry dates: {str(e)}")
+        print(f"Error fetching expiry dates: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -1217,5 +1217,5 @@ async def get_expiry_dates(exchange_token: str):
 
 if __name__ == "__main__":
     import uvicorn
-    logger.info("Starting FastAPI server...")
+    print("Starting FastAPI server...")
     uvicorn.run(app, host="0.0.0.0", port=8000)
