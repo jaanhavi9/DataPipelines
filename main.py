@@ -1234,6 +1234,7 @@ async def get_historical_data(
 #                                                    MAIN METHOD                                                   #
 ####################################################################################################################
 
+
 if __name__ == "__main__":
     import uvicorn
     print("Starting FastAPI server...")
