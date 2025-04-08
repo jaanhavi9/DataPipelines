@@ -35,6 +35,7 @@ class DhanBroker(BaseBroker):
 
     async def historical_data(self, exchange_token: str,start_date: str, end_date: str, instrument: str):
         try:
+
             url = self.base_url + "/charts/historical"
             headers = {
                 'Accept': 'application/json',
@@ -46,6 +47,13 @@ class DhanBroker(BaseBroker):
             exchange, token = exchange_token.split(':')
             token = int(token)  
 
+            exchange, segment = exchange.split('_')
+            if segment == 'EQ':
+                exchange = 'NSE_EQ'
+            else:
+                exchange_mapping = {"NSE": "I", "BSE": "I"}
+                exchange = f"IDX_{exchange_mapping.get(exchange)}"
+
             request_data = {
                 "securityId": token,
                 "exchangeSegment": exchange,
@@ -54,6 +62,7 @@ class DhanBroker(BaseBroker):
                 "toDate": end_date,
                 "interval": "1d"
             }
+            print(request_data)
 
             async with aiohttp.ClientSession() as session:
 
