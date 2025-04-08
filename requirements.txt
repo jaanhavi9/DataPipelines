@@ -30,7 +30,6 @@ cycler
 dask
 debugpy
 decorator
-dhanhq
 EasyProcess
 entrypoint2
 et_xmlfile
