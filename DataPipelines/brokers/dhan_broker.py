@@ -33,7 +33,7 @@ class DhanBroker(BaseBroker):
             self.logger.error(f"Initialization failed: {e}")
             raise
 
-    async def historical_data(self, exchange_token: str, start_date: str, end_date: str):
+    async def historical_data(self, exchange_token: str,start_date: str, end_date: str, instrument: str):
         try:
             url = self.base_url + "/charts/historical"
             headers = {
@@ -49,7 +49,7 @@ class DhanBroker(BaseBroker):
             request_data = {
                 "securityId": token,
                 "exchangeSegment": exchange,
-                "instrument": "EQUITY",
+                "instrument": instrument,
                 "fromDate": start_date,
                 "toDate": end_date,
                 "interval": "1d"

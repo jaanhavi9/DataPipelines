@@ -1209,11 +1209,12 @@ async def get_expiry_dates(exchange_token: str):
         print(f"Error fetching expiry dates: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/data/live/historical-data/{exchange_token}/{start_date}/{end_date}")
+@app.get("/data/live/historical-data/{exchange_token}/{instrument}/{start_date}/{end_date}")
 async def get_historical_data(
     exchange_token: str,
     start_date: str,
     end_date: str,
+    instrument: str = "EQUITY"
 ):
     """Get historical data for a given exchange token."""
     print(f"Fetching historical data for {exchange_token} from {start_date} to {end_date}")
@@ -1222,6 +1223,7 @@ async def get_historical_data(
             exchange_token=exchange_token,
             start_date=start_date,
             end_date=end_date,
+            instrument=instrument
         )
         return {"status": "success", "data": data}
     except Exception as e:
