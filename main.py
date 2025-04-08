@@ -81,17 +81,14 @@ def resample_data(df, interval):
             raise HTTPException(status_code=400, detail="Invalid interval format.")
         resample_rule = interval_mapping[interval]
 
-        # Optional groupby columns
         groupby_cols = [col for col in ['strikeprice', 'option_type'] if col in df.columns]
         print("Using groupby columns:", groupby_cols)
 
-        # Ensure aggregation columns are numeric to avoid mix-type errors.
         numeric_cols = ["open", "high", "low", "close", "volume"]
         if "open_interest" in df.columns:
             numeric_cols.append("open_interest")
         df[numeric_cols] = df[numeric_cols].apply(pd.to_numeric, errors="coerce")
 
-        # Aggregation dictionary
         agg_dict = {
             "open": "first",
             "high": "max",
@@ -102,14 +99,13 @@ def resample_data(df, interval):
         if "open_interest" in df.columns:
             agg_dict["open_interest"] = "last"
 
-        # Resample (with optional grouping)
         if groupby_cols:
             resampled_dfs = []
             for keys, group_df in df.groupby(groupby_cols):
-                # Ensure keys is a tuple
+              
                 keys = (keys,) if not isinstance(keys, tuple) else keys
                 resampled = group_df.resample(resample_rule).agg(agg_dict).dropna()
-                # Reassign the grouping keys to the resampled data
+       
                 for col, val in zip(groupby_cols, keys):
                     resampled[col] = val
                 resampled_dfs.append(resampled)
@@ -178,7 +174,6 @@ async def startup_event():
     await broker.initialize()
 
 
-
 #Function to get historical expiry dates
 @app.get("/data/historical/expiry")
 def get_expiry(year: int, month: int):
@@ -192,7 +187,6 @@ def get_expiry(year: int, month: int):
     except Exception as e:
         print("Error in getting Expiry Date")
         print(e)
-
 
 
 #Function to get security_id for a trading symbol
@@ -1215,7 +1209,25 @@ async def get_expiry_dates(exchange_token: str):
         print(f"Error fetching expiry dates: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
-
+@app.get("/data/live/historical-data/{exchange_token}/{start_date}/{end_date}")
+async def get_historical_data(
+    exchange_token: str,
+    start_date: str,
+    end_date: str,
+):
+    """Get historical data for a given exchange token."""
+    print(f"Fetching historical data for {exchange_token} from {start_date} to {end_date}")
+    try:
+        data = await broker.historical_data(
+            exchange_token=exchange_token,
+            start_date=start_date,
+            end_date=end_date,
+        )
+        return {"status": "success", "data": data}
+    except Exception as e:
+        print(f"Error fetching historical data: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+    
 ####################################################################################################################
 #                                                    MAIN METHOD                                                   #
 ####################################################################################################################

@@ -32,6 +32,44 @@ class DhanBroker(BaseBroker):
         except Exception as e:
             self.logger.error(f"Initialization failed: {e}")
             raise
+
+    async def historical_data(self, exchange_token: str, start_date: str, end_date: str):
+        try:
+            url = self.base_url + "/charts/historical"
+            headers = {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json', 
+                'access-token': self.access_token,
+                'client-id': self.client_id
+            }
+
+            exchange, token = exchange_token.split(':')
+            token = int(token)  
+
+            request_data = {
+                "securityId": token,
+                "exchangeSegment": exchange,
+                "instrument": "EQUITY",
+                "fromDate": start_date,
+                "toDate": end_date,
+                "interval": "1d"
+            }
+
+            async with aiohttp.ClientSession() as session:
+
+                async with session.post(
+                    f"{self.base_url}/v2/charts/historical",
+                    headers=headers,
+                    json=request_data
+
+
+                ) as response:
+                    data = await response.json()
+                    return data
+
+        except Exception as e:
+            self.logger.error(f"Error getting LTP: {e}")
+            raise
     
     async def master_scrip(self, mode = 'compact'):
         '''
@@ -322,10 +360,6 @@ class DhanBroker(BaseBroker):
         except Exception as e:
             self.logger.error(f'Exception during fetching fund details - {e}')
             raise
-
-    async def historical_data(self, **kwargs):
-        """Placeholder for historical_data implementation"""
-        raise NotImplementedError("historical_data not implemented")
 
     async def market_holidays(self):
         """Placeholder for market_holidays implementation"""
