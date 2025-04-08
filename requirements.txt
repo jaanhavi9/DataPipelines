@@ -145,7 +145,6 @@ typing_extensions
 tzdata
 tzlocal
 unrar
-upstox-python-sdk
 urllib3
 uuid
 uvicorn
